@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Get set go!"
+date: 2018-09-24 22:52:41 +0100
+categories: [GAM710]
+tags: [Diary]
+---
+So this is it! Day `#1` of the highly anticipated masters degree. The course suggests using either Wordpress or [Github Pages](https://pages.github.com/) as the blogging engine. Using Wordpress seemed a little old fashioned and ever so slightly contradictory being I have preached to anyone that will listen that Wordpress is nasty so I've opted to try [Github Pages](https://pages.github.com/) instead as it is built on top of [Jekyll](https://jekyllrb.com/) which I know sits on top of [Ruby](https://www.ruby-lang.org/) and that sounded way more interesting so I thought I would have a pop and this is the result; it's a work in progress [Jekyll](https://jekyllrb.com/) site using a light adaptation of the default `minima` theme. Currently it's very ugly but by the time you see this, hopefully it will be a bit more presentable!
