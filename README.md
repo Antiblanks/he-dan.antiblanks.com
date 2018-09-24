@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to He-Dan, Daniel Ivanovic's official work journal
 
 You can use the [editor on GitHub](https://github.com/Antiblanks/he-dan.antiblanks.com/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
