@@ -2,9 +2,6 @@
 layout: default
 ---
 
-{% assign posts_category = site.categories[page.posts_category] %}
-{% assign posts_tag = site.tags[page.posts_tag] %}
-
 {% if page.posts_category and page.posts_tag %}
   {% assign show_by_category_and_tag = true %}
 {% elsif page.posts_category %}
@@ -18,11 +15,13 @@ layout: default
     <h1 class="page-heading">Posts in '{{ page.posts_category }}'</h1>
   {% endif %}
 
+  {% assign has_posts = false %}
   {% if show_by_category_and_tag %}
     <ul class="post-list">
       {% for post in site.posts %}
         {% if post.categories contains page.posts_category and post.tags contains page.posts_tag %}
           {% include post-teaser.html post=post %}
+          {% assign has_posts = true %}
         {% endif %}
       {% endfor %}
     </ul>
@@ -31,8 +30,17 @@ layout: default
       {% for post in site.posts %}
         {% if post.categories contains page.posts_category %}
           {% include post-teaser.html post=post %}
+          {% assign has_posts = true %}
         {% endif %}
       {% endfor %}
     </ul>
+  {% endif %}
+
+  {% if has_posts == false %}
+    {% if show_by_category_and_tag %}
+      <p class="post-list-empty">Sorry but there are no posts matching this category and tag :(</p>
+    {% elsif show_by_category %}
+      <p class="post-list-empty">Sorry but there are no posts matching this category :(</p>
+    {% endif %}
   {% endif %}
 </div>

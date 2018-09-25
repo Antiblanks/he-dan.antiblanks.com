@@ -32,7 +32,7 @@ plugins:
 # These define all the data collections in your site
 # For more information see here `https://jekyllrb.com/docs/collections/`
 collections:
-  modules:
+  post_collections:
     output: true
 
 # Exclude from processing.
