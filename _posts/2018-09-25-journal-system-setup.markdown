@@ -42,11 +42,45 @@ The approach is also more document driven and as a consequence is arguably easie
 
 Finally, from a personal point of view, I have some experience with YAML and Markdown but it's limited and it could be improved so this is why I've decided to use Github Pages.
 
-## Setting up the site
+## Setting up the website
 
-TODO: Add content here for the site setup...
+Like I mentioned before, Github Pages are built with Ruby and Jekyll so you'll need to install those first. For more information checkout the [Ruby](https://www.ruby-lang.org/en/documentation/) and [Jekyll](https://jekyllrb.com/docs/) documentation.
 
-## Adapting the theme to introduce taxonomy
+> For Mac users it's very simple as your computer will likely have Ruby installed. Bear in mind that Jekyll requires Ruby so you'll need to install Ruby first.
+
+## Running the website locally
+
+For those of you not accustomed to web development and common Devops, it's pretty standard to develop locally first and then deploy changes to an online environment for testing.
+
+Based on the size and nature of the project you may have all manor of Devops in place to support your workflow and with these will come several environments such as `Development`, `Staging` and `Production` (just for example). For purpose of this website, being that there is no external quality assurance (QA) and the audience is mainly isolated to an internal focus group, I am going to develop locally in `feature` branches and then create PR's (Pull Requests) to review my code and merge the changes into an `integration` branch. This branch is where I will perform my own QA before creating a PR to merge my complete and verified changes to `master` which in turn will deploy my website.
+
+Running the website locally is really straight forward. Following the Jekyll documentation I was up and running in no time. I've created a public starter project to make this easy. The starter has my default taxonomy setup and is ready to start creating categorised posts. There will be more on this later.
+
+To run the website locally:
+
+Checkout the site from my public repository:
+```
+git clone https://github.com/Antiblanks/hedanandthemastersdegree.blog.starter.git
+```
+
+Change directory into the project root:
+```
+cd ./hedanandthemastersdegree.blog.starter
+```
+
+Update all Ruby Gems:
+```
+bundle update
+```
+
+Run the local development environment:
+```
+bundle exec jekyll serve
+```
+
+Browse your local site [here](http://localhost:4000/).
+
+## Adapting the theme to add the default taxonomy
 
 TODO: Add content here for the adapting the theme and inclusion of the ...
 
