@@ -18,5 +18,21 @@ layout: default
     <h1 class="page-heading">Posts in '{{ page.posts_category }}'</h1>
   {% endif %}
 
-  {% include post-teasers.html posts=site.posts %}
+  {% if show_by_category_and_tag %}
+    <ul class="post-list">
+      {% for post in site.posts %}
+        {% if post.categories contains page.posts_category and post.tags contains page.posts_tag %}
+          {% include post-teaser.html post=post %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% elsif show_by_category %}
+    <ul class="post-list">
+      {% for post in site.posts %}
+        {% if post.categories contains page.posts_category %}
+          {% include post-teaser.html post=post %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
 </div>
