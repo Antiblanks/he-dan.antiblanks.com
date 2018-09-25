@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% assign posts_category = site.categories[page.posts_category] %}
+{% assign posts_tag = site.tags[page.posts_tag] %}
+
+{% if page.posts_category and page.posts_tag %}
+  {% assign show_by_category_and_tag = true %}
+{% elsif page.posts_category %}
+  {% assign show_by_category = true %}
+{% endif %}
+
+<div class="posts">
+  {% if show_by_category_and_tag %}
+    <h1 class="page-heading">Posts in '{{ page.posts_category }}' with tag '{{ page.posts_tag }}'</h1>
+  {% elsif show_by_category %}
+    <h1 class="page-heading">Posts in '{{ page.posts_category }}'</h1>
+  {% endif %}
+
+  {% include post-teasers.html posts=site.posts %}
+</div>

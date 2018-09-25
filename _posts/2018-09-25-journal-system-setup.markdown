@@ -3,7 +3,7 @@ layout: post
 title: "Journal system setup with Github Pages"
 date: 2018-09-25 08:18:00 +0100
 categories: [GAM710]
-tags: [Diary]
+tags: [Diary, Contextual research]
 ---
 
 ## Why Github Pages?

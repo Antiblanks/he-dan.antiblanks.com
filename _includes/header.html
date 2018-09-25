@@ -20,20 +20,33 @@
           {%- endif -%}
         {%- endfor -%}
 
+        {%- if site.modules -%}
         <li>
           <a class="page-link" name="Modules">Modules</a>
           <ul>
-            <li>
-              <a class="page-link" name="GAM710" href="/modules/gam710">GAM710</a>
-              <ul>
-                <li><a class="page-link" name="Diary">Diary</a></li>
-                <li><a class="page-link" name="Contextual research">Contextual research</a></li>
-                <li><a class="page-link" name="Project development">Project development</a></li>
-                <li><a class="page-link" name="Coursework">Coursework</a></li>
-              </ul>
-            </li>
+            {%- for module in site.modules -%}
+              {%- if module.title -%}
+              <li>
+                <a class="page-link" title="{{ module.code }}: {{ module.title }}" href="{{ module.url }}">
+                  {{ module.title }}
+                </a>
+                <ul>
+                  {%- for category in site.categories -%}
+                    {%- assign category_name = category[0] | escape -%}
+                    {%- assign category_posts = category[1] -%}
+                    {%- if category_posts -%}
+                    <li>
+                      <a class="page-link" href="javascript:;">{{ category_name }}</a>
+                    </li>
+                    {%- endif -%}
+                  {%- endfor -%}
+                </ul>
+              </li>
+              {%- endif -%}
+            {%- endfor -%}
           </ul>
         </li>
+        {%- endif -%}
       </ul>
     </nav>
   </div>
