@@ -42,28 +42,33 @@ The approach is also more document driven and as a consequence is arguably easie
 
 Finally, from a personal point of view, I have some experience with YAML and Markdown but it's limited and it could be improved so this is why I've decided to use Github Pages.
 
-## Setting up the website
+## Setting up a Github Pages website on Github
 
-Like I mentioned before, Github Pages are built with Ruby and Jekyll so you'll need to install those first. For more information checkout the [Ruby](https://www.ruby-lang.org/en/documentation/) and [Jekyll](https://jekyllrb.com/docs/) documentation.
+After making the decision to use Github Pages it was time to do some reading and figure out how to create my first Github Pages website. Thankfully the process is very simple and the [Github Pages documentation](https://pages.github.com/) will guide you through this in no time. This will be much easier to digest if you've worked with Git and Github before, if you haven't it might take a little more to time to get your head around this.
 
-> For Mac users it's very simple as your computer will likely have Ruby installed. Bear in mind that Jekyll requires Ruby so you'll need to install Ruby first.
+In short you need to create a Github repository and adjust the settings to expose the `master` branch as a GitHub Pages site. There are a couple of other options such as creating a custom domain which is a bit more complicated but can be achieved by reading the documentation in the GitHub Pages section of your repositories settings.
+
+> Note: Creating a custom domain does require some understanding of Domain Name Servers (DNS). I remember when I started experimenting with DNS it was quite confusing. In hindsight I can assure you it's not that complicated, but if you've no experience with this you may need to do some reading to understand the basics before attempting this.
+
+Once you've setup your Github Pages website you just need to clone the repository and you'll have a very basic site on which you can make changes to add the content for your blog.
+
+Alternatively (for ease of getting started) I've created a boilerplate of my blog with the default (suggested) taxonomy preconfigured and a basic theme applied which is ready for creating posts and applying custom styling. To fork my repository please read this [help article](https://help.github.com/articles/fork-a-repo/).
+
+## Setting up your local environment for development
+
+Now that you have your website on your local machine you will need to get setup for development. As I mentioned before, Github Pages websites are built with Ruby and Jekyll so you need to install both of these first. For more information checkout the [Ruby](https://www.ruby-lang.org/en/documentation/) and [Jekyll](https://jekyllrb.com/docs/) documentation.
+
+I already had Ruby installed from working on previous projects and the Ruby documentation mentioned above offers an easy way to check if you already have this. Bear in mind that Jekyll requires Ruby so you'll need to install Ruby first before attempting to install Jekyll. If you have forked my repository you will not need to install Jekyll as it is included in the project `GemFile`. The instructions in the **Running the website locally** section below explain this in more detail.
+
+> Note: This is not a necessity but if you are looking to develop on more than one Ruby website in future then you may run into version mismatches where one project requires a different version of Ruby than the other. Rather than constantly updating projects and bundles to sync with your global version of Ruby it's worth taking the time to install a version manager such as [RVM](https://rvm.io/) which will allow you to switch your version of Ruby easily dependent upon the project you are working on.
 
 ## Running the website locally
 
-For those of you not accustomed to web development and common Devops, it's pretty standard to develop locally first and then deploy changes to an online environment for testing.
+For those of you not experienced in web development, it's pretty standard to develop locally first and then deploy your changes to online environments for testing, preview and then production afterwards. There are many different workflows to consider and this is commonly known as Devops. I will touch upon this more below. For now, we just need to get the site running locally for development.
 
-Based on the size and nature of the project you may have all manor of Devops in place to support your workflow and with these will come several environments such as `Development`, `Staging` and `Production` (just for example). For purpose of this website, being that there is no external quality assurance (QA) and the audience is mainly isolated to an internal focus group, I am going to develop locally in `feature` branches and then create PR's (Pull Requests) to review my code and merge the changes into an `integration` branch. This branch is where I will perform my own QA before creating a PR to merge my complete and verified changes to `master` which in turn will deploy my website.
+Running the website locally is very straight forward. Following the Jekyll documentation I was up and running in no time, assuming you've forked my repository into a local directory named `hedanandthemastersdegree.blog.starter` this is just a matter of following the below steps:
 
-Running the website locally is really straight forward. Following the Jekyll documentation I was up and running in no time. I've created a public starter project to make this easy. The starter has my default taxonomy setup and is ready to start creating categorised posts. There will be more on this later.
-
-To run the website locally:
-
-Checkout the site from my public repository:
-```
-git clone https://github.com/Antiblanks/hedanandthemastersdegree.blog.starter.git
-```
-
-Change directory into the project root:
+Change directory into the project root on your local machine:
 ```
 cd ./hedanandthemastersdegree.blog.starter
 ```
@@ -80,10 +85,46 @@ bundle exec jekyll serve
 
 Browse your local site [here](http://localhost:4000/).
 
-## Adapting the theme to add the default taxonomy
+## Devops and deployment
 
-TODO: Add content here for the adapting the theme and inclusion of the ...
+Now that you have your site running locally you need to think about how you will make, test and deploy your changes. This is all part of your workflow and Devops.
 
-## The source code
+Based on the size and nature of the project you may have all manor of Devops in place to support your workflow. You may also have different online environments such as (for example) `Development` (for integrated developer testing), `Staging` (for quality assurance [QA]) and `Production` (for your public facing website).
 
-TODO: Add the public source code repos here...
+For purpose of this website, being there is only one developer (me), no external QA team and the audience is mainly isolated to a small internal focus group, I am going to have a minimal yet appropriate workflow.
+
+> In my opinion it's always worth having some Devops process even if you are the only developer on a project. Having a structure in place helps you to write and ship better code and have less bugs in your deployments.
+
+I will be using an approach inspired by [Git Flow](https://guides.github.com/introduction/flow/). I will develop locally in `feature` branches and then create [pull requests](https://help.github.com/articles/about-pull-requests/) (PR's) to review my code and merge changes into an `integration` branch. This branch is where I will perform my own QA before creating a PR to merge my complete and verified changes to `master` which in turn will deploy my website to production.
+
+## Adapting the default Jekyll theme to add the default taxonomy
+
+As stated in the **How should I structure my blog?** section of the **Journal System Setup** page in Falmouth University Canvas, we will need to 'logically arrange our blog so posts that relate to certain things and are filed in a particular category', they then go on to suggest a structure and as a starting point I've decided to take this advice and structure my taxonomy to support this approach. Here's how I did this:
+
+...
+
+## Summary
+
+In this post I've documented my reasoning with regard to why I choose to use Github Pages over Wordpress, I've then gone on to describe how to setup a Github Pages website and setup a local development environment with steps to run the website locally. I've then gone on to describe my Devops process and reasons for the components that comprise my chosen workflow. Finally I've gone on to describe some of the customisations I've made to ready my blog for adding and categorising posts. I feel that this meets the requirements for this weeks development task.
+
+## What's next?...
+
+In my next related Journal System post I will go on to implement a better styling solution using [SASS](https://sass-lang.com/) and [BEM](http://getbem.com/) and apply some styling to give my blog some personality.
+
+## References
+
+In alphabetical order:
+
+1. [BEM](http://getbem.com/)
+2. [Forking a Github repository](https://help.github.com/articles/fork-a-repo/)
+3. [Github](https://github.com/)
+4. [Github Pages](https://pages.github.com/)
+5. [Git Flow](https://guides.github.com/introduction/flow/)
+6. [Jekyll](https://jekyllrb.com/docs/)
+7. [LAMP](https://tinyurl.com/3v9uyvm)
+8. [Markdown](https://en.wikipedia.org/wiki/Markdown)
+9. [Pantheon](https://pantheon.io/)
+10. [Pull Requests on Github](https://help.github.com/articles/about-pull-requests/)
+11. [Ruby](https://www.ruby-lang.org/)
+12. [SASS](https://sass-lang.com/)
+13. [YAML](https://en.wikipedia.org/wiki/YAML)
