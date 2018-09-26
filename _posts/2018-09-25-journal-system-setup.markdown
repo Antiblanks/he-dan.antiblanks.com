@@ -101,7 +101,187 @@ I will be using an approach inspired by [Git Flow](https://guides.github.com/int
 
 As stated in the **How should I structure my blog?** section of the **Journal System Setup** page in Falmouth University Canvas, we will need to 'logically arrange our blog so posts that relate to certain things and are filed in a particular category', they then go on to suggest a structure and as a starting point I've decided to take this advice and structure my taxonomy to support this approach. Here's how I did this:
 
-...
+### Taxonomy
+
+Like I mentioned above, my goal is to support the suggested structure of the course which has five modules (categories) and three criteria (sub categories). The structure will look like the following:
+
+> Note: I've added a 'Diary' sub category, I know the guidelines specifically state not to write your journal as a diary but I am including this to record notes in real time so that I can expand those notes into posts for placement in one of the assessed sub categories.
+
+```
+|-/GAM710
+|--/Diary
+|--/Contextual research
+|--/Project development
+|--/Coursework
+|-/GAM720
+|--/Diary
+|--/Contextual research
+|--/Project development
+|--/Coursework
+|-/GAM730
+|--/Diary
+|--/Contextual research
+|--/Project development
+|--/Coursework
+|-/GAM740
+|--/Diary
+|--/Contextual research
+|--/Project development
+|--/Coursework
+|-/GAM750
+|--/Diary
+|--/Contextual research
+|--/Project development
+|--/Coursework
+```
+
+I looked at using [collections](https://jekyllrb.com/docs/collections/) to facilitate this structure, though this approach would offer me more control over the properties of my vocabulary (categories) and terms (sub categories), there would have been a fair amount of setup with this approach. Fortunately Github Pages ships with post `categories` and `tags` so being this infrastructure already exists I didn't see a need to reinvent the wheel here. I used `categories` as my top level vocabulary (such as the module title `GAM710`) and then `tags` as my vocabulary terms (such as the sub category `Contextual research`). I then wrote my first post and added the following [front matter](https://jekyllrb.com/docs/front-matter/):
+
+```
+layout: post
+title: "Get set go!"
+date: 2018-09-24 22:52:41 +0100
+categories: [GAM710]
+tags: [Diary]
+```
+
+The part we're interested in is this:
+
+```
+categories: [GAM710]
+tags: [Diary]
+```
+
+Unlike other frameworks such as Wordpress where you define your taxonomy as vocabulary and terms first and then relate these to posts, Github Pages works more like a document database in the sense that by adding a category to the `categories` property within a post I am creating a new category if that same category has not already been added to a post.
+
+This is great, as you will see below when I loop through the `categories` to display the menu Github Pages only knows about `categories` that have been used so no dead links. You can add multiple `categories` and `tags` so a post can be related to anything (or nothing):
+
+```
+categories: [GAM710, GAM720]
+tags: [Diary, Contextual research]
+```
+
+### Building the menu
+
+Now that I have my taxonomy nutted out I needed to output the menu. I did this by overriding the default theme `header.html` and introducing the following loop:
+
+{% raw %}
+```
+{% if site.categories.size > 0 %}
+  <li class="site-navigation__menu-item" data-navigation-menu-item>
+    <a class="site-navigation__menu-item-link" title="Posts" href="/">Posts</a>
+    <ul class="site-navigation__sub-menu" data-navigation-sub-menu>
+      {% for category in site.categories %}
+        {% assign category_name = category[0] | escape %}
+        {% assign category_path = category_name | downcase | replace: ' ', '-' %}
+        <li class="site-navigation__sub-menu-item">
+          <a class="site-navigation__sub-menu-item-link" title="{{ category_name }}" href="/post-collections/{{ category_path }}">
+            {{ category_name }}
+          </a>
+          {% if site.tags.size > 0 %}
+            <ul class="site-navigation__sub-menu">
+              {% for tag in site.tags %}
+                {% assign tag_name = tag[0] | escape %}
+                {% assign tag_path = tag_name | downcase | replace: ' ', '-' %}
+                <li class="site-navigation__sub-menu-item">
+                  <a class="site-navigation__sub-menu-item-link" title="{{ tag_name }}" href="/post-collections/{{ category_path }}/{{ tag_path }}">{{ tag_name }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </li>
+{% endif %}
+```
+{% endraw %}
+
+This part `for category in site.categories` loops through each category and then this nested loop `for tag in site.tags` loops through each tag. The outcome is a menu structure that mimics the taxonomy structure outlined above.
+
+### Creating a layout to display posts by category and tag
+
+Now that I have my menu I needed to display the posts. To do this I created a new layout `posts.html` and added the following code:
+
+{% raw %}
+```
+---
+layout: default
+---
+
+{% if page.posts_category and page.posts_tag %}
+  {% assign show_by_category_and_tag = true %}
+{% elsif page.posts_category %}
+  {% assign show_by_category = true %}
+{% endif %}
+
+<div class="posts">
+  {% if show_by_category_and_tag %}
+    <h1 class="page-heading">Posts in '{{ page.posts_category }}' with tag '{{ page.posts_tag }}'</h1>
+  {% elsif show_by_category %}
+    <h1 class="page-heading">Posts in '{{ page.posts_category }}'</h1>
+  {% endif %}
+
+  {% assign has_posts = false %}
+  {% if show_by_category_and_tag %}
+    <ul class="post-list">
+      {% for post in site.posts %}
+        {% if post.categories contains page.posts_category and post.tags contains page.posts_tag %}
+          {% include post-teaser.html post=post %}
+          {% assign has_posts = true %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% elsif show_by_category %}
+    <ul class="post-list">
+      {% for post in site.posts %}
+        {% if post.categories contains page.posts_category %}
+          {% include post-teaser.html post=post %}
+          {% assign has_posts = true %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if has_posts == false %}
+    {% if show_by_category_and_tag %}
+      <p class="post-list-empty">Sorry but there are no posts matching this category and tag :(</p>
+    {% elsif show_by_category %}
+      <p class="post-list-empty">Sorry but there are no posts matching this category :(</p>
+    {% endif %}
+  {% endif %}
+</div>
+```
+{% endraw %}
+
+Purists will see some of this code as being cumbersome and I would agree. I spent a while trying to figure out how to make this more dynamic with less conditions but in the end I felt that I was battling against the [Liquid templating engine](https://jekyllrb.com/docs/liquid/) so I settled with this for the time being as it's clean enough and it does the job with room for improvement later.
+
+If you inspect the code you will see that I `show_by_category_and_tag` and `show_by_category`. I am not interested at this point in `show_by_tag` but this could be supported later if required. In short if a `category` and a `tag` are defined by the loading page front matter then I will show posts by category and tag but if only a `category` is defined then I will show by category alone. This enables me to show all posts for a module (`GAM710`) or all posts of type (`Contextual research`) within a module (`GAM710`).
+
+### Adding a page to display some posts
+
+At this point I had put all the tools in place to organise and display posts but I needed a page to actually display some. I did this by using collections which I mentioned earlier. I created a new collection `post_collections` by adding the following to my `_config.yml`:
+
+```
+collections:
+  post_collections:
+    output: true
+```
+
+I then created a directory named `_post_collections` by required convention in order to expose pages for that collection. Finally I then created my first page named `gam710.md` by custom convention `{kebab-case-category}-{kebab-case-tag}.md` and added the following front matter:
+
+```
+layout: posts
+title: App Development Synergies
+posts_category: GAM710
+permalink: /post-collections/gam710/
+```
+
+I then tested this page by visiting the permalink defined in the front matter as `/post-collections/gam710/` and what I could see was a list of all posts that I had created with the category `GAM710`.
+
+Upon following this approach purists will see some of the above as duplication. For each category/tag combination I want to expose I will need to create a new page named by convention `{kebab-case-category}-{kebab-case-tag}.md` and this would result in having a large number of these page files.
+
+This bothered me at first as the purist in me wanted to create one page file and then drive the category/tag by URL parameters, however after much reading I discovered that again I was battling against the constraints of the Liquid templating engine. Also I came to realise that the content in these files was just front matter (data) and in the sense of a document driven data approach it does make some sense to do it this way. I'm not sure I'm 100% convinced of this and will invest more time later to try and better this but for the time being I am happy with this solution.
 
 ## Summary
 
@@ -109,7 +289,7 @@ In this post I've documented my reasoning with regard to why I choose to use Git
 
 ## What's next?...
 
-In my next related Journal System post I will go on to implement a better styling solution using [SASS](https://sass-lang.com/) and [BEM](http://getbem.com/) and apply some styling to give my blog some personality.
+In my next related Journal System post I will go on to implement a better styling solution using [SASS](https://sass-lang.com/) and [BEM](http://getbem.com/) and apply some much needed styling to give my blog some personality.
 
 ## References
 
@@ -121,10 +301,13 @@ In alphabetical order:
 4. [Github Pages](https://pages.github.com/)
 5. [Git Flow](https://guides.github.com/introduction/flow/)
 6. [Jekyll](https://jekyllrb.com/docs/)
-7. [LAMP](https://tinyurl.com/3v9uyvm)
-8. [Markdown](https://en.wikipedia.org/wiki/Markdown)
-9. [Pantheon](https://pantheon.io/)
-10. [Pull Requests on Github](https://help.github.com/articles/about-pull-requests/)
-11. [Ruby](https://www.ruby-lang.org/)
-12. [SASS](https://sass-lang.com/)
-13. [YAML](https://en.wikipedia.org/wiki/YAML)
+7. [Jekyll collections](https://jekyllrb.com/docs/collections/)
+8. [Jekyll front matter](https://jekyllrb.com/docs/front-matter/)
+9. [LAMP](https://tinyurl.com/3v9uyvm)
+10. [Liquid templating engine](https://jekyllrb.com/docs/liquid/)
+11. [Markdown](https://en.wikipedia.org/wiki/Markdown)
+12. [Pantheon](https://pantheon.io/)
+13. [Pull Requests on Github](https://help.github.com/articles/about-pull-requests/)
+14. [Ruby](https://www.ruby-lang.org/)
+15. [SASS](https://sass-lang.com/)
+16. [YAML](https://en.wikipedia.org/wiki/YAML)
