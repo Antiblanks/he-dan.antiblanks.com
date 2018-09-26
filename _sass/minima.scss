@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@import
+  // Settings
+  "minima/settings/vars",
+  "minima/settings/colors",
+
+  // Tools
+  "minima/tools/mixins",
+
+  // Default partials required from base minima theme
+  // We don't control these, they are in place to support the overriden theme styling
+  "minima/base",
+  "minima/layout",
+  "minima/syntax-highlighting",
+
+  // Modules
+  "minima/modules/site-navigation"
+;
