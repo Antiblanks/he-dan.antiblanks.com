@@ -88,7 +88,70 @@ In summary, based on the reasonable audience size and the sub standard offering 
 
 #### Developing my solution
 
-... TODO ...
+My first step was to use both my personal experience coupled with research to construct a mind map of potential ways in which OCD sufferers can improve their situation and live with their disorder. I time boxed this exercise to one hour.
+
+![](/assets/img/GAM710_001_3_Exploring_solutions.png)
+
+The map can be split into four main topics that comprise an overall solution for coping with OCD:
+
+- Educating yourself about the disorder
+- Understanding what can help or hinder your disorder
+- Altering your lifestyle to lessen the obsessions and make the compulsions less necessary
+- Finding people that you trust and can talk to about your disorder
+
+There is one thing not mentioned in the map, and that is despite doing all of the above and doing everything you can to live with OCD, there will be times when the obsessions take over and sufferers need to find ways to cope that can replace the need for exercising compulsions. This is a much more complicated requirement of the application but I want to try and offer a solution so I will be adding a fifth item to the above list:
+
+- Educating yourself about the disorder
+- Understanding what can help or hinder your disorder
+- Altering your lifestyle to lessen the obsessions and make the compulsions less necessary
+- Finding people that you trust and can talk to about your disorder
+- Having the tools to deal with an active obsession with little disruption to your routine
+
+I've taken the above five themes to construct the general idea for the application; Based on the fact that coping with OCD is all about altering your lifestyle to help the disorder, I want to propose an application based loosely on those like [Fitbit](https://www.fitbit.com) - fitness products that help the user stay motivated and improve their health by tracking their activity, exercise, food, weight and sleep.
+
+My idea is that the application will help OCD sufferers to cope with their disorder by first identifying how severe their disorder is and then giving them weekly goals to work to and the tools to utilise in order to achieve these. At the end of each week the application will prompt the user to answer questions about their diet, exercise, sleep, obsessions and compulsions and then use these to update their score and curate a bespoke plan and goals for the week commencing.
+
+The main taxonomy for the application which will be:
+
+- **Knowledge**: This is where users will educate themselves about OCD and understand what can help or hinder their disorder.
+- **Community**: This is where users will be able to engage with other sufferers and talk to about their disorder.
+- **Goals**: This is where the user will be able to see their current score and their progress week by week.
+- **Rewards**: This is where the user will be able to see when they were successful in achieving their weekly goals.
+- **Help!**: This is where users can get immediate access to help if they are overwhelmed by an obsession.
+
+To demonstrate the application I am going to outline some of the key screens and walk through some of the user journey's:
+
+#### Home screen
+
+```
+TODO: Insert home screen here...
+```
+
+TODO: Describe home screen here...
+
+#### Goals screen
+
+```
+TODO: Insert goals screen here...
+```
+
+TODO: Describe goals screen here...
+
+#### Rewards screen
+
+```
+TODO: Insert rewards screen here...
+```
+
+TODO: Describe rewards screen here...
+
+#### Help screen
+
+```
+TODO: Insert help screen here...
+```
+
+TODO: Describe help screen here...
 
 ## Summary
 
@@ -96,9 +159,13 @@ In this post I've quickly identified various ideas based around the theme, I've 
 
 ## What's next?...
 
-There is potential for this application to be successful and thus scope to further the idea. I've briefly validated the need for an application of this nature and proven the size of the market place but there is far more in-depth research required into whether OCD sufferers would **actually** use this application; I would need to research the different experiences that people have with the disorder to understand how the app should be structured and the content that should appear.
+There is potential for this application to be successful and thus scope to further the idea. I've briefly validated the need for an application of this nature and proven the size of the market place but there is far more in-depth research required into whether OCD sufferers would **actually** use any application let alone this one.
 
-The solution I currently proposed needs a lot more validation before it could be actualised. On top of the this, I would need to prove some value proposition - It's all well and good helping people and if I can create something that betters peoples lives that is a huge positive but the application will need to be funded; who would invest (the government?) and could this application actually be taken past point of actualisation to being successful?
+The solution I currently proposed needs a lot more validation before it could be actualised. For one I would need to research the different experiences that people have with the disorder to better understand the range of compulsions and the tools sufferers have already developed to better construct the content in the *Help!* section in order to accommodate a wider range of sufferers.
+
+Even before any more research and development begins, I would need to prove some value proposition - It's all well and good helping people and if I can create something that betters peoples lives that is a huge positive but the application will need to be funded; who would invest (the government?) and could this application actually be taken past point of actualisation to being successful?
+
+From a medical point of view, I would need to consult with a professional in the field of OCD to ensure that the application I create would have medical merit and that the content did align with accepted practices for treating sufferers, and more importantly that none of the content was misleading or that the application could do more harm than good.  
 
 Finally, just from a practical point of view, I would need to create an investment pitch deck to present the idea in a more compelling way and to take the idea to potential investors.
 
@@ -108,6 +175,7 @@ In alphabetical order:
 
 1. [App Store](https://www.apple.com/uk/ios/app-store/)
 2. [Anxiety and Depression Association of America](https://adaa.org/about-adaa/press-room/facts-statistics)
-3. [Global Game JAM](https://globalgamejam.org/)
-4. [Live OCD application](https://mashable.com/2012/06/07/ocd-therapist-creates-an-app-for-reducing-anxiety/)
-5. [OCD UK](https://www.ocduk.org/ocd/)
+3. [Fitbit](https://www.fitbit.com)
+4. [Global Game JAM](https://globalgamejam.org/)
+5. [Live OCD application](https://mashable.com/2012/06/07/ocd-therapist-creates-an-app-for-reducing-anxiety/)
+6. [OCD UK](https://www.ocduk.org/ocd/)
