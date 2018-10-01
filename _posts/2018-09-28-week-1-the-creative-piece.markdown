@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week #1: The Creative Piece"
+title: "Week One: The Creative Piece"
 date: 2018-09-28 06:58:00 +0100
 categories: [GAM710]
 tags: [Diary, Project development]
@@ -109,7 +109,7 @@ There is one thing not mentioned in the map, and that is despite doing all of th
 
 I've taken the above five themes to construct the general idea for the application; Based on the fact that coping with OCD is all about altering your lifestyle to help the disorder, I want to propose an application based loosely on those like [Fitbit](https://www.fitbit.com) - fitness products that help the user stay motivated and improve their health by tracking their activity, exercise, food, weight and sleep.
 
-My idea is that the application will help OCD sufferers to cope with their disorder by first identifying how severe their disorder is and then giving them weekly goals to work to and the tools to utilise in order to achieve these. At the end of each week the application will prompt the user to answer questions about their diet, exercise, sleep, obsessions and compulsions and then use these to update their score and curate a bespoke plan and goals for the week commencing.
+My idea is that the application will help OCD sufferers to cope with their disorder by first identifying how severe their disorder is and then giving them weekly goals to work to and the tools to utilise in order to achieve these. At the end of each day the application will prompt the user to answer a few quick questions about their diet, exercise, sleep, obsessions and compulsions. And at the end of each week their progress will be used to update their score and curate a bespoke plan and goals for the week commencing.
 
 The main taxonomy for the application which will be:
 
@@ -123,35 +123,37 @@ To demonstrate the application I am going to outline some of the key screens and
 
 #### Home screen
 
-```
-TODO: Insert home screen here...
-```
+![](/assets/img/GAM710_001_4_Home_Screen.png)
 
-TODO: Describe home screen here...
+After completing on-boarding or logging into an existing account the user will arrive on the home screen, this acts as a dashboard for the user and displays an overview of their account including:
+
+- **Notifications overview**: The notifications overview at the top shows the last unread notification that the user received. This area defaults to show the *How are you feeling today* question when the user has no notifications to show. Clicking the thumb down will open the *Help Screen*.
+- **Challenge overview**: The challenge overview shows the user a snapshot of their current weekly challenge, this includes their current score portrayed by the *obsess-o-meter*, how long they have left and their progress summary based on their goals.
 
 #### Goals screen
 
-```
-TODO: Insert goals screen here...
-```
+![](/assets/img/GAM710_001_5_Goals_Screen.png)
 
-TODO: Describe goals screen here...
+The goals screen shows the user more detailed statistics about their current challenge period, there is a quick link at the foot of the goals screen to answer the daily questions to update their progress.
 
-#### Rewards screen
+#### Questions screen
 
-```
-TODO: Insert rewards screen here...
-```
+![](/assets/img/GAM710_001_6_Questions_Screens.png)
 
-TODO: Describe rewards screen here...
+The questions screen shows a short series of questions designed to gauge how severe the users suffering has been during the day and acquire the data required to score the user and make relevant recommendations for improvement. The user may arrive here on demand by clicking a link from within the application or by clicking on a daily push notification sent at the end of each day (the time to receive this is preset by the user).
+
+> Though it is sensible to answer the questions only once and at the end of the day, users can answer the questions as many times as they like and every answer will nullify the last answer given for the same question on that day.
+
+If the user does not answer their questions on a certain day then the application will treat this day as if it did not exist, thus having no bearing on the users score or the following week's goals. Every day's activity can be viewed on the *Rewards Screen* so the user can answer questions for a day they have missed as long as it is within the current challenge period.
 
 #### Help screen
 
-```
-TODO: Insert help screen here...
-```
+![](/assets/img/GAM710_001_7_Help_Screen.png)
 
-TODO: Describe help screen here...
+The help screen offers the user assistance when the obsessions take over and sufferers need to find ways to cope that can replace the need for exercising compulsions. The user is presented with two options:
+
+- **Speak to someone**: Research shows that talking to someone can reduce the severity of an obsession, talking about what you are feeling will get it off your chest and help you to move past the moment. Choosing this option will open an anonymous community chat window where the user can openly talk about their experience and get advice from other online sufferers.
+- **Get a distraction**: Distractions are designed to replace compulsions. OCD sufferers feel that they need to exercise compulsive behaviour in order to suppress an obsession. The behaviour can sometimes be quite apparent, time consuming and if performed in public it can be quite embarrassing. There will be multiple distractions built into the application, an example might be a memory game that gets increasingly harder.
 
 ## Summary
 
