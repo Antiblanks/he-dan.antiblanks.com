@@ -4,6 +4,33 @@
   }
 }
 
+@mixin media-query-mobile-first($device) {
+  @media screen and (min-width: $device + 1px) {
+    @content;
+  }
+}
+
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
+}
+
+@mixin full-width-and-height() {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@mixin fixed-full-width-and-height() {
+  @include full-width-and-height();
+  position: fixed;
+}
+
+@mixin reset-fixed-full-width-and-height() {
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
 }
