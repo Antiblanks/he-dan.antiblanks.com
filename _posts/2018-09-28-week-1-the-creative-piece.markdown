@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week One: The Creative Piece"
+title: "Week One: The creative piece"
 date: 2018-09-28 06:58:00 +0100
 categories: [GAM710]
 tags: [Diary, Project development]
