@@ -32,16 +32,17 @@ Take [Angular JS](https://angularjs.org/) for example, version two was such a de
 
 This should be the easy part right? We all know what we want to create? Fortunately this is true in most peoples cases, we've all had a lot of experience to get to where we are and we know what we are interested in. The *what we're interested in* is very important, experience has taught me not to try and build something for myself unless I am both close to the subject matter and I am passionate about the solution. Simply put - Don't build something unless you would use it yourself.
 
-If I look at myself and where I've come from I can identify easily with who I am and what I should be creating: I'm an artist at heart, I was always meant to be an artist or a graphic designer. I've always liked urban stylistic art in the form of comics, graffiti, skate and surf art. I've always liked character design and take influence from urban artists such as [Pete Fowler](http://petefowlershop.com/) or [Shepard Fairey](https://obeygiant.com/). I am not a huge gamer, I used to be when I was younger but this has not transferred to my adult life, I do like the challenge of a short game and I like the graphics in some games but this is about as far as it goes. What I am interested in is new technology and it's application, on the one hand to wow the user, and on the other to help people to live a better or fuller life.
+If I look at myself and where I've come from I can identify easily with who I am and what I should be creating: I'm an artist at heart, I was always meant to do something with art. I've always liked urban stylistic art in the form of comics, graffiti, skate and surf art. I've always liked character design and take influence from urban artists such as [Pete Fowler](http://petefowlershop.com/) or [Shepard Fairey](https://obeygiant.com/). I am not a huge gamer, I used to be when I was younger but this has not transferred to my adult life, I do like the challenge of a short game and I like the graphics in some games but this is about as far as it goes. What I am interested in is new technology and it's application, on the one hand to wow the user, and on the other to provide users with exciting tools to enrich their lifestyle or that could help them to live a better or fuller life.
 
-So I can take all these things along with my experience of creating other applications and throw them all into a melding pot, and from a personal point of view start to form the type of application/s I want to create. I see this as being:
+So I can take all these things along with my experience of creating other applications and throw them all into a melding pot, and from a personal point of view start to form the type of application/s I want to create. I see these as being:
 
-- Web or mobile applications
-- Experiential applications
+- Utility applications that are exciting and possibly could improve users lives
+- Interactive experiential applications that wow users
 
-TODO...
+Bearing this in mind I can look at existing applications of this type and see that:
 
-All of which will be stylistic with urban inspired creative direction and will hopefully both wow and enrich peoples lives.
+- **Utility applications that are exciting and possibly could improve users lives**: This type of application requires constant regular use, especially if the application is looking to *improve* or *enrich* peoples lives. An example of an enriching application might be [Map My Run](https://www.mapmyrun.com/) that allows it's users to better experience their hobby of running and in turn improve their fitness. This type of application would be useless without being mobile.
+- **Interactive experiential applications that wow users**: This type of application is based on new emerging technology. By virtue of this it can have a limited lifespan and is often not something that gets everyday usage but rather it could be a high end technical piece to wow consumers at a trade show or TODO... 
 
 Aside from what I want there needs to be some market evaluation in order to solidify my decision to embrace the path on which I am heading...    
 
@@ -66,5 +67,6 @@ TODO
 In alphabetical order:
 
 1. [Angular JS](https://angularjs.org/)
-2. [Pete Fowler](http://petefowlershop.com/)
-3. [React JS](https://reactjs.org/)
+2. [Map My Run](https://www.mapmyrun.com/)
+3. [Pete Fowler](http://petefowlershop.com/)
+4. [React JS](https://reactjs.org/)
