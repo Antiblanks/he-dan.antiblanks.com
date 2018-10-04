@@ -1,0 +1,15 @@
+// BEM styles
+
+.site-header {
+  border-top: none;
+  border-bottom: none;
+  background: url(/assets/img/THEME_001_He_dan_logo_white_large.png) center center no-repeat $black-color;
+  background-size: 100% auto;
+  min-height: 100vh;
+
+  @include media-query-mobile-first($on-palm) {
+    background-size: 600px auto;
+  }
+}
+
+// Nested extends

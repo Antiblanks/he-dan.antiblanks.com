@@ -1,0 +1,34 @@
+// BEM styles
+
+%page-heading {
+  font-size: 42px;
+  line-height: $title-line-height;
+
+  &--hidden {
+    display: none;
+  }
+}
+
+%page {
+  &__content {
+    padding: 30px 0;
+    @include media-query-mobile-first($on-palm) {
+      padding: 60px 0;
+    }
+  }
+
+  &__heading {
+    @extend %page-heading;
+    @extend %page-heading--hidden;
+  }
+}
+
+// Nested extends
+
+.page-content {
+  @extend %page__content;
+}
+
+.page-heading {
+  @extend %page__heading;
+}

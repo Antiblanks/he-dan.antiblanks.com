@@ -1,14 +1,14 @@
 $site-navigation-z-index: 100;
 $site-navigation-menu-width: 200px;
-$site-navigation-background-color: $background-color;
-$site-navigation-menu-link-color: $text-color;
-$site-navigation-border-color: $grey-color-light;
+$site-navigation-background-color: $black-color-opaque-90;
+$site-navigation-menu-link-color: $brand-color;
+$site-navigation-border-color: $brand-color-opaque-20;
 
 %site-navigation-link {
   line-height: $base-line-height;
 
   &, &:hover, &:active, &:visited {
-    color: $text-color;
+    color: $site-navigation-menu-link-color;
     text-decoration: none;
   }
 
@@ -54,25 +54,14 @@ $site-navigation-border-color: $grey-color-light;
     padding: $spacing-unit ($spacing-unit / 2);
 
     @include media-query-mobile-first($on-palm) {
-      @include reset-fixed-full-width-and-height();
-      padding: 0;
-      width: $site-navigation-menu-width;
-      text-align: right;
+      padding-left: 30%;
+      padding-right: 30%;
     }
   }
 
   &__sub-menu {
     position: relative;
     right: auto;
-
-    @include media-query-mobile-first($on-palm) {
-      position: absolute;
-      background-color: $site-navigation-background-color;
-      padding: 0 0.5em 0.5em;
-      right: 0;
-      width: 100%;
-      text-align: left;
-    }
 
     &--nested {
       padding: 0 0 0 0.75em;
@@ -104,10 +93,6 @@ $site-navigation-border-color: $grey-color-light;
     z-index: 2;
     margin-top: 20px;
     cursor: pointer;
-
-    @include media-query-mobile-first($on-palm) {
-      display: none;
-    }
   }
 
   &__menu-icon {
@@ -116,20 +101,8 @@ $site-navigation-border-color: $grey-color-light;
     line-height: 0;
     text-align: center;
 
-    @include media-query-mobile-first($on-palm) {
-      display: none;
-    }
-
     > svg {
-      fill: $grey-color-dark;
-    }
-  }
-
-  &__menu-item {
-    &:not(:last-child) {
-      @include media-query-mobile-first($on-palm) {
-        margin-right: 20px;
-      }
+      fill: $site-navigation-menu-link-color;
     }
   }
 
@@ -152,29 +125,13 @@ $site-navigation-border-color: $grey-color-light;
 // Behaviours
 
 .site-navigation {
-  @include media-query($on-palm) {
-    input ~ [data-navigation-menu] {
-      clear: both;
-      display: none;
-    }
-
-    input:checked ~ [data-navigation-menu] {
-      display: block;
-      padding-bottom: 5px;
-    }
+  input ~ [data-navigation-menu] {
+    clear: both;
+    display: none;
   }
 
-  @include media-query-mobile-first($on-palm) {
-    [data-navigation-sub-menu] {
-      display: none;
-    }
-
-    [data-navigation-menu-item] {
-      &:hover {
-        > [data-navigation-sub-menu] {
-          display: block;
-        }
-      }
-    }
+  input:checked ~ [data-navigation-menu] {
+    display: block;
+    padding-bottom: 5px;
   }
 }

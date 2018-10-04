@@ -1,0 +1,22 @@
+$anchor-hover-opacity: 0.5;
+
+// BEM styles
+
+%anchor {
+  transition: opacity 0.35s linear;
+
+  &, &:hover, &:active, &:visited {
+    color: $brand-color;
+  }
+
+  &:hover {
+    text-decoration: none;
+    opacity: $anchor-hover-opacity;
+  }
+}
+
+// Nested extends
+
+a {
+  @extend %anchor;
+}
