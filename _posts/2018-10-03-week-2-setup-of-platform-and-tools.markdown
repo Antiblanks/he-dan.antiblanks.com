@@ -60,7 +60,7 @@ Based on research VR applications can take between 500-2000 hours to create with
 
 I can back this up with personal experience and take an average of similar experience applications that we have created at [Antiblanks](http://www.antiblanks.com/) that have taken roughly 400 hours and carry a cost of roughly $40,000.
 
-Considering these rates coupled with the growing adoption of VR worldwide and the fact that companies like Zerolight exist and are being scaled around this specialism does paint a very successful future for VR and VR experiences.   
+Considering these rates coupled with the growing adoption of VR worldwide and the fact that companies like Zerolight exist and are being scaled around this specialism does paint a very successful future for VR and VR experiences. 
 
 * Statistics taken from [Think Mobiles](https://thinkmobiles.com/blog/how-much-vr-application-development-cost) and from personal experience.
 
