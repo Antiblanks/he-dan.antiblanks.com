@@ -12,9 +12,11 @@ This week we've been tasked with the setup and configuration of the tools we nee
 
 We should consider relevant languages, integrated environments, version control systems, software development kits (SDKs) for key platforms, and other computer aided software engineering systems.
 
-We've been steered to *pick the right tool based on the nature of the app/s you want to create*, and to *concentrate on the tools that are relevant to the apps you want to make*.
+We've been steered toward *picking the right tool based on the nature of the app/s we want to create*, and to *concentrate on the tools that are relevant to the apps we want to make*.
 
-It is identified in the brief that *the challenge is knowing you cannot master everything*.
+It is identified in the video that:
+
+> The challenge is knowing you cannot master everything.
 
 ### Understanding the brief
 
@@ -42,9 +44,9 @@ So I can take all these things along with my experience of creating other applic
 Bearing this in mind I can look at existing applications of this type and see that:
 
 - **Utility applications that are exciting and possibly could improve users lives**: This type of application requires constant regular use, especially if the application is looking to *improve* or *enrich* peoples lives. An example of an enriching application might be [Map My Fitness](https://www.mapmyfitness.com/) that allows it's users to better experience their exercise and in turn improve their fitness. This type of application would be useless without being mobile.
-- **Interactive experiential applications that wow users**: This type of application is based on new emerging technology. By virtue of this it can have a limited lifespan and is often not something that gets everyday use, but rather it could be a high end technical piece to wow consumers as an installation at a trade show or could be used on a feature film. An example of this might be [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/) created by [Zerolight](https://zerolight.com) that allows users to walk around and explore an Audi vehicle, utilising the large *play area* of the HTC Vive.
+- **Interactive experiential applications that wow users**: This type of application is based on new emerging technology. By virtue of this it can have a limited lifespan and is often not something that gets everyday use, but rather it could be a high end technical piece to wow consumers as an installation at a trade show or could be used as a technical piece on a feature film. An example of this type of application might be [The Audi Walking Virtual Reality (VR) experience](https://zerolight.com/projects/audi/audi-walking-vr/) created by [Zerolight](https://zerolight.com) that allows users to walk around and explore an Audi car, utilising the large *play area* of the HTC Vive.
 
-Aside from what I want there needs to be some market evaluation in order to solidify my decision to embrace the paths on which I am heading. The idea of shaping a career around what you like creating only works if consumers will buy the things you create. For this reason I am going to expand the above two examples as case studies:
+Aside from what I want there also needs to be some market evaluation in order to solidify my decision to embrace the paths on which I am heading. The idea of shaping a career around what you like creating only works if consumers will buy the things you create. For this reason I am going to expand the above two examples as case studies:
 
 **An enriching lifestyle application**
 
@@ -52,11 +54,11 @@ Map My Fitness was first launched in 2007, the project was funded over six round
 
 * Statistics taken from [Mobile Health News](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree) and [Crunchbase](https://www.crunchbase.com/organization/mapmyfitness).
 
-**A VR/AR experiential application**
+**An interactive experiential application**
 
 The Audi Walking VR experience was created for Audi by Zerolight in 2016 and was noted at the time as being *one of the best VR experiences from a brand seen so far*. It's obviously quite hard to identify exactly how much this application cost to create as companies are sensitive to giving away this type of information, but we can look at VR costs globally.
 
-Based on research VR applications can take between 500-2000 hours to create with an average international day rate of $80-120 which yields a rough estimate of $40,000-200,000 per application.
+Based on research VR applications can take between 500-2000 hours to create with an average global day rate of $80-120 which yields a rough estimate of $40,000-200,000 per application.
 
 I can back this up with personal experience and take an average of similar experience applications that we have created at [Antiblanks](http://www.antiblanks.com/) that have taken roughly 400 hours and carry a cost of roughly $40,000.
 
@@ -72,15 +74,25 @@ Now that I've identified the type of application/s that I am interested in creat
 
 This type of application is intended for high use across a range of devices. The project duration depends on the success of the application and it's traction and continual use in order to drive further investment. For these reasons the application will need to be available on multiple platforms including (at minimum) iOS, Android and online. Also the application will require constant updates for maintenance and to deliver new and engaging features, and this will result in a large amount of development.
 
-In order to lower costs, maintain consistency and drive more features I should focus on cross platform scripting languages and tools for this type of application. Some of the languages/frameworks I will be considering are Angular JS, React JS, [PhoneGap (Apache Cordova)](https://phonegap.com/), [React Native](http://www.reactnative.com/) and [Kivy](https://kivy.org/). I will also be looking at the GUIs [Android Studio](https://developer.android.com/studio/) and [XCode](https://developer.apple.com/xcode/).
+In order to lower costs, maintain consistency and drive more features I should focus on cross platform scripting languages and tools for this type of application. Some of the languages/frameworks I will be considering are Angular JS or React JS with [PhoneGap (Apache Cordova)](https://phonegap.com/), [React Native](http://www.reactnative.com/), [Python](https://www.python.org/) with [Kivy](https://kivy.org/) and [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) with [Xamarin](https://visualstudio.microsoft.com/xamarin/). I will also be looking at the IDEs [Android Studio](https://developer.android.com/studio/), [XCode](https://developer.apple.com/xcode/) and [Visual Studio](https://visualstudio.microsoft.com/).
 
-**A VR/AR experiential application**
+**An interactive experiential application**
 
-TODO
+This type of application is often intended for specialised use within a controlled environment. Having control over the environment means that the distributor does not need to offer the application across a range of devices. The wow factor is key to the success of the application and this is achieved by using cutting edge technology and pushing the boundaries of it's capability. There is often a hardware integration involved, and in my past experience working with [Leo Associates](https://www.leoassociates.com/) what I've been told clients are looking for is:
+
+> The next *big thing* in technology to make their installation stand out and create a talking point.
+
+* Quote taken from Neil Smith, co-owner of Leo Associates.
+
+In order to deliver applications of this nature I will be looking at current technologies including VR and Augmented Reality (AR). To create VR experiences I will need goggles such as those made by [Oculus](https://www.oculus.com/) or the more cost effective [Samsung Gear VR](https://www.samsung.com/global/galaxy/gear-vr/). I will need to consider the language and 3D engine used to power the experience and for this I will be looking at C# and [Unity](https://unity.com) and [C++](https://en.wikipedia.org/wiki/C%2B%2B) and [Unreal Engine](https://www.unrealengine.com).
 
 #### Picking the right platforms and tools
 
 TODO
+
+**Version control**
+
+TODO: Bit about Git (version control)
 
 ## Summary
 
@@ -89,6 +101,8 @@ TODO
 ## What's next?...
 
 TODO:
+
+Note: This needs to be more about the platforms and the tools!
 
 More scrutiny into the VR market place, investigation into offshore competition and whether this should be seen as a help or hinderance.
 
@@ -100,16 +114,23 @@ In alphabetical order:
 
 1. [Android Studio](https://developer.android.com/studio/)
 2. [Angular JS](https://angularjs.org/)
-3. [Kivy](https://kivy.org/)
-4. [Map My Fitness](https://www.mapmyfitness.com/)
-5. [Map My Fitness statistics](https://www.crunchbase.com/organization/mapmyfitness)
-6. [Map My Fitness acquisition](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree)
-7. [Pete Fowler](http://petefowlershop.com/)
-8. [PhoneGap (Apache Cordova)](https://phonegap.com/)
-9. [React JS](https://reactjs.org/)
-10. [React Native](http://www.reactnative.com/)
-11. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
-12. [Under Armour](https://www.underarmour.co.uk/en-gb/)
-13. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
-14. [XCode](https://developer.apple.com/xcode/)
-15. [Zerolight](https://zerolight.com)
+3. [C++](https://en.wikipedia.org/wiki/C%2B%2B)
+4. [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
+5. [Kivy](https://kivy.org/)
+6. [Leo Associates](https://www.leoassociates.com/)
+7. [Map My Fitness](https://www.mapmyfitness.com/)
+8. [Map My Fitness statistics](https://www.crunchbase.com/organization/mapmyfitness)
+9. [Map My Fitness acquisition](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree)
+10. [Oculus](https://www.oculus.com/)
+11. [Pete Fowler](http://petefowlershop.com/)
+12. [PhoneGap (Apache Cordova)](https://phonegap.com/)
+13. [Python](https://www.python.org/)
+14. [React JS](https://reactjs.org/)
+15. [React Native](http://www.reactnative.com/)
+16. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
+17. [Under Armour](https://www.underarmour.co.uk/en-gb/)
+18. [Unity](https://unity.com)
+19. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
+20. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
+21. [XCode](https://developer.apple.com/xcode/)
+22. [Zerolight](https://zerolight.com)
