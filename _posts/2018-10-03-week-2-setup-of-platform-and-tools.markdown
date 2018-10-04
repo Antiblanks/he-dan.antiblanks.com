@@ -41,10 +41,28 @@ So I can take all these things along with my experience of creating other applic
 
 Bearing this in mind I can look at existing applications of this type and see that:
 
-- **Utility applications that are exciting and possibly could improve users lives**: This type of application requires constant regular use, especially if the application is looking to *improve* or *enrich* peoples lives. An example of an enriching application might be [Map My Run](https://www.mapmyrun.com/) that allows it's users to better experience their hobby of running and in turn improve their fitness. This type of application would be useless without being mobile.
-- **Interactive experiential applications that wow users**: This type of application is based on new emerging technology. By virtue of this it can have a limited lifespan and is often not something that gets everyday usage but rather it could be a high end technical piece to wow consumers at a trade show or TODO... 
+- **Utility applications that are exciting and possibly could improve users lives**: This type of application requires constant regular use, especially if the application is looking to *improve* or *enrich* peoples lives. An example of an enriching application might be [Map My Fitness](https://www.mapmyfitness.com/) that allows it's users to better experience their exercise and in turn improve their fitness. This type of application would be useless without being mobile.
+- **Interactive experiential applications that wow users**: This type of application is based on new emerging technology. By virtue of this it can have a limited lifespan and is often not something that gets everyday use, but rather it could be a high end technical piece to wow consumers as an installation at a trade show or could be used on a feature film. An example of this might be [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/) created by [Zerolight](https://zerolight.com) that allows users to walk around and explore an Audi vehicle, utilising the large *play area* of the HTC Vive.
 
-Aside from what I want there needs to be some market evaluation in order to solidify my decision to embrace the path on which I am heading...    
+Aside from what I want there needs to be some market evaluation in order to solidify my decision to embrace the paths on which I am heading. The idea of shaping a career around what you like creating only works if consumers will buy the things you create. For this reason I am going to expand the above two examples as case studies:
+
+**An enriching lifestyle application**
+
+Map My Fitness was first launched in 2007, it was acquired for $150 million in November 2013 by [Under Armour](https://www.underarmour.co.uk/en-gb/). At time of purchase the application had a reported 20 million registered users worldwide. Map My Fitness comprises of multiple cross platform mobile applications and supporting web applications.
+
+* Statistics taken from [Mobile Health News](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree).
+
+**A VR experiential application**
+
+The Audi Walking VR experience was created for Audi by Zerolight in 2016 and was noted at the time as being *one of the best VR experiences from a brand seen so far*. It's obviously quite hard to identify exactly how much this application cost to create as companies are sensitive to giving away this type of information, but we can look at VR costs globally.
+
+Based on research VR applications can take between 500-2000 hours to create with an average international day rate of $80-120 which yields a rough estimate of $40,000-200,000 per application.
+
+I can back this up with personal experience and take an average of similar experience applications that we have created at [Antiblanks](http://www.antiblanks.com/) that have taken roughly 400 hours and carry a cost of roughly $40,000.
+
+Considering these rates coupled with the growing adoption of VR worldwide and the fact that companies like Zerolight exist and are being scaled around this specialism does paint a very successful future for VR and VR experiences.   
+
+* Statistics taken from [Think Mobiles](https://thinkmobiles.com/blog/how-much-vr-application-development-cost) and from personal experience.
 
 #### Identifying the platforms and tools available
 
@@ -60,13 +78,20 @@ TODO
 
 ## What's next?...
 
-TODO
+TODO:
+
+More scrutiny into the VR market place, investigation into offshore competition and whether this should be seen as a help or hinderance.
 
 ## References
 
 In alphabetical order:
 
 1. [Angular JS](https://angularjs.org/)
-2. [Map My Run](https://www.mapmyrun.com/)
-3. [Pete Fowler](http://petefowlershop.com/)
-4. [React JS](https://reactjs.org/)
+2. [Map My Fitness](https://www.mapmyfitness.com/)
+3. [Mobile Health News](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree)
+4. [Pete Fowler](http://petefowlershop.com/)
+5. [React JS](https://reactjs.org/)
+6. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
+7. [Think Mobiles](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
+8. [Under Armour](https://www.underarmour.co.uk/en-gb/)
+9. [Zerolight](https://zerolight.com)
