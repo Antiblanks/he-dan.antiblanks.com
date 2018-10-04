@@ -48,11 +48,11 @@ Aside from what I want there needs to be some market evaluation in order to soli
 
 **An enriching lifestyle application**
 
-Map My Fitness was first launched in 2007, it was acquired for $150 million in November 2013 by [Under Armour](https://www.underarmour.co.uk/en-gb/). At time of purchase the application had a reported 20 million registered users worldwide. Map My Fitness comprises of multiple cross platform mobile applications and supporting web applications.
+Map My Fitness was first launched in 2007, the project was funded over six rounds of investment totalling $23.7 million, it was acquired for $150 million in November 2013 by [Under Armour](https://www.underarmour.co.uk/en-gb/). At time of purchase the application had a reported 20 million registered users worldwide. Map My Fitness comprises of multiple cross platform mobile applications and supporting web applications.
 
-* Statistics taken from [Mobile Health News](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree).
+* Statistics taken from [Mobile Health News](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree) and [Crunchbase](https://www.crunchbase.com/organization/mapmyfitness).
 
-**A VR experiential application**
+**A VR/AR experiential application**
 
 The Audi Walking VR experience was created for Audi by Zerolight in 2016 and was noted at the time as being *one of the best VR experiences from a brand seen so far*. It's obviously quite hard to identify exactly how much this application cost to create as companies are sensitive to giving away this type of information, but we can look at VR costs globally.
 
@@ -60,13 +60,23 @@ Based on research VR applications can take between 500-2000 hours to create with
 
 I can back this up with personal experience and take an average of similar experience applications that we have created at [Antiblanks](http://www.antiblanks.com/) that have taken roughly 400 hours and carry a cost of roughly $40,000.
 
-Considering these rates coupled with the growing adoption of VR worldwide and the fact that companies like Zerolight exist and are being scaled around this specialism does paint a very successful future for VR and VR experiences. 
+Considering these rates coupled with the growing adoption of VR worldwide and the fact that companies like Zerolight exist and are being scaled around this specialism does paint a very successful future for VR and VR experiences.
 
 * Statistics taken from [Think Mobiles](https://thinkmobiles.com/blog/how-much-vr-application-development-cost) and from personal experience.
 
-#### Identifying the platforms and tools available
+#### Identifying the right type of platforms and tools
 
-TODO: I understand that for many people understanding this alone might be quite a journey in itself but I do have the benefit of over fifteen years experience in the industry and this
+Now that I've identified the type of application/s that I am interested in creating I can select the right platform and tools for the job. Again I will look at both application types but this time list the common platform and tools required to build these applications:
+
+**An enriching lifestyle application**
+
+This type of application is intended for high use across a range of devices. The project duration depends on the success of the application and it's traction and continual use in order to drive further investment. For these reasons the application will need to be available on multiple platforms including (at minimum) iOS, Android and online. Also the application will require constant updates for maintenance and to deliver new and engaging features, and this will result in a large amount of development.
+
+In order to lower costs, maintain consistency and drive more features I should focus on cross platform scripting languages and tools for this type of application. Some of the languages/frameworks I will be considering are Angular JS, React JS, [PhoneGap (Apache Cordova)](https://phonegap.com/), [React Native](http://www.reactnative.com/) and [Kivy](https://kivy.org/). I will also be looking at the GUIs [Android Studio](https://developer.android.com/studio/) and [XCode](https://developer.apple.com/xcode/).
+
+**A VR/AR experiential application**
+
+TODO
 
 #### Picking the right platforms and tools
 
@@ -82,16 +92,24 @@ TODO:
 
 More scrutiny into the VR market place, investigation into offshore competition and whether this should be seen as a help or hinderance.
 
+More scrutiny of IP vs service contracts: IP's - Benefit from offshore costs, service you are fighting with offshore costs
+
 ## References
 
 In alphabetical order:
 
-1. [Angular JS](https://angularjs.org/)
-2. [Map My Fitness](https://www.mapmyfitness.com/)
-3. [Mobile Health News](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree)
-4. [Pete Fowler](http://petefowlershop.com/)
-5. [React JS](https://reactjs.org/)
-6. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
-7. [Think Mobiles](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
-8. [Under Armour](https://www.underarmour.co.uk/en-gb/)
-9. [Zerolight](https://zerolight.com)
+1. [Android Studio](https://developer.android.com/studio/)
+2. [Angular JS](https://angularjs.org/)
+3. [Kivy](https://kivy.org/)
+4. [Map My Fitness](https://www.mapmyfitness.com/)
+5. [Map My Fitness statistics](https://www.crunchbase.com/organization/mapmyfitness)
+6. [Map My Fitness acquisition](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree)
+7. [Pete Fowler](http://petefowlershop.com/)
+8. [PhoneGap (Apache Cordova)](https://phonegap.com/)
+9. [React JS](https://reactjs.org/)
+10. [React Native](http://www.reactnative.com/)
+11. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
+12. [Under Armour](https://www.underarmour.co.uk/en-gb/)
+13. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
+14. [XCode](https://developer.apple.com/xcode/)
+15. [Zerolight](https://zerolight.com)
