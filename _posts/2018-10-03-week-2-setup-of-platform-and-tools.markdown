@@ -30,6 +30,22 @@ Take [Angular JS](https://angularjs.org/) for example, version two was such a de
 
 ## My approach
 
+In order to select the most relevant platforms and tools I've outlined the following structure:
+
+#### Identifying what applications I want to create
+
+I will look at my background, my likes and dislikes and influences with regard to applications that I use regularly and those that don't interest me. I will use my past experience in creating various applications of differing types to highlight specific areas that are most exciting to me and use statistics to evaluate the viability of my chosen application types within today's market place.
+
+#### Identifying the right type of platforms and tools
+
+I will look the the typical platforms and tools used to power the types of application I identify in the section above and seek to find a variant for each application type that I can consider for adoption.
+
+#### Picking the right platforms and tools
+
+I will look at the pros and cons of each of the platforms and tools short listed in the previous section with a view to select my preferred suite.
+
+## The solution
+
 #### Identifying what applications I want to create
 
 This should be the easy part right? We all know what we want to create? Fortunately this is true in most peoples cases, we've all had a lot of experience to get to where we are and we know what we are interested in. The *what we're interested in* is very important, experience has taught me not to try and build something for myself unless I am both close to the subject matter and I am passionate about the solution. Simply put - Don't build something unless you would use it yourself.
@@ -86,8 +102,22 @@ This type of application is often intended for specialised use within a controll
 
 In order to deliver applications of this nature I will be looking at current technologies including VR and Augmented Reality (AR). To create VR experiences I will need goggles such as those made by [Oculus](https://www.oculus.com/) or the more cost effective [Samsung Gear VR](https://www.samsung.com/global/galaxy/gear-vr/). I will need to consider the language and 3D engine used to power the experience and for this I will be looking at C# and [Unity](https://unity.com) and [C++](https://en.wikipedia.org/wiki/C%2B%2B) and [Unreal Engine](https://www.unrealengine.com).
 
-#### Picking the right platforms and tools
+#### Picking the right platforms and tools for cross platform development
 
+Now that I've short listed an array of viable platforms and tools I am going to look at the pros and cons of each in order to select my final candidates for adoption.
+
+Taking into account first the cross platform languages/frameworks:
+
+**Angular JS or React JS with PhoneGap**
+TODO
+
+**React Native**
+TODO
+
+**Python with Kivy**
+TODO
+
+**C# with Xamarin**
 TODO
 
 **Version control**
@@ -107,6 +137,8 @@ Note: This needs to be more about the platforms and the tools!
 More scrutiny into the VR market place, investigation into offshore competition and whether this should be seen as a help or hinderance.
 
 More scrutiny of IP vs service contracts: IP's - Benefit from offshore costs, service you are fighting with offshore costs
+
+Moulding platforms and tools around an application and not just the type - Certain applications have technical challenges that might be easier solved by harnessing a different scripting language/framework.
 
 ## References
 
