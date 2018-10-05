@@ -106,8 +106,6 @@ In order to deliver applications of this nature I will be looking at current tec
 
 Now that I've short listed an array of viable platforms and tools I am going to look at the pros and cons of each in order to select my final candidates for adoption.
 
-Taking into account first the cross platform languages/frameworks:
-
 **Angular JS or React JS with PhoneGap**
 
 PhoneGap's main benefit is it's ease of use. If you are a web developer like myself, it's very easy to make a working application using tools that are very familiar (HTML, JavaScript & CSS). PhoneGap is also very quick to develop with, being that you are essentially developing a website to run in the devices in-application web browser then a lot of the Native complexities need not be considered.
@@ -136,7 +134,7 @@ In summary, React Native is a better option to PhoneGap I feel. From a personal 
 
 Xamarin is built on top of the .NET framework. Xamarin was founded in 2011 but the framework was not adapted to compile to native iOS and Android until the release of Xamarin 2.0 in 2013. It was acquired in 2016 and is now owned and maintained by Microsoft. The fact that Xamarin is one of the more mature frameworks and is now owned and maintained by Microsoft speaks volumes about it's longevity.
 
-> Saying this, a counter to this argument would be to reference the short lived and now deprecated [Microsoft Silverlight](https://www.microsoft.com/silverlight/). I think in this case though, that had more to do with web trends and the rise of mobile devices - Unless all device manufacturers are planning on getting together and adopting the same codebase for their native applications I don't think cross platform frameworks will be redundant any time soon! 
+> Saying this, a counter to this argument would be to reference the short lived and now deprecated [Microsoft Silverlight](https://www.microsoft.com/silverlight/). I think in this case though, that had more to do with web trends and the rise of mobile devices - Unless all device manufacturers are planning on getting together and adopting the same codebase for their native applications I don't think cross platform frameworks will be redundant any time soon!
 
 Xamarin appeals to me for a number of reasons; for one, Xamarin compiles to a native application so performance is not hindered as with other frameworks already mentioned. Xamarin is written in C# which is a very robust and very mature language. At Antiblanks we have adopted a Linux, Apache, MySQL & PHP (LAMP) stack for our low budget web projects and we reserve .NET as our preferred framework for enterprise builds. With this in mind, I see C# very much as an enterprise language, it's very robust and it doesn't have many limitations. I am also well versed in C#, having written the language on and off for about seven years. There is also the inherent bonus of being able to use Microsoft's Visual Studio IDE which is a premium full featured IDE, and one of the best available on the market.
 
@@ -150,13 +148,25 @@ All this aside, the only drawback for me is wading into unknown waters and learn
 
 Kivy is a very much the wildcard option for me. At Antiblanks we've seen greater interest in customers looking for use to work on Python applications.   
 
-**Version control**
+#### Picking the right platforms and tools for experiential applications
 
-TODO: Bit about Git (version control)
+TODO: Introduction...
 
-**Decoupled back end web service**
+**C# with Unity**
+
+TODO...
+
+**C++ with Unreal Engine**
+
+TODO...
+
+#### Picking the right back end scripting solution
 
 None of the above are a one stop shop unfortunately...
+
+#### Picking the right version control system
+
+TODO: Bit about Git (version control)
 
 ## Conclusion
 
