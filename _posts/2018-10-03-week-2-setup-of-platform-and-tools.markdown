@@ -130,13 +130,25 @@ React Native does have some drawbacks: It is not all that mature, it was first a
 
 In summary, React Native is a better option to PhoneGap I feel. From a personal point of view I know the framework well, I've always liked working with React and I can develop quickly with this technology. Also, despite being in it's infancy, given the success of React and how the Facebook team behind this has managed releases and maintained backwards compatibility in the main part, I am confident that React Native will be around for a long time and will not suffer any *major* breaking version alterations.
 
-* Release year taken from the [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
-
-**Python with Kivy**
-TODO
+* Release year taken from the [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library)).
 
 **C# with Xamarin**
-TODO
+
+Xamarin is built on top of the .NET framework. Xamarin was founded in 2011 but the framework was not adapted to compile to native iOS and Android until the release of Xamarin 2.0 in 2013. It was acquired in 2016 and is now owned and maintained by Microsoft. The fact that Xamarin is one of the more mature frameworks and is now owned and maintained by Microsoft speaks volumes about it's longevity.
+
+> Saying this, a counter to this argument would be to reference the short lived and now deprecated [Microsoft Silverlight](https://www.microsoft.com/silverlight/). I think in this case though, that had more to do with web trends and the rise of mobile devices - Unless all device manufacturers are planning on getting together and adopting the same codebase for their native applications I don't think cross platform frameworks will be redundant any time soon! 
+
+Xamarin appeals to me for a number of reasons; for one, Xamarin compiles to a native application so performance is not hindered as with other frameworks already mentioned. Xamarin is written in C# which is a very robust and very mature language. At Antiblanks we have adopted a Linux, Apache, MySQL & PHP (LAMP) stack for our low budget web projects and we reserve .NET as our preferred framework for enterprise builds. With this in mind, I see C# very much as an enterprise language, it's very robust and it doesn't have many limitations. I am also well versed in C#, having written the language on and off for about seven years. There is also the inherent bonus of being able to use Microsoft's Visual Studio IDE which is a premium full featured IDE, and one of the best available on the market.
+
+> A quick Google search for 'What is the best IDE' will return a number of results, most, if not all of which, feature Microsoft's Visual Studio at the very top of their recommendations.
+
+All this aside, the only drawback for me is wading into unknown waters and learning a new framework when I have a fair number under my belt already. It's not that I am adverse to learning new frameworks and usually I jump at something new, but rather I am adverse to trading time spent creating a better application against the time it may take to get to grips with the setup. I need to consider this carefully and weigh this against my objectives and what I want from the course.
+
+* Release history taken from the [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin).
+
+**Python with Kivy**
+
+Kivy is a very much the wildcard option for me. At Antiblanks we've seen greater interest in customers looking for use to work on Python applications.   
 
 **Version control**
 
@@ -146,9 +158,17 @@ TODO: Bit about Git (version control)
 
 None of the above are a one stop shop unfortunately...
 
-## Summary
+## Conclusion
 
-TODO
+TODO:
+
+The decision is actually really hard...
+
+Bar PhoneGap they are all much the same in that they allow you to write the language you prefer and compile down to a native application...
+
+Choose XXX because... Objectives, exiting with 2 partial IP's etc...
+
+Hence the mix of platform and tools will be...
 
 ## What's next?...
 
@@ -175,18 +195,20 @@ In alphabetical order:
 7. [Map My Fitness](https://www.mapmyfitness.com/)
 8. [Map My Fitness statistics](https://www.crunchbase.com/organization/mapmyfitness)
 9. [Map My Fitness acquisition](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree)
-10. [Oculus](https://www.oculus.com/)
-11. [Pete Fowler](http://petefowlershop.com/)
-12. [PhoneGap (Apache Cordova)](https://phonegap.com/)
-13. [PhoneGap (Apache Cordova) page on Wikipedia](https://en.wikipedia.org/wiki/Apache_Cordova)
-14. [Python](https://www.python.org/)
-15. [React JS](https://reactjs.org/)
-16. [React Native](http://www.reactnative.com/)
-17. [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
-18. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
-19. [Under Armour](https://www.underarmour.co.uk/en-gb/)
-20. [Unity](https://unity.com)
-21. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
-22. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
-23. [XCode](https://developer.apple.com/xcode/)
-24. [Zerolight](https://zerolight.com)
+10. [Microsoft Silverlight](https://www.microsoft.com/silverlight/)
+11. [Oculus](https://www.oculus.com/)
+12. [Pete Fowler](http://petefowlershop.com/)
+13. [PhoneGap (Apache Cordova)](https://phonegap.com/)
+14. [PhoneGap (Apache Cordova) page on Wikipedia](https://en.wikipedia.org/wiki/Apache_Cordova)
+15. [Python](https://www.python.org/)
+16. [React JS](https://reactjs.org/)
+17. [React Native](http://www.reactnative.com/)
+18. [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
+19. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
+20. [Under Armour](https://www.underarmour.co.uk/en-gb/)
+21. [Unity](https://unity.com)
+22. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
+23. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
+24. [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin)
+25. [XCode](https://developer.apple.com/xcode/)
+26. [Zerolight](https://zerolight.com)
