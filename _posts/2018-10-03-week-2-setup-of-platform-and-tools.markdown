@@ -110,14 +110,27 @@ Taking into account first the cross platform languages/frameworks:
 
 **Angular JS or React JS with PhoneGap**
 
-PhoneGap's main benefit is it's ease of use. If you are a web developer like myself, it's very easy to make a working application using tools that are very familiar (HTML/JavaScript/CSS). PhoneGap is also very quick to develop with, being that you are essentially developing a website to run in the devices in-application web browser then a lot of the Native complexities need not be considered. The ease of use coupled with the speed in which you can develop with PhoneGap makes it a great tool for creating prototypes.  
+PhoneGap's main benefit is it's ease of use. If you are a web developer like myself, it's very easy to make a working application using tools that are very familiar (HTML, JavaScript & CSS). PhoneGap is also very quick to develop with, being that you are essentially developing a website to run in the devices in-application web browser then a lot of the Native complexities need not be considered.
 
-However, one of PhoneGap's strengths is also one of it's main weaknesses; running in the devices in-application browser results in a noticeable performance hit within the UI layer. If you're application is complex this affects the responsiveness of the UI, this is because all of the processing is taking place within the single UI thread.  
+The PhoneGap framework is also quite mature; it's first release was in 2011 and this means it will be stable, will likely not have any major rewrites, will be well documented and will be full featured.
 
-In summary, PhoneGap is great for web developers who want to dip their feet into mobile application development. It's also a good option for experienced development teams to create prototypes or proof of concepts (POCs) to test a potential application or to add value in a pitch situation. But in my opinion there are better options available to me in this space.
+However, one of PhoneGap's main strengths is also one of it's main weaknesses; running in the devices in-application browser results in a noticeable performance hit within the UI layer. If you're application is complex this affects the responsiveness of the UI, this is because all of the processing is taking place within the single UI thread.
+
+In summary, PhoneGap is great for web developers who want to dip their feet into mobile application development. It's also a good option for experienced development teams to create prototypes or proof of concepts (POCs) to test a potential application or to add value in a pitch situation. But in my opinion, for the applications I want to build, there are better options available to me in this space.
+
+* Release year taken from the [PhoneGap (Apache Cordova) page on Wikipedia](https://en.wikipedia.org/wiki/Apache_Cordova).
 
 **React Native**
-TODO
+
+React Native is very similar to PhoneGap in that, for web developers, it's very easy to make a working application using tools that are very familiar (HTML, or rather JSX, JavaScript & styling similar to CSS). However under the hood they are quite different; React Native is more advanced in the sense that the application it compiles down to is more native. Using iOS terminology to form an example, *React Native translates to Native UI components rather than WebView UI*. In layman terms this means that the application is not a website running in the devices in-application browser, but instead it is compiled to an actual native application.
+
+This has many benefits, the main difference can be seen in the user experience; native applications are more responsive and are not hindered by the constraints of the in-application browser. Also, React Native, though written in JavaScript, supports multi-threading which enables you to run expensive background processes without impacting the rendering of your UI.
+
+React Native does have some drawbacks: It is not all that mature, it was first announced by Facebook in 2015 so it is only three years old, the documentation is good however and there is support for most core components but based on experience upgrading to newer versions can be time consuming and we are still seeing regular feature deprecations. Saying that, the framework is stable and we at Antiblanks and other software houses have been using it to build production applications for some time.
+
+In summary, React Native is a better option to PhoneGap I feel. From a personal point of view I know the framework well, I've always liked working with React and I can develop quickly with this technology. Also, despite being in it's infancy, given the success of React and how the Facebook team behind this has managed releases and maintained backwards compatibility in the main part, I am confident that React Native will be around for a long time and will not suffer any *major* breaking version alterations.
+
+* Release year taken from the [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
 
 **Python with Kivy**
 TODO
@@ -165,13 +178,15 @@ In alphabetical order:
 10. [Oculus](https://www.oculus.com/)
 11. [Pete Fowler](http://petefowlershop.com/)
 12. [PhoneGap (Apache Cordova)](https://phonegap.com/)
-13. [Python](https://www.python.org/)
-14. [React JS](https://reactjs.org/)
-15. [React Native](http://www.reactnative.com/)
-16. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
-17. [Under Armour](https://www.underarmour.co.uk/en-gb/)
-18. [Unity](https://unity.com)
-19. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
-20. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
-21. [XCode](https://developer.apple.com/xcode/)
-22. [Zerolight](https://zerolight.com)
+13. [PhoneGap (Apache Cordova) page on Wikipedia](https://en.wikipedia.org/wiki/Apache_Cordova)
+14. [Python](https://www.python.org/)
+15. [React JS](https://reactjs.org/)
+16. [React Native](http://www.reactnative.com/)
+17. [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
+18. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
+19. [Under Armour](https://www.underarmour.co.uk/en-gb/)
+20. [Unity](https://unity.com)
+21. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
+22. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
+23. [XCode](https://developer.apple.com/xcode/)
+24. [Zerolight](https://zerolight.com)

@@ -1,3 +1,6 @@
+$expanded-header-height: 100vh;
+$collapsed-header-height: 320px;
+
 // BEM styles
 
 .site-header {
@@ -9,6 +12,14 @@
 
   @include media-query-mobile-first($on-palm) {
     background-size: 600px auto;
+  }
+
+  &--collapsed {
+    min-height: $collapsed-header-height;
+
+    @include media-query-mobile-first($on-small-palm) {
+      background-size: auto $collapsed-header-height;
+    }
   }
 }
 
