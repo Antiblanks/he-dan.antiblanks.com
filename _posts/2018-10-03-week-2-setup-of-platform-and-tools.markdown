@@ -109,7 +109,12 @@ Now that I've short listed an array of viable platforms and tools I am going to 
 Taking into account first the cross platform languages/frameworks:
 
 **Angular JS or React JS with PhoneGap**
-TODO
+
+PhoneGap's main benefit is it's ease of use. If you are a web developer like myself, it's very easy to make a working application using tools that are very familiar (HTML/JavaScript/CSS). PhoneGap is also very quick to develop with, being that you are essentially developing a website to run in the devices in-application web browser then a lot of the Native complexities need not be considered. The ease of use coupled with the speed in which you can develop with PhoneGap makes it a great tool for creating prototypes.  
+
+However, one of PhoneGap's strengths is also one of it's main weaknesses; running in the devices in-application browser results in a noticeable performance hit within the UI layer. If you're application is complex this affects the responsiveness of the UI, this is because all of the processing is taking place within the single UI thread.  
+
+In summary, PhoneGap is great for web developers who want to dip their feet into mobile application development. It's also a good option for experienced development teams to create prototypes or proof of concepts (POCs) to test a potential application or to add value in a pitch situation. But in my opinion there are better options available to me in this space.
 
 **React Native**
 TODO
@@ -123,6 +128,10 @@ TODO
 **Version control**
 
 TODO: Bit about Git (version control)
+
+**Decoupled back end web service**
+
+None of the above are a one stop shop unfortunately...
 
 ## Summary
 
