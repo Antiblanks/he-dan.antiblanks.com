@@ -184,29 +184,30 @@ In summary I feel it's a trivial decision weighed against settling on a good fra
 
 ## Conclusion
 
-Making a decision on which platforms and tools to adopt for cross platform development is very difficult. On the one hand I am drawn to...
+Writing this post has been hugely helpful to me in isolating the types of application that interest me and then identifying the relevant platforms and tools available in order for me to create these types of application.
 
-The decision is actually really hard...
+My research coupled with pre-existing knowledge has enabled me to make some sound decisions on the platforms and tools I will be adopting initially. I say *initially* because I feel that the requirements of the application itself play a large part in driving the technology used to create it, though I am going to make a selection to get started with, I should be mindful that the stack I select may have drawbacks which may make it harder to overcome technical challenges and in this case may need to be revised.
 
-Bar PhoneGap they are all much the same in that they allow you to write the language you prefer and compile down to a native application...
+For cross platform development I've settled on a solution that can support a single application for iOS, Android and web. I would like to try and create a progressive web application that utilises not only the same code base for each mobile device but also the web version as well. PhoneGap is the obvious solution but I feel it falls too short with it's many drawbacks so I've decided I would like to explore a React and React Native solution where only the lowest level *dumb* primitive components are switched out so that the entire architecture, control flow and layout container components can be shared and only a thin slice of the UI is duplicated to support the mobile and web versions.
 
-Choose XXX because... Objectives, exiting with 2 partial IP's etc...
+My complete cross platform setup will be:
 
-Hence the mix of platform and tools will be...
+**TODO**
+
+Below is some reasoning why I discounted the other possible frameworks:
+
+- **Python with Kivy**: Though I was very keen on using Python (with Kivy) based on Python being an *in-demand* language and wanting to learn this, I felt that Kivy had a few too many drawbacks and wanting to learn Python wasn't enough of a reason to adopt it. I do still want to work with Python but feel that the back end is a better playground for this.
+- **C# with Xamarin**: I was very nearly swayed to adopting Xamarin, but after much thought and analysis of what I want to achieve over the duration of the course; which is to exit with two near complete applications that have commercial viability, I decided that time spent becoming efficient with a new framework would be better invested into the build of the applications.
+
+For experiential applications I've...
+
+**TODO**
 
 ## What's next?...
 
-TODO:
+Providing a back end solution was left without detailed exploration. As my partial reasoning for discounting Python and Kivy suggests, I would like to invest time to learn Python and I thought that the back end might be the better place to do this.
 
-Note: This needs to be more about the platforms and the tools!
-
-More scrutiny into the VR market place, investigation into offshore competition and whether this should be seen as a help or hinderance.
-
-More scrutiny of IP vs service contracts: IP's - Benefit from offshore costs, service you are fighting with offshore costs
-
-Moulding platforms and tools around an application and not just the type - Certain applications have technical challenges that might be easier solved by harnessing a different scripting language/framework.
-
-Explore back end solutions, micro services with Python to learn the language
+Aside from this there are other frameworks on offer that I've been interested in investigating that can power my application's back end such as [Firebase](https://firebase.google.com/), [Apigee](https://apigee.com/api-management/) and [ReactiveX](http://reactivex.io/). I feel that at some point I will need to dedicate an entire post to these tools plus anything else available and critique these all in as much depth as I have the options in this post.
 
 ## References
 
@@ -214,38 +215,41 @@ In alphabetical order:
 
 1. [Android Studio](https://developer.android.com/studio/)
 2. [Angular JS](https://angularjs.org/)
-3. [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-4. [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
-5. [Django](https://www.djangoproject.com/)
-6. [Flask](http://flask.pocoo.org/)
-7. [Git](https://git-scm.com/)
-8. [Github Desktop](https://desktop.github.com/)
-9. [Kivy](https://kivy.org/)
-10. [Kivy page on Wikipedia](https://en.wikipedia.org/wiki/Kivy_(framework))
-11. [Leo Associates](https://www.leoassociates.com/)
-12. [Map My Fitness](https://www.mapmyfitness.com/)
-13. [Map My Fitness statistics](https://www.crunchbase.com/organization/mapmyfitness)
-14. [Map My Fitness acquisition](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree)
-15. [Microsoft Silverlight](https://www.microsoft.com/silverlight/)
-16. [Oculus](https://www.oculus.com/)
-17. [Pete Fowler](http://petefowlershop.com/)
-18. [PhoneGap (Apache Cordova)](https://phonegap.com/)
-19. [PhoneGap (Apache Cordova) page on Wikipedia](https://en.wikipedia.org/wiki/Apache_Cordova)
-20. [Pros and cons of Kivy on Reddit](https://www.reddit.com/r/kivy/comments/3oxxii/whats_the_cons_of_using_kivy_to_develop_mobile/)
-21. [Python](https://www.python.org/)
-22. [Python's growth on Net Guru](https://www.netguru.co/blog/why-python-is-growing-so-quickly-future-trends)
-23. [React JS](https://reactjs.org/)
-24. [React Native](http://www.reactnative.com/)
-25. [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
-26. [Stack Overflow](https://stackoverflow.com/)
-27. [SourceTree](https://www.sourcetreeapp.com/)
-28. [Subversion](https://subversion.apache.org/)
-29. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
-30. [Tower](https://www.git-tower.com/)
-31. [Under Armour](https://www.underarmour.co.uk/en-gb/)
-32. [Unity](https://unity.com)
-33. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
-34. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
-35. [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin)
-36. [XCode](https://developer.apple.com/xcode/)
-37. [Zerolight](https://zerolight.com)
+3. [Apigee](https://apigee.com/api-management/)
+4. [C++](https://en.wikipedia.org/wiki/C%2B%2B)
+5. [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
+6. [Django](https://www.djangoproject.com/)
+7. [Firebase](https://firebase.google.com/)
+8. [Flask](http://flask.pocoo.org/)
+9. [Git](https://git-scm.com/)
+10. [Github Desktop](https://desktop.github.com/)
+11. [Kivy](https://kivy.org/)
+12. [Kivy page on Wikipedia](https://en.wikipedia.org/wiki/Kivy_(framework))
+13. [Leo Associates](https://www.leoassociates.com/)
+14. [Map My Fitness](https://www.mapmyfitness.com/)
+15. [Map My Fitness statistics](https://www.crunchbase.com/organization/mapmyfitness)
+16. [Map My Fitness acquisition](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree)
+17. [Microsoft Silverlight](https://www.microsoft.com/silverlight/)
+18. [Oculus](https://www.oculus.com/)
+19. [Pete Fowler](http://petefowlershop.com/)
+20. [PhoneGap (Apache Cordova)](https://phonegap.com/)
+21. [PhoneGap (Apache Cordova) page on Wikipedia](https://en.wikipedia.org/wiki/Apache_Cordova)
+22. [Pros and cons of Kivy on Reddit](https://www.reddit.com/r/kivy/comments/3oxxii/whats_the_cons_of_using_kivy_to_develop_mobile/)
+23. [Python](https://www.python.org/)
+24. [Python's growth on Net Guru](https://www.netguru.co/blog/why-python-is-growing-so-quickly-future-trends)
+25. [React JS](https://reactjs.org/)
+26. [React Native](http://www.reactnative.com/)
+27. [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
+28. [ReactiveX](http://reactivex.io/)
+29. [Stack Overflow](https://stackoverflow.com/)
+30. [SourceTree](https://www.sourcetreeapp.com/)
+31. [Subversion](https://subversion.apache.org/)
+32. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
+33. [Tower](https://www.git-tower.com/)
+34. [Under Armour](https://www.underarmour.co.uk/en-gb/)
+35. [Unity](https://unity.com)
+36. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
+37. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
+38. [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin)
+39. [XCode](https://developer.apple.com/xcode/)
+40. [Zerolight](https://zerolight.com)
