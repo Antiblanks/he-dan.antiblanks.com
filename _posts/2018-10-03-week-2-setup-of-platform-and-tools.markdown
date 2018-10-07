@@ -148,9 +148,9 @@ All this aside, the only drawback for me is wading into unknown waters and learn
 
 Kivy is built on top of Python and was initially released in 2011 by The Kivy Organisation. From research I can deduce that when you create applications with Kivy, you write your control flow (business or application logic) in Python and then the UI is driven by widgets that are represented in Kivy language (Kv), a *language dedicated to describing user interface and interactions*.
 
-Kivy is relatively mature which is promising for all the reasons I've detailed above. Another major plus point for me is that applications created in Kivy are written in Python. At Antiblanks we've seen a rise in customers looking for us to work on Python applications lately and it's not a skill we hold in-house past having dabbled a small amount with micro-services written in [Flask](http://flask.pocoo.org/) and web services written in [Django](https://www.djangoproject.com/). Hence I've identified a potential trend in the industry that is moving toward using Python and I do feel that adopting the language would be wise. According to [Stack Overflow](https://stackoverflow.com/), Python is currently *the fastest-growing programming language*.
+Kivy is relatively mature which is promising for all the reasons I've detailed above. Another major plus point for me is that applications created in Kivy are powered by Python. At Antiblanks we've seen a rise in customers looking for us to work on Python applications over the last six months and it's not a skill we hold in-house past having dabbled a small amount with micro-services written in [Flask](http://flask.pocoo.org/) and web services written in [Django](https://www.djangoproject.com/). Hence there could be a potential trend in the industry that is moving toward using Python, according to [Stack Overflow](https://stackoverflow.com/), Python is currently *the fastest-growing programming language*. Trends like this should not be ignored and if Python has a strong future then there is argument that one should learn the language.
 
-Research shows Kivy to have a few obvious drawbacks: The first being that Kivy has a *non-native* looking UI. I've also found several mentions of the application start time being impacted when using Kivy and I've found mention of the resulting APK for Android being noticeably large. And again, it must be noted that creating an application in Kivy will require adopting a new language which could be time consuming and hinder progress in the early stages of development.
+On the flip side of the coin, research shows Kivy to have a few obvious drawbacks: The first being that Kivy has a *non-native* looking UI. I've also found several mentions of the application start time being impacted when using Kivy and I've found mention of the resulting APK for Android being noticeably large. On top of this, it must be noted that creating an application in Kivy will require adopting a new language which could be time consuming and hinder progress in the early stages of development.
 
 * Release history taken from the [Kivy page on Wikipedia](https://en.wikipedia.org/wiki/Kivy_(framework)), statistics taken from a post about Python's growth on [Net Guru](https://www.netguru.co/blog/why-python-is-growing-so-quickly-future-trends) and drawbacks taken from [Pros and cons of Kivy on Reddit](https://www.reddit.com/r/kivy/comments/3oxxii/whats_the_cons_of_using_kivy_to_develop_mobile/).
 
@@ -166,9 +166,11 @@ TODO...
 
 TODO...
 
-#### Picking the right back end scripting solution
+#### Acknowledging the requirement for a back end scripting solution
 
-None of the above are a one stop shop unfortunately...
+None of the above solutions are a one stop shop unfortunately. Unless one is building a self contained application in which the data is stored only on the users device, which is quite unusual in the space that I am interested, then there will likely need to be a back end of some kind where data can be stored. This is usually a decoupled web service exposed via an API that the application can consume data from and (if required) write data to.
+
+There are a multitude of options that should be considered here also but, because this is not paramount in breaking ground on development of *the application*, I am going to save that exploration for another dedicated post when the time comes.
 
 #### Picking the right version control system
 
