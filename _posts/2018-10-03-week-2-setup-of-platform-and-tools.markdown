@@ -174,7 +174,13 @@ There are a multitude of options that should be considered here also but, becaus
 
 #### Picking the right version control system
 
-TODO: Bit about Git (version control)
+The final item to consider is what version control system to use. In 2018 this is not a difficult decision. In fact, in my opinion there is little to consider at all; Pre-2005 everyone was using [Subversion](https://subversion.apache.org/) or SVN, this was powerful at the time but it had major drawbacks in that there was no staging area, a commit was a direct push into the repository for example.
+
+These drawbacks were later solved by [Mercurial](https://www.mercurial-scm.org/) and [Git](https://git-scm.com/), both of which came about around the same time. Having worked with both, from a workflow point of view there wasn't much difference between the two. Under the hood there are differences and there are strengths and weaknesses with both if you want to read that deeply into it. My opinion is that this is of low priority and as a user of Git for the last decade or more I know that it can do everything I need it to and I've been given no strong reason to switch.
+
+There is the small matter of selecting a preferred Git client though, and this is where I do have a decision to make; Historically I've not used a Git client at all; my interaction with Git is terminal based and what I don't do in the terminal I do in Github. I know all the commands that support my workflow and I've never felt the need to switch to using a client. Saying this though, I think the reluctance to switch is just being afraid of change; facing facts, performing a diff in the terminal is not pretty. But this is where I use Github to diff two branches.
+
+In summary I feel it's a trivial decision weighed against settling on a good framework and language for my application but I will give it some thought. I'm a Macintosh user so my client needs to run on the Macintosh operating system (OSX). Based on industry knowledge there are three that I would like to consider: [SourceTree](https://www.sourcetreeapp.com/), [Tower](https://www.git-tower.com/) and [Github Desktop](https://desktop.github.com/).
 
 ## Conclusion
 
@@ -210,29 +216,34 @@ In alphabetical order:
 4. [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 5. [Django](https://www.djangoproject.com/)
 6. [Flask](http://flask.pocoo.org/)
-7. [Kivy](https://kivy.org/)
-8. [Kivy page on Wikipedia](https://en.wikipedia.org/wiki/Kivy_(framework))
-9. [Leo Associates](https://www.leoassociates.com/)
-10. [Map My Fitness](https://www.mapmyfitness.com/)
-11. [Map My Fitness statistics](https://www.crunchbase.com/organization/mapmyfitness)
-12. [Map My Fitness acquisition](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree)
-13. [Microsoft Silverlight](https://www.microsoft.com/silverlight/)
-14. [Oculus](https://www.oculus.com/)
-15. [Pete Fowler](http://petefowlershop.com/)
-16. [PhoneGap (Apache Cordova)](https://phonegap.com/)
-17. [PhoneGap (Apache Cordova) page on Wikipedia](https://en.wikipedia.org/wiki/Apache_Cordova)
-18. [Pros and cons of Kivy on Reddit](https://www.reddit.com/r/kivy/comments/3oxxii/whats_the_cons_of_using_kivy_to_develop_mobile/)
-19. [Python](https://www.python.org/)
-20. [Python's growth on Net Guru](https://www.netguru.co/blog/why-python-is-growing-so-quickly-future-trends)
-21. [React JS](https://reactjs.org/)
-22. [React Native](http://www.reactnative.com/)
-23. [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
-24. [Stack Overflow](https://stackoverflow.com/)
-25. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
-26. [Under Armour](https://www.underarmour.co.uk/en-gb/)
-27. [Unity](https://unity.com)
-28. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
-29. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
-30. [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin)
-31. [XCode](https://developer.apple.com/xcode/)
-32. [Zerolight](https://zerolight.com)
+7. [Git](https://git-scm.com/)
+8. [Github Desktop](https://desktop.github.com/)
+9. [Kivy](https://kivy.org/)
+10. [Kivy page on Wikipedia](https://en.wikipedia.org/wiki/Kivy_(framework))
+11. [Leo Associates](https://www.leoassociates.com/)
+12. [Map My Fitness](https://www.mapmyfitness.com/)
+13. [Map My Fitness statistics](https://www.crunchbase.com/organization/mapmyfitness)
+14. [Map My Fitness acquisition](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree)
+15. [Microsoft Silverlight](https://www.microsoft.com/silverlight/)
+16. [Oculus](https://www.oculus.com/)
+17. [Pete Fowler](http://petefowlershop.com/)
+18. [PhoneGap (Apache Cordova)](https://phonegap.com/)
+19. [PhoneGap (Apache Cordova) page on Wikipedia](https://en.wikipedia.org/wiki/Apache_Cordova)
+20. [Pros and cons of Kivy on Reddit](https://www.reddit.com/r/kivy/comments/3oxxii/whats_the_cons_of_using_kivy_to_develop_mobile/)
+21. [Python](https://www.python.org/)
+22. [Python's growth on Net Guru](https://www.netguru.co/blog/why-python-is-growing-so-quickly-future-trends)
+23. [React JS](https://reactjs.org/)
+24. [React Native](http://www.reactnative.com/)
+25. [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
+26. [Stack Overflow](https://stackoverflow.com/)
+27. [SourceTree](https://www.sourcetreeapp.com/)
+28. [Subversion](https://subversion.apache.org/)
+29. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
+30. [Tower](https://www.git-tower.com/)
+31. [Under Armour](https://www.underarmour.co.uk/en-gb/)
+32. [Unity](https://unity.com)
+33. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
+34. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
+35. [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin)
+36. [XCode](https://developer.apple.com/xcode/)
+37. [Zerolight](https://zerolight.com)
