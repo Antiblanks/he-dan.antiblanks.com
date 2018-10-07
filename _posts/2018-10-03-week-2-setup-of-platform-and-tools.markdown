@@ -104,7 +104,7 @@ In order to deliver applications of this nature I will be looking at current tec
 
 #### Picking the right platforms and tools for cross platform development
 
-Now that I've short listed an array of viable platforms and tools I am going to look at the pros and cons of each in order to select my final candidates for adoption.
+Now that I've short listed an array of viable platforms and tools for cross platform development I am going to look at the advantages and disadvantages of each in order to select my final candidates for adoption.
 
 **Angular JS or React JS with PhoneGap**
 
@@ -146,11 +146,17 @@ All this aside, the only drawback for me is wading into unknown waters and learn
 
 **Python with Kivy**
 
-Kivy is a very much the wildcard option for me. At Antiblanks we've seen greater interest in customers looking for use to work on Python applications.   
+Kivy is built on top of Python and was initially released in 2011 by The Kivy Organisation. From research I can deduce that when you create applications with Kivy, you write your control flow (business or application logic) in Python and then the UI is driven by widgets that are represented in Kivy language (Kv), a *language dedicated to describing user interface and interactions*.
+
+Kivy is relatively mature which is promising for all the reasons I've detailed above. Another major plus point for me is that applications created in Kivy are written in Python. At Antiblanks we've seen a rise in customers looking for us to work on Python applications lately and it's not a skill we hold in-house past having dabbled a small amount with micro-services written in [Flask](http://flask.pocoo.org/) and web services written in [Django](https://www.djangoproject.com/). Hence I've identified a potential trend in the industry that is moving toward using Python and I do feel that adopting the language would be wise. According to [Stack Overflow](https://stackoverflow.com/), Python is currently *the fastest-growing programming language*.
+
+Research shows Kivy to have a few obvious drawbacks: The first being that Kivy has a *non-native* looking UI. I've also found several mentions of the application start time being impacted when using Kivy and I've found mention of the resulting APK for Android being noticeably large. And again, it must be noted that creating an application in Kivy will require adopting a new language which could be time consuming and hinder progress in the early stages of development.
+
+* Release history taken from the [Kivy page on Wikipedia](https://en.wikipedia.org/wiki/Kivy_(framework)), statistics taken from a post about Python's growth on [Net Guru](https://www.netguru.co/blog/why-python-is-growing-so-quickly-future-trends) and drawbacks taken from [Pros and cons of Kivy on Reddit](https://www.reddit.com/r/kivy/comments/3oxxii/whats_the_cons_of_using_kivy_to_develop_mobile/).
 
 #### Picking the right platforms and tools for experiential applications
 
-TODO: Introduction...
+In this section I will look at the advantages and disadvantages of each of the platforms and tools identified to support experiential development in order to select my final candidates for adoption.
 
 **C# with Unity**
 
@@ -170,7 +176,7 @@ TODO: Bit about Git (version control)
 
 ## Conclusion
 
-TODO:
+Making a decision on which platforms and tools to adopt for cross platform development is very difficult. On the one hand I am drawn to...
 
 The decision is actually really hard...
 
@@ -200,25 +206,31 @@ In alphabetical order:
 2. [Angular JS](https://angularjs.org/)
 3. [C++](https://en.wikipedia.org/wiki/C%2B%2B)
 4. [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
-5. [Kivy](https://kivy.org/)
-6. [Leo Associates](https://www.leoassociates.com/)
-7. [Map My Fitness](https://www.mapmyfitness.com/)
-8. [Map My Fitness statistics](https://www.crunchbase.com/organization/mapmyfitness)
-9. [Map My Fitness acquisition](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree)
-10. [Microsoft Silverlight](https://www.microsoft.com/silverlight/)
-11. [Oculus](https://www.oculus.com/)
-12. [Pete Fowler](http://petefowlershop.com/)
-13. [PhoneGap (Apache Cordova)](https://phonegap.com/)
-14. [PhoneGap (Apache Cordova) page on Wikipedia](https://en.wikipedia.org/wiki/Apache_Cordova)
-15. [Python](https://www.python.org/)
-16. [React JS](https://reactjs.org/)
-17. [React Native](http://www.reactnative.com/)
-18. [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
-19. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
-20. [Under Armour](https://www.underarmour.co.uk/en-gb/)
-21. [Unity](https://unity.com)
-22. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
-23. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
-24. [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin)
-25. [XCode](https://developer.apple.com/xcode/)
-26. [Zerolight](https://zerolight.com)
+5. [Django](https://www.djangoproject.com/)
+6. [Flask](http://flask.pocoo.org/)
+7. [Kivy](https://kivy.org/)
+8. [Kivy page on Wikipedia](https://en.wikipedia.org/wiki/Kivy_(framework))
+9. [Leo Associates](https://www.leoassociates.com/)
+10. [Map My Fitness](https://www.mapmyfitness.com/)
+11. [Map My Fitness statistics](https://www.crunchbase.com/organization/mapmyfitness)
+12. [Map My Fitness acquisition](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree)
+13. [Microsoft Silverlight](https://www.microsoft.com/silverlight/)
+14. [Oculus](https://www.oculus.com/)
+15. [Pete Fowler](http://petefowlershop.com/)
+16. [PhoneGap (Apache Cordova)](https://phonegap.com/)
+17. [PhoneGap (Apache Cordova) page on Wikipedia](https://en.wikipedia.org/wiki/Apache_Cordova)
+18. [Pros and cons of Kivy on Reddit](https://www.reddit.com/r/kivy/comments/3oxxii/whats_the_cons_of_using_kivy_to_develop_mobile/)
+19. [Python](https://www.python.org/)
+20. [Python's growth on Net Guru](https://www.netguru.co/blog/why-python-is-growing-so-quickly-future-trends)
+21. [React JS](https://reactjs.org/)
+22. [React Native](http://www.reactnative.com/)
+23. [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
+24. [Stack Overflow](https://stackoverflow.com/)
+25. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
+26. [Under Armour](https://www.underarmour.co.uk/en-gb/)
+27. [Unity](https://unity.com)
+28. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
+29. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
+30. [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin)
+31. [XCode](https://developer.apple.com/xcode/)
+32. [Zerolight](https://zerolight.com)
