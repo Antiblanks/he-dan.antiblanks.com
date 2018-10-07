@@ -178,7 +178,7 @@ The final item to consider is what version control system to use. In 2018 this i
 
 These drawbacks were later solved by [Mercurial](https://www.mercurial-scm.org/) and [Git](https://git-scm.com/), both of which came about around the same time. Having worked with both, from a workflow point of view there wasn't much difference between the two. Under the hood there are differences and there are strengths and weaknesses with both if you want to read that deeply into it. My opinion is that this is of low priority and as a user of Git for the last decade or more I know that it can do everything I need it to and I've been given no strong reason to switch.
 
-There is the small matter of selecting a preferred Git client though, and this is where I do have a decision to make; Historically I've not used a Git client at all; my interaction with Git is terminal based and what I don't do in the terminal I do in Github. I know all the commands that support my workflow and I've never felt the need to switch to using a client. Saying this though, I think the reluctance to switch is just being afraid of change; facing facts, performing a diff in the terminal is not pretty. But this is where I use Github to diff two branches.
+There is the small matter of selecting a preferred Git client though, and this is where I do have a decision to make; Historically I've not used a Git client at all. My interaction with Git is terminal based and what I don't do in the terminal I do in Github. I know all the commands that support my workflow and I've never felt the need to switch to using a client. Saying this though, I think the reluctance to switch may just be that I am afraid of change; facing facts, performing a diff in the terminal is not pretty. But this is where I use Github.
 
 In summary I feel it's a trivial decision weighed against settling on a good framework and language for my application but I will give it some thought. I'm a Macintosh user so my client needs to run on the Macintosh operating system (OSX). Based on industry knowledge there are three that I would like to consider: [SourceTree](https://www.sourcetreeapp.com/), [Tower](https://www.git-tower.com/) and [Github Desktop](https://desktop.github.com/).
 
@@ -205,6 +205,8 @@ More scrutiny into the VR market place, investigation into offshore competition 
 More scrutiny of IP vs service contracts: IP's - Benefit from offshore costs, service you are fighting with offshore costs
 
 Moulding platforms and tools around an application and not just the type - Certain applications have technical challenges that might be easier solved by harnessing a different scripting language/framework.
+
+Explore back end solutions, micro services with Python to learn the language
 
 ## References
 
