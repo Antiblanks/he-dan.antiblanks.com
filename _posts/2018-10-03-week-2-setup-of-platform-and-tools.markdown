@@ -48,14 +48,18 @@ I will look at the advantages and disadvantages of each of the platforms and too
 
 #### Identifying what applications I want to create
 
-This should be the easy part right? We all know what we want to create? Fortunately this is true in most peoples cases, we've all had a lot of experience to get to where we are and we know what we are interested in. The *what we're interested in* is very important, experience has taught me not to try and build something for myself unless I am both close to the subject matter and I am passionate about the solution. Simply put - Don't build something unless you would use it yourself.
+This should be the easy part right? We all know what we want to create? Fortunately this is true in most peoples cases, we've all had a lot of experience to get to where we are and we know what we are interested in. The *what we're interested in* is very important, experience has taught me not to try and build something for myself unless I am both close to the subject matter and I am passionate about the solution. Simply put:
 
-If I look at myself and where I've come from I can identify easily with who I am and what I should be creating: I'm an artist at heart, I was always meant to do something with art. I've always liked urban stylistic art in the form of comics, graffiti, skate and surf art. I've always liked character design and take influence from urban artists such as [Pete Fowler](http://petefowlershop.com/) or [Shepard Fairey](https://obeygiant.com/). I am not a huge gamer, I used to be when I was younger but this has not transferred to my adult life, I do like the challenge of a short game and I like the graphics in some games but this is about as far as it goes. What I am interested in is new technology and it's application, on the one hand to wow the user, and on the other to provide users with exciting tools to enrich their lifestyle or that could help them to live a better or fuller life.
+> Don't build something unless you would use it yourself.
+
+If I look at myself and where I've come from I can identify easily with who I am and what I should be creating: I'm an artist at heart, I was always meant to do something with art. I've always liked urban stylistic art in the form of comics, graffiti, skate and surf art. I've always liked character design and take influence from urban artists such as [Pete Fowler](http://petefowlershop.com/) or [Shepard Fairey](https://obeygiant.com/).
+
+I am not a big gamer, I used to be when I was younger but this has not transferred to my adult life, I do like the challenge of a short game and I like the graphics in some games but this is about as far as it goes. What I am interested in is new technology and it's application, on the one hand to wow the user, and on the other to provide users with exciting tools to enrich their lifestyle or that could help them to live a better or fuller life.
 
 So I can take all these things along with my experience of creating other applications and throw them all into a melding pot, and from a personal point of view start to form the type of application/s I want to create. I see these as being:
 
-- Utility applications that are exciting and possibly could improve users lives
-- Interactive experiential applications that wow users
+- Utility applications that are exciting and possibly could improve users lives.
+- Interactive experiential applications that wow users.
 
 Bearing this in mind I can look at existing applications of this type and see that:
 
@@ -78,7 +82,7 @@ Based on research VR applications can take between 500-2000 hours to create with
 
 I can back this up with personal experience and take an average of similar experience applications that we have created at [Antiblanks](http://www.antiblanks.com/) that have taken roughly 400 hours and carry a cost of roughly $40,000.
 
-Considering these rates coupled with the growing adoption of VR worldwide and the fact that companies like Zerolight exist and are being scaled around this specialism does paint a very successful future for VR and VR experiences.
+Considering these rates coupled with the growing adoption of VR worldwide and the fact that companies like Zerolight exist and are being scaled around this specialism does paint a very successful future for VR experiences.
 
 * Statistics taken from [Think Mobiles](https://thinkmobiles.com/blog/how-much-vr-application-development-cost) and from personal experience.
 
@@ -88,7 +92,7 @@ Now that I've identified the type of application/s that I am interested in creat
 
 **An enriching lifestyle application**
 
-This type of application is intended for high use across a range of devices. The project duration depends on the success of the application and it's traction and continual use in order to drive further investment. For these reasons the application will need to be available on multiple platforms including (at minimum) iOS, Android and online. Also the application will require constant updates for maintenance and to deliver new and engaging features, and this will result in a large amount of development.
+This type of application is intended for high use across a range of devices. The project duration depends on the success of the application and it's traction and continual use in order to drive further investment. For these reasons the application will need to be available on multiple platforms including (at minimum) iOS, Android and web. Also the application will require constant updates for maintenance and to deliver new and engaging features, and this will result in a large amount of development.
 
 In order to lower costs, maintain consistency and drive more features I should focus on cross platform scripting languages and tools for this type of application. Some of the languages/frameworks I will be considering are Angular JS or React JS with [PhoneGap (Apache Cordova)](https://phonegap.com/), [React Native](http://www.reactnative.com/), [Python](https://www.python.org/) with [Kivy](https://kivy.org/) and [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) with [Xamarin](https://visualstudio.microsoft.com/xamarin/). I will also be looking at the IDEs [Android Studio](https://developer.android.com/studio/), [XCode](https://developer.apple.com/xcode/) and [Visual Studio](https://visualstudio.microsoft.com/).
 
@@ -120,7 +124,7 @@ In summary, PhoneGap is great for web developers who want to dip their feet into
 
 **React Native**
 
-React Native is very similar to PhoneGap in that, for web developers, it's very easy to make a working application using tools that are very familiar (HTML, or rather JSX, JavaScript & styling similar to CSS). However under the hood they are quite different; React Native is more advanced in the sense that the application it compiles down to is more native. Using iOS terminology to form an example, *React Native translates to Native UI components rather than WebView UI*. In layman terms this means that the application is not a website running in the devices in-application browser, but instead it is compiled to an actual native application.
+React Native is very similar to PhoneGap in that, for web developers, it's very easy to make a working application using tools that are very familiar (HTML, or rather JSX, JavaScript & styling similar to CSS). However under the hood they are quite different; React Native is more advanced in the sense that the application it compiles down to is more native. Using iOS terminology to form an example, *React Native translates to Native UI components rather than WebView UI*. In layman's terms this means that the application is not a website running in the devices in-application browser, but instead it is compiled to an actual native application.
 
 This has many benefits, the main difference can be seen in the user experience; native applications are more responsive and are not hindered by the constraints of the in-application browser. Also, React Native, though written in JavaScript, supports multi-threading which enables you to run expensive background processes without impacting the rendering of your UI.
 
@@ -138,7 +142,7 @@ Xamarin is built on top of the .NET framework. Xamarin was founded in 2011 but t
 
 > Saying this, a counter to this argument would be to reference the short lived and now deprecated [Microsoft Silverlight](https://www.microsoft.com/silverlight/). I think in this case though, that had more to do with web trends and the rise of mobile devices - Unless all device manufacturers are planning on getting together and adopting the same codebase for their native applications I don't think cross platform frameworks will be redundant any time soon!
 
-Xamarin appeals to me for a number of reasons; for one, Xamarin compiles to a native application so performance is not hindered as with other frameworks already mentioned. Xamarin is written in C# which is a very robust and very mature language. At Antiblanks we have adopted a Linux, Apache, MySQL & PHP (LAMP) stack for our low budget web projects and we reserve .NET as our preferred framework for enterprise builds. With this in mind, I see C# very much as an enterprise language, it's very robust and it doesn't have many limitations. I am also well versed in C#, having written the language on and off for about seven years. There is also the inherent bonus of being able to use Microsoft's Visual Studio IDE which is a premium full featured IDE, and one of the best available on the market.
+Xamarin appeals to me for a number of reasons; for one, Xamarin compiles to a native application so performance is not hindered as with other frameworks already mentioned. Xamarin is written in C# which is a very robust and very mature language. At Antiblanks we have adopted a Linux, Apache, MySQL & PHP (LAMP) stack for our low budget web projects and we reserve .NET as our preferred framework for enterprise builds. With this in mind, I see C# as an enterprise language, it's very robust and it doesn't have many limitations. I am also well versed in C#, having written the language on and off for about seven years. There is also the inherent bonus of being able to use Microsoft's Visual Studio IDE which is a premium full featured IDE, and one of the best available on the market.
 
 > A quick Google search for 'What is the best IDE' will return a number of results, most, if not all of which, feature Microsoft's Visual Studio at the very top of their recommendations.
 
@@ -150,7 +154,7 @@ All this aside, the only drawback for me is wading into unknown waters and learn
 
 Kivy is built on top of Python and was initially released in 2011 by The Kivy Organisation. From research I can deduce that when you create applications with Kivy, you write your control flow (business or application logic) in Python and then the UI is driven by widgets that are represented in Kivy language (Kv), a *language dedicated to describing user interface and interactions*.
 
-Kivy is relatively mature which is promising for all the reasons I've detailed above. Another major plus point for me is that applications created in Kivy are powered by Python. At Antiblanks we've seen a rise in customers looking for us to work on Python applications over the last six months and it's not a skill we hold in-house past having dabbled a small amount with micro-services written in [Flask](http://flask.pocoo.org/) and web services written in [Django](https://www.djangoproject.com/). Hence there could be a potential trend in the industry that is moving toward using Python, according to [Stack Overflow](https://stackoverflow.com/), Python is currently *the fastest-growing programming language*. Trends like this should not be ignored and if Python has a strong future then there is argument that one should learn the language.
+Kivy is relatively mature which is promising for all the reasons I've detailed above. Another major plus point for me is that applications created in Kivy are powered by Python. At Antiblanks we've seen a rise in customers looking for us to work on Python applications over the last six months and it's not a skill we hold in-house past having dabbled a small amount with micro-services written in [Flask](http://flask.pocoo.org/) and web services written in [Django](https://www.djangoproject.com/). Hence there could be a potential trend in the industry that is moving toward using Python; according to [Stack Overflow](https://stackoverflow.com/), Python is currently *the fastest-growing programming language*. Trends like this should not be ignored and if Python has a strong future then there is argument that one should learn the language.
 
 On the flip side of the coin, research shows Kivy to have a few obvious drawbacks: The first being that Kivy has a *non-native* looking UI. I've also found several mentions of the application start time being impacted when using Kivy and I've found mention of the resulting APK for Android being noticeably large. On top of this, it must be noted that creating an application in Kivy will require adopting a new language which could be time consuming and hinder progress in the early stages of development.
 
@@ -164,11 +168,13 @@ In this section I will look at the advantages and disadvantages of each of the p
 
 Unity is a cross platform game engine created by Unity Technologies and first released in 2005. Though Unity itself is written in C++, you can script in JavaScript or C#, but from experience the JavaScript resources and documentation for Unity are limited and the preferred development language is C# as the title *C# with Unity* suggests.
 
-Unity has many advantages, the engine supports a vast number of platforms including all of those I am interested in; iOS, Android, Oculus VR and Samsung Gear VR. As I mentioned before I am well versed in C# and I do have some experience with Unity from a scripting point of view, so there wouldn't be much of a learning curve for me to get proficient in working with the engine. Unity ships with [MonoDevelop](https://www.monodevelop.com/) as the default IDE, but with only a small amount of configuration you can change this to use Microsoft's Visual Studio IDE which is a great advantage from my point of view. Unity has a huge development community and with that a lot of contributors; there are a vast number of plugins you can use to enrich the IDE's capabilities which can prove a beneficial time saver above rolling your own custom functionality.
+Unity has many advantages, the engine supports a vast number of platforms including all of those I am interested in; iOS, Android, Oculus VR and Samsung Gear VR. As I mentioned before I am well versed in C# and I do have some experience with Unity from a scripting point of view, so there wouldn't be much of a learning curve for me to get proficient in working with the engine. Unity ships with [MonoDevelop](https://www.monodevelop.com/) as the default IDE, but with only a small amount of configuration you can change this to use Microsoft's Visual Studio IDE which is a great advantage from my point of view.
+
+Unity has a huge development community and with that a lot of contributors; there are a vast number of plugins you can use to enrich the IDE's capabilities which can prove a beneficial time saver above rolling your own custom functionality.
 
 Research shows Unity to have some disadvantages. Most notably that games developed with the engine can consume more memory which in turn can create OOM errors and debugging issues. Also the PhysX physics engine has been noted to have some performance issues and to be lacking some important functionality. Finally I've read that the tools to create graphics are not as good as those with comparable engines.
 
-* Release history taken from the [Unity page on Wikipedia](https://en.wikipedia.org/wiki/Unity_(game_engine)).
+* Release history taken from the [Unity page on Wikipedia](https://en.wikipedia.org/wiki/Unity_(game_engine)), disadvantages taken from a [Potenza Global Solutions post on Unity advantages and disadvantages](http://www.potenzaglobalsolutions.com/blogs/5-rarely-known-advantages-and-disadvantages-of-unity-game-development).
 
 **C++ with Unreal Engine**
 
@@ -180,7 +186,7 @@ Google SketchUp is an *easy to use* free 3D modelling computer program. SketchUp
 
 Google SketchUp has a number of clear advantages: The first being that it is free to use. The second being that it is very easy to use in comparison to other 3D modelling software packages. Being that I have little to no experience with creating 3D models, and the advice I've been given about the sheer gradient of the learning curve with such tools suggests I will need to devote a lot of time to the process, I feel that this may be a good place to start initially with a view to scale up afterwards. Research also shows there to be a vast library of 3D models to work with; Using a pre-created model and adapting it to suit one's needs can save a lot of production time.
 
-Google SketchUp's ease of use brings with it some pretty large disadvantages though; much of the ease comes from the fact that the program is far less feature rich than the industry standard counterparts such as Cinema 4D or Maya. The quality and detail of the models is also questionable. Having ran my eyes over numerous models in the 3D warehouse there is a very obvious *SketchUp style* to a model and I question how viable the use of these models would be in a commercial environment.
+Google SketchUp's ease of use brings with it some pretty large disadvantages though; much of the ease comes from the fact that the program is far less feature rich than the industry standard options such as [Cinema 4D](https://www.maxon.net/en-gb/) or [Maya](https://www.autodesk.co.uk/products/maya/overview). The quality and detail of the models is also questionable. Having ran my eyes over numerous models in the 3D warehouse there is a very obvious *SketchUp style* to a model and I question how viable the use of these models would be in a commercial environment.
 
 * Release information taken from the [SketchUp page on Wikepedia](https://en.wikipedia.org/wiki/SketchUp)
 
@@ -188,7 +194,7 @@ Google SketchUp's ease of use brings with it some pretty large disadvantages tho
 
 Blender is a professional, free, open source 3D computer graphics program. Blender was initially released in 1998 by the Dutch animation studio NeoGeo but after NeoGeo dissolved the software was continued as an open source project.
 
-Blender is not the most advanced 3D modelling program available. The likes of Cinema 4D or Maya already mentioned above do carry more weight in the commercial space, however, Blender is easier to learn in comparison and it's a good stepping stone for a novice modeller like myself. The quality of the models you can create in Blender will match that required at industry level, and Blender is also geared toward animation which makes it a good option for game or experience development.
+Blender is not the most advanced 3D modelling program available. The likes of Cinema 4D or Maya already mentioned above do carry more weight in the commercial space, however, Blender is easier to learn in comparison and it's a good stepping stone for a novice modeller like myself. The quality of the models you can create in Blender will match that required at industry level and Blender is also geared toward animation which makes it a good option for game or experience development.
 
 Blender is not without it's disadvantages of course, being focused on the design of animation and games means that the software lacks tools focused on the intricate design of objects with defined measures and parameters.
 
@@ -212,7 +218,7 @@ In summary I feel it's a trivial decision when weighed against settling on a goo
 
 ## Conclusion
 
-Writing this post has been hugely helpful to me in isolating the types of application that interest me and then identifying the relevant platforms and tools available in order for me to create these types of application.
+Writing this post has been hugely helpful to me in isolating the types of application that interest me and then identifying the relevant platforms and tools available in order for me to create these.
 
 My research coupled with pre-existing knowledge has enabled me to make some sound decisions on the platforms and tools I will be adopting initially. I say *initially* because I feel that the requirements of the application itself play a large part in driving the technology used to create it, though I am going to make a selection to get started with, I should be mindful that the stack I select may have drawbacks which may make it harder to overcome technical challenges and in this case may need to be revised.
 
@@ -231,7 +237,7 @@ My complete cross platform development setup to support iOS, Android and web wil
 Below is my reasoning for discounting the other possible frameworks:
 
 - **Python with Kivy**: Though I was very keen on using Python (with Kivy) based on Python being an *in-demand* language and wanting to learn this, I felt that Kivy had a few too many drawbacks and wanting to learn Python wasn't enough of a reason to adopt it. I do still want to work with Python but feel that the back end is a better playground for this.
-- **C# with Xamarin**: I was very nearly swayed to adopting Xamarin, but after much thought and analysis of what I want to achieve over the duration of the course; which is to exit with two near complete applications that have commercial viability, I decided that time spent becoming efficient with a new framework would be better invested into the build of the applications.
+- **C# with Xamarin**: I was very nearly swayed to adopting Xamarin, but after much thought and analysis of what I want to achieve over the duration of the course; which is to exit with two near complete applications that have commercial viability, I decided that time spent becoming efficient with a new framework would be better invested into the build of these.
 
 For experiential development I've settled on using Blender to create my 3D models and Unity 3D above Unreal Engine to create my applications. The main reason for using Unity being that I know the engine and C# already so I can hit the ground running when development begins. Aside from this, all the non-trivial disadvantages with Unity seemed to be less relevant when creating an experience application and were more related to game development. The graphic tools being less powerful is less of a concern to me as my workflow dictates I would create my graphics in Blender and then import these into Unity.
 
@@ -244,7 +250,7 @@ My complete experiential application development setup will include:
 Below is my reasoning for discounting the other possible frameworks:
 
 - **Google SketchUp**: I was far too put off by the quality of the models; after some digging, I did find some more detailed examples that were created using third party renderers, but in the most part the models were sub-standard. The ease of learning was appealing, but if the end result is not at the required standard then any benefit of time saved is irrelevant.
-- **C++ with Unreal Engine**: I was not feeling convinced that learning C++ was necessary, though I am well placed from a technical stand point to learn the language, so far in my career I haven't found the need to write C++ and I don't feel that my applications are lacking as a consequence. Finally, as I've touched on before, investing time to learn something so different does not support my objectives for the course or even for the future.
+- **C++ with Unreal Engine**: I was not feeling convinced that learning C++ was necessary, though I am well placed from a technical stand point to learn the language, so far in my career I haven't found the need to write C++ and I don't feel that my applications are lacking as a consequence. Finally, as I've touched on before, investing time to learn something so different doesn't support my objectives for the course or even for the future.
 
 My version control setup will include:
 
@@ -257,11 +263,11 @@ My reasoning for this solution is as follows:
 
 After trying all three options; SourceTree, Tower and Github Desktop I felt that there wasn't a great deal between them. Like I mentioned earlier in this post, in my opinion, picking a Git client is far more a *trivial decision when weighed against settling on a good framework and language*, and for this reason I was almost tempted to stick with my current workflow using Git locally by issuing commands in the terminal and then performing diffs, pull request (PRs) and merges on Github.com.
 
-However trialling the Github Desktop client made me realise that the workflow is exactly the same and performing a diff to see your local changes against those in your origin branch before committing and pushing is far easier than performing the same action in command line. Also from a setup point of view I was able to drag my existing local repository straight into the GUI and I was ready to work with that repository, which was an easier and more intuitive journey than with the other candidates.
+However trialling the Github Desktop client made me realise that the workflow is exactly the same and performing a diff to see your local changes against those in your origin branch before committing and pushing is far easier than performing the same action in command line. Also from a setup point of view I was able to drag my existing local repository straight into the GUI and I was ready to work with that project, which was an easier and more intuitive journey than with the other candidates.
 
 ## What's next?...
 
-Providing a back end solution was left without detailed exploration. As my partial reasoning for discounting Python and Kivy suggests, I would like to invest time to learn Python and I thought that the back end might be the better place to do this.
+Providing a back end solution was left without detailed exploration. As part of my reasoning for discounting Python and Kivy suggests, I would like to invest time to learn Python and I thought that the back end might be the better place to do this.
 
 Aside from this there are other frameworks on offer that I've been interested in investigating that can power my application's back end such as [Firebase](https://firebase.google.com/), [Apigee](https://apigee.com/api-management/) and [ReactiveX](http://reactivex.io/). I feel that at some point I will need to dedicate an entire post to these tools plus anything else available and critique these all in as much depth as I have the options in this post.
 
@@ -274,44 +280,47 @@ In alphabetical order:
 3. [Apigee](https://apigee.com/api-management/)
 4. [Blender](https://www.blender.org/)
 5. [Blender page on Wikipedia](https://en.wikipedia.org/wiki/Blender_(software))
-6. [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-7. [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
-8. [Django](https://www.djangoproject.com/)
-9. [Firebase](https://firebase.google.com/)
-10. [Flask](http://flask.pocoo.org/)
-11. [Git](https://git-scm.com/)
-12. [Github Desktop](https://desktop.github.com/)
-13. [Kivy](https://kivy.org/)
-14. [Kivy page on Wikipedia](https://en.wikipedia.org/wiki/Kivy_(framework))
-15. [Leo Associates](https://www.leoassociates.com/)
-16. [Map My Fitness](https://www.mapmyfitness.com/)
-17. [Map My Fitness statistics](https://www.crunchbase.com/organization/mapmyfitness)
-18. [Map My Fitness acquisition](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree)
-19. [Microsoft Silverlight](https://www.microsoft.com/silverlight/)
-20. [MonoDevelop](https://www.monodevelop.com/)
-21. [Oculus](https://www.oculus.com/)
-22. [Pete Fowler](http://petefowlershop.com/)
-23. [PhoneGap (Apache Cordova)](https://phonegap.com/)
-24. [PhoneGap (Apache Cordova) page on Wikipedia](https://en.wikipedia.org/wiki/Apache_Cordova)
-25. [Pros and cons of Kivy on Reddit](https://www.reddit.com/r/kivy/comments/3oxxii/whats_the_cons_of_using_kivy_to_develop_mobile/)
-26. [Python](https://www.python.org/)
-27. [Python's growth on Net Guru](https://www.netguru.co/blog/why-python-is-growing-so-quickly-future-trends)
-28. [React JS](https://reactjs.org/)
-29. [React Native](http://www.reactnative.com/)
-30. [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
-31. [ReactiveX](http://reactivex.io/)
-32. [SketchUp](https://www.sketchup.com/)
-33. [SketchUp page on Wikepedia](https://en.wikipedia.org/wiki/SketchUp)
-34. [Stack Overflow](https://stackoverflow.com/)
-35. [SourceTree](https://www.sourcetreeapp.com/)
-36. [Subversion](https://subversion.apache.org/)
-37. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
-38. [Tower](https://www.git-tower.com/)
-39. [Under Armour](https://www.underarmour.co.uk/en-gb/)
-40. [Unity](https://unity.com)
-41. [Unity page on Wikipedia](https://en.wikipedia.org/wiki/Unity_(game_engine))
-42. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
-43. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
-44. [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin)
-45. [XCode](https://developer.apple.com/xcode/)
-46. [Zerolight](https://zerolight.com)
+6. [Cinema 4D](https://www.maxon.net/en-gb/)
+7. [C++](https://en.wikipedia.org/wiki/C%2B%2B)
+8. [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
+9. [Django](https://www.djangoproject.com/)
+10. [Firebase](https://firebase.google.com/)
+11. [Flask](http://flask.pocoo.org/)
+12. [Git](https://git-scm.com/)
+13. [Github Desktop](https://desktop.github.com/)
+14. [Kivy](https://kivy.org/)
+15. [Kivy page on Wikipedia](https://en.wikipedia.org/wiki/Kivy_(framework))
+16. [Leo Associates](https://www.leoassociates.com/)
+17. [Map My Fitness](https://www.mapmyfitness.com/)
+18. [Map My Fitness statistics](https://www.crunchbase.com/organization/mapmyfitness)
+19. [Map My Fitness acquisition](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree)
+20. [Maya](https://www.autodesk.co.uk/products/maya/overview)
+21. [Microsoft Silverlight](https://www.microsoft.com/silverlight/)
+22. [MonoDevelop](https://www.monodevelop.com/)
+23. [Oculus](https://www.oculus.com/)
+24. [Pete Fowler](http://petefowlershop.com/)
+25. [PhoneGap (Apache Cordova)](https://phonegap.com/)
+26. [PhoneGap (Apache Cordova) page on Wikipedia](https://en.wikipedia.org/wiki/Apache_Cordova)
+27. [Potenza Global Solutions post on Unity advantages and disadvantages](http://www.potenzaglobalsolutions.com/blogs/5-rarely-known-advantages-and-disadvantages-of-unity-game-development)
+28. [Pros and cons of Kivy on Reddit](https://www.reddit.com/r/kivy/comments/3oxxii/whats_the_cons_of_using_kivy_to_develop_mobile/)
+29. [Python](https://www.python.org/)
+30. [Python's growth on Net Guru](https://www.netguru.co/blog/why-python-is-growing-so-quickly-future-trends)
+31. [React JS](https://reactjs.org/)
+32. [React Native](http://www.reactnative.com/)
+33. [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
+34. [ReactiveX](http://reactivex.io/)
+35. [SketchUp](https://www.sketchup.com/)
+36. [SketchUp page on Wikepedia](https://en.wikipedia.org/wiki/SketchUp)
+37. [Stack Overflow](https://stackoverflow.com/)
+38. [SourceTree](https://www.sourcetreeapp.com/)
+39. [Subversion](https://subversion.apache.org/)
+40. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
+41. [Tower](https://www.git-tower.com/)
+42. [Under Armour](https://www.underarmour.co.uk/en-gb/)
+43. [Unity](https://unity.com)
+44. [Unity page on Wikipedia](https://en.wikipedia.org/wiki/Unity_(game_engine))
+45. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
+46. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
+47. [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin)
+48. [XCode](https://developer.apple.com/xcode/)
+49. [Zerolight](https://zerolight.com)
