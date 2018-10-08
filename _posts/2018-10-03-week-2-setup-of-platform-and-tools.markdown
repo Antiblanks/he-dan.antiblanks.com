@@ -148,7 +148,7 @@ Xamarin appeals to me for a number of reasons; for one, Xamarin compiles to a na
 
 All this aside, the only drawback for me is wading into unknown waters and learning a new framework when I have a fair number under my belt already. It's not that I am adverse to learning new frameworks and usually I jump at something new, but rather I am adverse to trading time spent creating a better application against the time it may take to get to grips with the setup. I need to consider this carefully and weigh this against my objectives and what I want from the course.
 
-* Release history taken from the [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin).
+* Release history and other information taken from the [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin).
 
 **Python with Kivy**
 
@@ -158,7 +158,7 @@ Kivy is relatively mature which is promising for all the reasons I've detailed a
 
 On the flip side of the coin, research shows Kivy to have a few obvious drawbacks: The first being that Kivy has a *non-native* looking UI. I've also found several mentions of the application start time being impacted when using Kivy and I've found mention of the resulting APK for Android being noticeably large. On top of this, it must be noted that creating an application in Kivy will require adopting a new language which could be time consuming and hinder progress in the early stages of development.
 
-* Release history taken from the [Kivy page on Wikipedia](https://en.wikipedia.org/wiki/Kivy_(framework)), statistics taken from a post about Python's growth on [Net Guru](https://www.netguru.co/blog/why-python-is-growing-so-quickly-future-trends) and drawbacks taken from [Pros and cons of Kivy on Reddit](https://www.reddit.com/r/kivy/comments/3oxxii/whats_the_cons_of_using_kivy_to_develop_mobile/).
+* Release history and other information taken from the [Kivy page on Wikipedia](https://en.wikipedia.org/wiki/Kivy_(framework)), statistics taken from a post about Python's growth on [Net Guru](https://www.netguru.co/blog/why-python-is-growing-so-quickly-future-trends) and drawbacks taken from [Pros and cons of Kivy on Reddit](https://www.reddit.com/r/kivy/comments/3oxxii/whats_the_cons_of_using_kivy_to_develop_mobile/).
 
 #### Picking the right platforms and tools for experiential applications
 
@@ -174,11 +174,17 @@ Unity has a huge development community and with that a lot of contributors; ther
 
 Research shows Unity to have some disadvantages. Most notably that games developed with the engine can consume more memory which in turn can create OOM errors and debugging issues. Also the PhysX physics engine has been noted to have some performance issues and to be lacking some important functionality. Finally I've read that the tools to create graphics are not as good as those with comparable engines.
 
-* Release history taken from the [Unity page on Wikipedia](https://en.wikipedia.org/wiki/Unity_(game_engine)), disadvantages taken from a [Potenza Global Solutions post on Unity advantages and disadvantages](http://www.potenzaglobalsolutions.com/blogs/5-rarely-known-advantages-and-disadvantages-of-unity-game-development).
+* Release history and other information taken from the [Unity page on Wikipedia](https://en.wikipedia.org/wiki/Unity_(game_engine)), disadvantages taken from a [Potenza Global Solutions post on Unity advantages and disadvantages](http://www.potenzaglobalsolutions.com/blogs/5-rarely-known-advantages-and-disadvantages-of-unity-game-development).
 
 **C++ with Unreal Engine**
 
-TODO...
+Unreal Engine is a source available game engine created by Epic Games that was first released in 1998. Unreal Engine is written in C++ and in order to work with the engine you too need to script in the same language. Unreal Engine is a trusted game engine that is used to power numerous well known games for Playstation and XBox.
+
+Aside closed engines owned and used by top players in the games industry, Unreal Engine is seen as the *professional's choice* when it comes to games development. It's advantages are countless; the engine is highly evolved and it's been heavily optimised. The decision to expose the engine via the native C++ language means that developers have full control over the engine and the source code, this means that there is no need for interpretation between two scripting languages, and as a result a game written in Unreal Engine will have a smaller resulting file size and will be less processor intensive.
+
+Unreal Engine does have some major disadvantages though. Research shows that the GUI can be slow and can take longer to perform numerous common processes including building the application. Some users report frequent crashes and some even report the application being unusable at times. Importantly for me, coming from mostly web development languages, there is a steep learning curve required to grasp C++ and then coding in the language is also said to be slow.
+
+* Release history and other information taken from the [Unreal Engine page on Wikipedia](https://en.wikipedia.org/wiki/Unity_(game_engine)), detailed pros and cons taken from [Slant Versus Series, Unity vs Unreal Engine 4](https://www.slant.co/versus/1047/5128/~unity_vs_unreal-engine-4).
 
 **Google SketchUp**
 
@@ -250,7 +256,7 @@ My complete experiential application development setup will include:
 Below is my reasoning for discounting the other possible frameworks:
 
 - **Google SketchUp**: I was far too put off by the quality of the models; after some digging, I did find some more detailed examples that were created using third party renderers, but in the most part the models were sub-standard. The ease of learning was appealing, but if the end result is not at the required standard then any benefit of time saved is irrelevant.
-- **C++ with Unreal Engine**: I was not feeling convinced that learning C++ was necessary, though I am well placed from a technical stand point to learn the language, so far in my career I haven't found the need to write C++ and I don't feel that my applications are lacking as a consequence. Finally, as I've touched on before, investing time to learn something so different doesn't support my objectives for the course or even for the future.
+- **C++ with Unreal Engine**: I was not feeling convinced that learning C++ was necessary, though I am well placed from a technical stand point to learn the language, so far in my career I haven't found the need to write C++ and I don't feel that my applications are lacking as a consequence. Also investing time to learn something so different now doesn't support my objectives for the course. Finally it seemed like the major benefits to using Unreal Engine were focused on performance and though this is paramount for AAA games it's perhaps not as important for experience applications.
 
 My version control setup will include:
 
@@ -311,16 +317,19 @@ In alphabetical order:
 34. [ReactiveX](http://reactivex.io/)
 35. [SketchUp](https://www.sketchup.com/)
 36. [SketchUp page on Wikepedia](https://en.wikipedia.org/wiki/SketchUp)
-37. [Stack Overflow](https://stackoverflow.com/)
-38. [SourceTree](https://www.sourcetreeapp.com/)
-39. [Subversion](https://subversion.apache.org/)
-40. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
-41. [Tower](https://www.git-tower.com/)
-42. [Under Armour](https://www.underarmour.co.uk/en-gb/)
-43. [Unity](https://unity.com)
-44. [Unity page on Wikipedia](https://en.wikipedia.org/wiki/Unity_(game_engine))
-45. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
-46. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
-47. [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin)
-48. [XCode](https://developer.apple.com/xcode/)
-49. [Zerolight](https://zerolight.com)
+37. [Slant Versus Series, Unity vs Unreal Engine 4](https://www.slant.co/versus/1047/5128/~unity_vs_unreal-engine-4)
+38. [Stack Overflow](https://stackoverflow.com/)
+39. [SourceTree](https://www.sourcetreeapp.com/)
+40. [Subversion](https://subversion.apache.org/)
+41. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
+42. [Tower](https://www.git-tower.com/)
+43. [Under Armour](https://www.underarmour.co.uk/en-gb/)
+44. [Unity](https://unity.com)
+45. [Unity page on Wikipedia](https://en.wikipedia.org/wiki/Unity_(game_engine))
+46. [Unreal Engine](https://www.unrealengine.com)
+47. [Unreal Engine page on Wikipedia](https://en.wikipedia.org/wiki/Unity_(game_engine))
+48. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
+49. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
+50. [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin)
+51. [XCode](https://developer.apple.com/xcode/)
+52. [Zerolight](https://zerolight.com)
