@@ -42,7 +42,7 @@ I will look the the typical platforms and tools used to power the types of appli
 
 #### Picking the right platforms and tools
 
-I will look at the pros and cons of each of the platforms and tools short listed in the previous section with a view to select my preferred suite.
+I will look at the advantages and disadvantages of each of the platforms and tools short listed in the previous section with a view to select my preferred suite.
 
 ## The solution
 
@@ -180,7 +180,7 @@ These drawbacks were later solved by [Mercurial](https://www.mercurial-scm.org/)
 
 There is the small matter of selecting a preferred Git client though, and this is where I do have a decision to make; Historically I've not used a Git client at all. My interaction with Git is terminal based and what I don't do in the terminal I do in Github. I know all the commands that support my workflow and I've never felt the need to switch to using a client. Saying this though, I think the reluctance to switch may just be that I am afraid of change; facing facts, performing a diff in the terminal is not pretty. But this is where I use Github.
 
-In summary I feel it's a trivial decision weighed against settling on a good framework and language for my application but I will give it some thought. I'm a Macintosh user so my client needs to run on the Macintosh operating system (OSX). Based on industry knowledge there are three that I would like to consider: [SourceTree](https://www.sourcetreeapp.com/), [Tower](https://www.git-tower.com/) and [Github Desktop](https://desktop.github.com/).
+In summary I feel it's a trivial decision when weighed against settling on a good framework and language for my application but I will give it some thought. I'm a Macintosh user so my client needs to run on the Macintosh operating system (OSX). Based on industry knowledge there are three that I would like to consider: [SourceTree](https://www.sourcetreeapp.com/), [Tower](https://www.git-tower.com/) and [Github Desktop](https://desktop.github.com/).
 
 ## Conclusion
 
@@ -202,6 +202,10 @@ Below is some reasoning why I discounted the other possible frameworks:
 For experiential applications I've...
 
 **TODO**
+
+For my version control solution I have settled on using Github Desktop. After trying all three options; SourceTree, Tower and Github Desktop I felt that there wasn't a great deal between them. Like I mentioned earlier in this post, in my opinion, picking a Git client is far more a *trivial decision when weighed against settling on a good framework and language*, and for this reason I was almost tempted to stick with my current workflow using Git locally by issuing commands in the terminal and then performing diffs, pull request (PRs) and merges on Github.com.
+
+However trialling the Github Desktop client made me realise that the workflow is exactly the same and performing a diff to see your local changes against those in your origin branch before committing and pushing is far easier than performing the same action in command line. Also from a setup point of view I was able to drag my existing local repository straight into the GUI and I was ready to work with that repository, which was an easier and more intuitive journey than with the other candidates.
 
 ## What's next?...
 
