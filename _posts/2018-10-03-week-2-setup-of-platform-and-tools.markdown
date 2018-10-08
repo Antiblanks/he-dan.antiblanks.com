@@ -44,7 +44,7 @@ I will look the the typical platforms and tools used to power the types of appli
 
 I will look at the advantages and disadvantages of each of the platforms and tools short listed in the previous section with a view to select my preferred suite.
 
-## The solution
+## Analysis
 
 #### Identifying what applications I want to create
 
@@ -190,20 +190,41 @@ My research coupled with pre-existing knowledge has enabled me to make some soun
 
 For cross platform development I've settled on a solution that can support a single application for iOS, Android and web. I would like to try and create a progressive web application that utilises not only the same code base for each mobile device but also the web version as well. PhoneGap is the obvious solution but I feel it falls too short with it's many drawbacks so I've decided I would like to explore a React and React Native solution where only the lowest level *dumb* primitive components are switched out so that the entire architecture, control flow and layout container components can be shared and only a thin slice of the UI is duplicated to support the mobile and web versions.
 
-My complete cross platform setup will be:
+My complete cross platform development setup to support iOS, Android and web will include:
 
-**TODO**
+- **React JS**: To create the application architecture using the Redux pattern along with Redux Saga to manage control flow, and to create the *dumb* low level web UI components.
+- **React Native**: To create the *dumb* low level mobile UI components.
+- **Swift**: To deliver any native iOS requirements that React Native cannot achieve.
+- **Java**: To deliver any native Android requirements that React Native cannot achieve.
+- **XCode**: To write any Swift code and run the application in the iOS device simulator.
+- **Android Studio**: To write any Java code and run the application in the Android device simulator.
+- **Atom**: To write any ES6 JavaScript code for the React and React Native parts of the application.
 
-Below is some reasoning why I discounted the other possible frameworks:
+Below is my reasoning for discounting the other possible frameworks:
 
 - **Python with Kivy**: Though I was very keen on using Python (with Kivy) based on Python being an *in-demand* language and wanting to learn this, I felt that Kivy had a few too many drawbacks and wanting to learn Python wasn't enough of a reason to adopt it. I do still want to work with Python but feel that the back end is a better playground for this.
 - **C# with Xamarin**: I was very nearly swayed to adopting Xamarin, but after much thought and analysis of what I want to achieve over the duration of the course; which is to exit with two near complete applications that have commercial viability, I decided that time spent becoming efficient with a new framework would be better invested into the build of the applications.
 
-For experiential applications I've...
+My complete experiential application development setup will include:
 
-**TODO**
+- **Blender**: To create my 3D models.
+- **C# with Unity**: To develop my experience applications.
+- **Visual Studio**: To write any C# code for the Unity application.
 
-For my version control solution I have settled on using Github Desktop. After trying all three options; SourceTree, Tower and Github Desktop I felt that there wasn't a great deal between them. Like I mentioned earlier in this post, in my opinion, picking a Git client is far more a *trivial decision when weighed against settling on a good framework and language*, and for this reason I was almost tempted to stick with my current workflow using Git locally by issuing commands in the terminal and then performing diffs, pull request (PRs) and merges on Github.com.
+Below is my reasoning for discounting the other possible frameworks:
+
+- **C++ with Unreal Engine**: I was not feeling convinced that learning C++ was necessary, though I am well placed from a technical stand point to learn the language, so far in my career I haven't found the need to write C++ and I don't feel that my applications are lacking as a consequence. Finally, as I've touched on before, investing time to learn something so different does not support my objectives for the course or even for the future.
+
+My version control setup will include:
+
+- **Git**: As the underlying version control system.
+- **GitFlow**: To manage my workflow.
+- **Github**: To manage my repositories, pull requests and collaborative workflow.
+- **Github Desktop**: To manage my local branches and local development workflow.
+
+My reasoning for this solution is as follows:
+
+After trying all three options; SourceTree, Tower and Github Desktop I felt that there wasn't a great deal between them. Like I mentioned earlier in this post, in my opinion, picking a Git client is far more a *trivial decision when weighed against settling on a good framework and language*, and for this reason I was almost tempted to stick with my current workflow using Git locally by issuing commands in the terminal and then performing diffs, pull request (PRs) and merges on Github.com.
 
 However trialling the Github Desktop client made me realise that the workflow is exactly the same and performing a diff to see your local changes against those in your origin branch before committing and pushing is far easier than performing the same action in command line. Also from a setup point of view I was able to drag my existing local repository straight into the GUI and I was ready to work with that repository, which was an easier and more intuitive journey than with the other candidates.
 
