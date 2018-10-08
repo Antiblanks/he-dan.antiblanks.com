@@ -170,17 +170,21 @@ TODO...
 
 **Google SketchUp**
 
-Google SketchUp is an easy-to-use free 3D modelling computer program. SketchUp was originally released in 2000 by Last Software and was acquired by Google in 2016.
+Google SketchUp is an *easy to use* free 3D modelling computer program. SketchUp was originally released in 2000 by Last Software and was acquired by Google in 2016.
 
 Google SketchUp has a number of clear advantages: The first being that it is free to use. The second being that it is very easy to use in comparison to other 3D modelling software packages. Being that I have little to no experience with creating 3D models, and the advice I've been given about the sheer gradient of the learning curve with such tools suggests I will need to devote a lot of time to the process, I feel that this may be a good place to start initially with a view to scale up afterwards. Research also shows there to be a vast library of 3D models to work with; Using a pre-created model and adapting it to suit one's needs can save a lot of production time.
 
-Google SketchUp's ease of use brings with it some pretty large disadvantages though; much of the ease comes from the fact that the program is far less feature rich than the industry standard counterparts such as Blender or Maya. The quality and detail of the models is also questionable. Having ran my eyes over numerous models in the 3D warehouse there is a very obvious *SketchUp style* to a model and I question how viable the use of these models would be in a commercial environment.
+Google SketchUp's ease of use brings with it some pretty large disadvantages though; much of the ease comes from the fact that the program is far less feature rich than the industry standard counterparts such as Cinema 4D or Maya. The quality and detail of the models is also questionable. Having ran my eyes over numerous models in the 3D warehouse there is a very obvious *SketchUp style* to a model and I question how viable the use of these models would be in a commercial environment.
 
 * Release information taken from the [SketchUp page on Wikepedia](https://en.wikipedia.org/wiki/SketchUp)
 
 **Blender**
 
-TODO...
+Blender is a professional, free, open source 3D computer graphics program. Blender was initially released in 1998 by the Dutch animation studio NeoGeo but after NeoGeo dissolved the software was continued as an open source project.
+
+Blender is not the most advanced 3D modelling program available. The likes of Cinema 4D or Maya already mentioned above do carry more weight in the commercial space, however, Blender is easier to learn in comparison and it's a good stepping stone for a novice modeller like myself. The quality of the models you can create in Blender will match that required at industry level, and Blender is also geared toward animation which makes it a good option for game or experience development.
+
+Blender is not without it's disadvantages of course, being focused on the design of animation and games means that the software lacks tools focused on the intricate design of objects with defined measures and parameters.
 
 * Release information taken from the [Blender page on Wikipedia](https://en.wikipedia.org/wiki/Blender_(software))
 
