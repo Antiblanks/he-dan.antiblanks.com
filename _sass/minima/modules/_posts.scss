@@ -1,0 +1,42 @@
+// BEM styles
+
+%post-title {
+  font-size: 42px;
+  line-height: $title-line-height;
+
+  &--hidden {
+    display: none;
+  }
+}
+
+%post {
+  &__title {
+    @extend %post-title;
+  }
+
+  &__link {
+    @extend %post-title;
+    &, &:hover, &:active, &:visited {
+      color: $black-color;
+    }
+  }
+
+  &__list-heading {
+    @extend %post-title;
+    @extend %post-title--hidden;
+  }
+}
+
+// Nested extends
+
+.post-title {
+  @extend %post__title;
+}
+
+.post-link {
+  @extend %post__link;
+}
+
+.post-list-heading {
+  @extend %post__list-heading;
+}
