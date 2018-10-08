@@ -162,7 +162,13 @@ In this section I will look at the advantages and disadvantages of each of the p
 
 **C# with Unity**
 
-TODO...
+Unity is a cross platform game engine created by Unity Technologies and first released in 2005. Though Unity itself is written in C++, you can script in JavaScript or C#, but from experience the JavaScript resources and documentation for Unity are limited and the preferred development language is C# as the title *C# with Unity* suggests.
+
+Unity has many advantages, the engine supports a vast number of platforms including all of those I am interested in; iOS, Android, Oculus VR and Samsung Gear VR. As I mentioned before I am well versed in C# and I do have some experience with Unity from a scripting point of view, so there wouldn't be much of a learning curve for me to get proficient in working with the engine. Unity ships with [MonoDevelop](https://www.monodevelop.com/) as the default IDE, but with only a small amount of configuration you can change this to use Microsoft's Visual Studio IDE which is a great advantage from my point of view. Unity has a huge development community and with that a lot of contributors; there are a vast number of plugins you can use to enrich the IDE's capabilities which can prove a beneficial time saver above rolling your own custom functionality.
+
+Research shows Unity to have some disadvantages. Most notably that games developed with the engine can consume more memory which in turn can create OOM errors and debugging issues. Also the PhysX physics engine has been noted to have some performance issues and to be lacking some important functionality. Finally I've read that the tools to create graphics are not as good as those with comparable engines.
+
+* Release history taken from the [Unity page on Wikipedia](https://en.wikipedia.org/wiki/Unity_(game_engine)).
 
 **C++ with Unreal Engine**
 
@@ -227,6 +233,8 @@ Below is my reasoning for discounting the other possible frameworks:
 - **Python with Kivy**: Though I was very keen on using Python (with Kivy) based on Python being an *in-demand* language and wanting to learn this, I felt that Kivy had a few too many drawbacks and wanting to learn Python wasn't enough of a reason to adopt it. I do still want to work with Python but feel that the back end is a better playground for this.
 - **C# with Xamarin**: I was very nearly swayed to adopting Xamarin, but after much thought and analysis of what I want to achieve over the duration of the course; which is to exit with two near complete applications that have commercial viability, I decided that time spent becoming efficient with a new framework would be better invested into the build of the applications.
 
+For experiential development I've settled on using Blender to create my 3D models and Unity 3D above Unreal Engine to create my applications. The main reason for using Unity being that I know the engine and C# already so I can hit the ground running when development begins. Aside from this, all the non-trivial disadvantages with Unity seemed to be less relevant when creating an experience application and were more related to game development. The graphic tools being less powerful is less of a concern to me as my workflow dictates I would create my graphics in Blender and then import these into Unity.
+
 My complete experiential application development setup will include:
 
 - **Blender**: To create my 3D models.
@@ -235,6 +243,7 @@ My complete experiential application development setup will include:
 
 Below is my reasoning for discounting the other possible frameworks:
 
+- **Google SketchUp**: I was far too put off by the quality of the models; after some digging, I did find some more detailed examples that were created using third party renderers, but in the most part the models were sub-standard. The ease of learning was appealing, but if the end result is not at the required standard then any benefit of time saved is irrelevant.
 - **C++ with Unreal Engine**: I was not feeling convinced that learning C++ was necessary, though I am well placed from a technical stand point to learn the language, so far in my career I haven't found the need to write C++ and I don't feel that my applications are lacking as a consequence. Finally, as I've touched on before, investing time to learn something so different does not support my objectives for the course or even for the future.
 
 My version control setup will include:
@@ -279,28 +288,30 @@ In alphabetical order:
 17. [Map My Fitness statistics](https://www.crunchbase.com/organization/mapmyfitness)
 18. [Map My Fitness acquisition](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree)
 19. [Microsoft Silverlight](https://www.microsoft.com/silverlight/)
-20. [Oculus](https://www.oculus.com/)
-21. [Pete Fowler](http://petefowlershop.com/)
-22. [PhoneGap (Apache Cordova)](https://phonegap.com/)
-23. [PhoneGap (Apache Cordova) page on Wikipedia](https://en.wikipedia.org/wiki/Apache_Cordova)
-24. [Pros and cons of Kivy on Reddit](https://www.reddit.com/r/kivy/comments/3oxxii/whats_the_cons_of_using_kivy_to_develop_mobile/)
-25. [Python](https://www.python.org/)
-26. [Python's growth on Net Guru](https://www.netguru.co/blog/why-python-is-growing-so-quickly-future-trends)
-27. [React JS](https://reactjs.org/)
-28. [React Native](http://www.reactnative.com/)
-29. [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
-30. [ReactiveX](http://reactivex.io/)
-31. [SketchUp](https://www.sketchup.com/)
-32. [SketchUp page on Wikepedia](https://en.wikipedia.org/wiki/SketchUp)
-33. [Stack Overflow](https://stackoverflow.com/)
-34. [SourceTree](https://www.sourcetreeapp.com/)
-35. [Subversion](https://subversion.apache.org/)
-36. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
-37. [Tower](https://www.git-tower.com/)
-38. [Under Armour](https://www.underarmour.co.uk/en-gb/)
-39. [Unity](https://unity.com)
-40. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
-41. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
-42. [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin)
-43. [XCode](https://developer.apple.com/xcode/)
-44. [Zerolight](https://zerolight.com)
+20. [MonoDevelop](https://www.monodevelop.com/)
+21. [Oculus](https://www.oculus.com/)
+22. [Pete Fowler](http://petefowlershop.com/)
+23. [PhoneGap (Apache Cordova)](https://phonegap.com/)
+24. [PhoneGap (Apache Cordova) page on Wikipedia](https://en.wikipedia.org/wiki/Apache_Cordova)
+25. [Pros and cons of Kivy on Reddit](https://www.reddit.com/r/kivy/comments/3oxxii/whats_the_cons_of_using_kivy_to_develop_mobile/)
+26. [Python](https://www.python.org/)
+27. [Python's growth on Net Guru](https://www.netguru.co/blog/why-python-is-growing-so-quickly-future-trends)
+28. [React JS](https://reactjs.org/)
+29. [React Native](http://www.reactnative.com/)
+30. [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
+31. [ReactiveX](http://reactivex.io/)
+32. [SketchUp](https://www.sketchup.com/)
+33. [SketchUp page on Wikepedia](https://en.wikipedia.org/wiki/SketchUp)
+34. [Stack Overflow](https://stackoverflow.com/)
+35. [SourceTree](https://www.sourcetreeapp.com/)
+36. [Subversion](https://subversion.apache.org/)
+37. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
+38. [Tower](https://www.git-tower.com/)
+39. [Under Armour](https://www.underarmour.co.uk/en-gb/)
+40. [Unity](https://unity.com)
+41. [Unity page on Wikipedia](https://en.wikipedia.org/wiki/Unity_(game_engine))
+42. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
+43. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
+44. [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin)
+45. [XCode](https://developer.apple.com/xcode/)
+46. [Zerolight](https://zerolight.com)
