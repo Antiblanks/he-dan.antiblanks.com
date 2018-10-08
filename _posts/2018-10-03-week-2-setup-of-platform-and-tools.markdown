@@ -100,7 +100,7 @@ This type of application is often intended for specialised use within a controll
 
 * Quote taken from Neil Smith, co-owner of Leo Associates.
 
-In order to deliver applications of this nature I will be looking at current technologies including VR and Augmented Reality (AR). To create VR experiences I will need goggles such as those made by [Oculus](https://www.oculus.com/) or the more cost effective [Samsung Gear VR](https://www.samsung.com/global/galaxy/gear-vr/). I will need to consider the language and 3D engine used to power the experience and for this I will be looking at C# and [Unity](https://unity.com) and [C++](https://en.wikipedia.org/wiki/C%2B%2B) and [Unreal Engine](https://www.unrealengine.com).
+In order to deliver applications of this nature I will be looking at current technologies including VR and Augmented Reality (AR). To create VR experiences I will need goggles such as those made by [Oculus](https://www.oculus.com/) or the more cost effective [Samsung Gear VR](https://www.samsung.com/global/galaxy/gear-vr/). I will need to consider the language and 3D engine used to power the experience and for this I will be looking at C# and [Unity](https://unity.com) and [C++](https://en.wikipedia.org/wiki/C%2B%2B) and [Unreal Engine](https://www.unrealengine.com). I will also need to consider a tool for creating 3D models for use in the experience, for this I will be looking at [Blender](https://www.blender.org/) and [Google SketchUp](https://www.sketchup.com/).
 
 #### Picking the right platforms and tools for cross platform development
 
@@ -127,6 +127,8 @@ This has many benefits, the main difference can be seen in the user experience; 
 React Native does have some drawbacks: It is not all that mature, it was first announced by Facebook in 2015 so it is only three years old, the documentation is good however and there is support for most core components but based on experience upgrading to newer versions can be time consuming and we are still seeing regular feature deprecations. Saying that, the framework is stable and we at Antiblanks and other software houses have been using it to build production applications for some time.
 
 In summary, React Native is a better option to PhoneGap I feel. From a personal point of view I know the framework well, I've always liked working with React and I can develop quickly with this technology. Also, despite being in it's infancy, given the success of React and how the Facebook team behind this has managed releases and maintained backwards compatibility in the main part, I am confident that React Native will be around for a long time and will not suffer any *major* breaking version alterations.
+
+> React Native, or rather JavaScript, does have limitations, and though React Native is capable of delivering the application in the most part, I may need to adopt a small amount of native script (Swift or Objective C for iOS and Java for Android) in order to perform certain parts of the application and then communicate with these over the React Native bridge.
 
 * Release year taken from the [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library)).
 
@@ -165,6 +167,22 @@ TODO...
 **C++ with Unreal Engine**
 
 TODO...
+
+**Google SketchUp**
+
+Google SketchUp is an easy-to-use free 3D modelling computer program. SketchUp was originally released in 2000 by Last Software and was acquired by Google in 2016.
+
+Google SketchUp has a number of clear advantages: The first being that it is free to use. The second being that it is very easy to use in comparison to other 3D modelling software packages. Being that I have little to no experience with creating 3D models, and the advice I've been given about the sheer gradient of the learning curve with such tools suggests I will need to devote a lot of time to the process, I feel that this may be a good place to start initially with a view to scale up afterwards. Research also shows there to be a vast library of 3D models to work with; Using a pre-created model and adapting it to suit one's needs can save a lot of production time.
+
+Google SketchUp's ease of use brings with it some pretty large disadvantages though; much of the ease comes from the fact that the program is far less feature rich than the industry standard counterparts such as Blender or Maya. The quality and detail of the models is also questionable. Having ran my eyes over numerous models in the 3D warehouse there is a very obvious *SketchUp style* to a model and I question how viable the use of these models would be in a commercial environment.
+
+* Release information taken from the [SketchUp page on Wikepedia](https://en.wikipedia.org/wiki/SketchUp)
+
+**Blender**
+
+TODO...
+
+* Release information taken from the [Blender page on Wikipedia](https://en.wikipedia.org/wiki/Blender_(software))
 
 #### Acknowledging the requirement for a back end scripting solution
 
@@ -241,40 +259,44 @@ In alphabetical order:
 1. [Android Studio](https://developer.android.com/studio/)
 2. [Angular JS](https://angularjs.org/)
 3. [Apigee](https://apigee.com/api-management/)
-4. [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-5. [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
-6. [Django](https://www.djangoproject.com/)
-7. [Firebase](https://firebase.google.com/)
-8. [Flask](http://flask.pocoo.org/)
-9. [Git](https://git-scm.com/)
-10. [Github Desktop](https://desktop.github.com/)
-11. [Kivy](https://kivy.org/)
-12. [Kivy page on Wikipedia](https://en.wikipedia.org/wiki/Kivy_(framework))
-13. [Leo Associates](https://www.leoassociates.com/)
-14. [Map My Fitness](https://www.mapmyfitness.com/)
-15. [Map My Fitness statistics](https://www.crunchbase.com/organization/mapmyfitness)
-16. [Map My Fitness acquisition](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree)
-17. [Microsoft Silverlight](https://www.microsoft.com/silverlight/)
-18. [Oculus](https://www.oculus.com/)
-19. [Pete Fowler](http://petefowlershop.com/)
-20. [PhoneGap (Apache Cordova)](https://phonegap.com/)
-21. [PhoneGap (Apache Cordova) page on Wikipedia](https://en.wikipedia.org/wiki/Apache_Cordova)
-22. [Pros and cons of Kivy on Reddit](https://www.reddit.com/r/kivy/comments/3oxxii/whats_the_cons_of_using_kivy_to_develop_mobile/)
-23. [Python](https://www.python.org/)
-24. [Python's growth on Net Guru](https://www.netguru.co/blog/why-python-is-growing-so-quickly-future-trends)
-25. [React JS](https://reactjs.org/)
-26. [React Native](http://www.reactnative.com/)
-27. [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
-28. [ReactiveX](http://reactivex.io/)
-29. [Stack Overflow](https://stackoverflow.com/)
-30. [SourceTree](https://www.sourcetreeapp.com/)
-31. [Subversion](https://subversion.apache.org/)
-32. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
-33. [Tower](https://www.git-tower.com/)
-34. [Under Armour](https://www.underarmour.co.uk/en-gb/)
-35. [Unity](https://unity.com)
-36. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
-37. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
-38. [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin)
-39. [XCode](https://developer.apple.com/xcode/)
-40. [Zerolight](https://zerolight.com)
+4. [Blender](https://www.blender.org/)
+5. [Blender page on Wikipedia](https://en.wikipedia.org/wiki/Blender_(software))
+6. [C++](https://en.wikipedia.org/wiki/C%2B%2B)
+7. [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
+8. [Django](https://www.djangoproject.com/)
+9. [Firebase](https://firebase.google.com/)
+10. [Flask](http://flask.pocoo.org/)
+11. [Git](https://git-scm.com/)
+12. [Github Desktop](https://desktop.github.com/)
+13. [Kivy](https://kivy.org/)
+14. [Kivy page on Wikipedia](https://en.wikipedia.org/wiki/Kivy_(framework))
+15. [Leo Associates](https://www.leoassociates.com/)
+16. [Map My Fitness](https://www.mapmyfitness.com/)
+17. [Map My Fitness statistics](https://www.crunchbase.com/organization/mapmyfitness)
+18. [Map My Fitness acquisition](https://www.mobihealthnews.com/40365/in-depth-under-armours-fitness-app-acquisition-spree)
+19. [Microsoft Silverlight](https://www.microsoft.com/silverlight/)
+20. [Oculus](https://www.oculus.com/)
+21. [Pete Fowler](http://petefowlershop.com/)
+22. [PhoneGap (Apache Cordova)](https://phonegap.com/)
+23. [PhoneGap (Apache Cordova) page on Wikipedia](https://en.wikipedia.org/wiki/Apache_Cordova)
+24. [Pros and cons of Kivy on Reddit](https://www.reddit.com/r/kivy/comments/3oxxii/whats_the_cons_of_using_kivy_to_develop_mobile/)
+25. [Python](https://www.python.org/)
+26. [Python's growth on Net Guru](https://www.netguru.co/blog/why-python-is-growing-so-quickly-future-trends)
+27. [React JS](https://reactjs.org/)
+28. [React Native](http://www.reactnative.com/)
+29. [React page on Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
+30. [ReactiveX](http://reactivex.io/)
+31. [SketchUp](https://www.sketchup.com/)
+32. [SketchUp page on Wikepedia](https://en.wikipedia.org/wiki/SketchUp)
+33. [Stack Overflow](https://stackoverflow.com/)
+34. [SourceTree](https://www.sourcetreeapp.com/)
+35. [Subversion](https://subversion.apache.org/)
+36. [The Audi Walking VR experience](https://zerolight.com/projects/audi/audi-walking-vr/)
+37. [Tower](https://www.git-tower.com/)
+38. [Under Armour](https://www.underarmour.co.uk/en-gb/)
+39. [Unity](https://unity.com)
+40. [VR development costs](https://thinkmobiles.com/blog/how-much-vr-application-development-cost)
+41. [Xamarin](https://visualstudio.microsoft.com/xamarin/)
+42. [Xamarin page on Wikipedia](https://en.wikipedia.org/wiki/Xamarin)
+43. [XCode](https://developer.apple.com/xcode/)
+44. [Zerolight](https://zerolight.com)
