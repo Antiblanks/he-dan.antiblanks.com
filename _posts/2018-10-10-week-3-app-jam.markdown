@@ -28,6 +28,20 @@ I should try to work quickly in the earlier stages of the task in order to leave
 
 ## My approach
 
+Problem / solution approach
+
+Theme / Story approach
+
+Comprehensive research mission, learning about a topic and waiting for a design to emerge from the research process not appropriate, slow boil ideas, could use these: Cryptants?
+
+Construct and test prototypes (see image grabbed) smaller (quick) and larger (slower) cycles, rapid and maximise cycles, reduce time required for each iteration, reduce time in testing to run quickly and maximise information in as short a time as possible, test in a concise and focused way, prototypes should be rough and ready in the early stages, paper prototypes, present in workflow for how the user interacts.
+
+Test your apps and test user stories, see the wizard of oz approach, get user feedback. This is to iron out any flaws.
+
+In the later stages create a digital prototype, an interactive sketch (InVision), then implement one core feature (vertical slice) of the application (sobriety test app for example)
+
+Jenson (2002) Prototyping - Failing and failing fast
+
 TODO...
 
 #### Identify problems
