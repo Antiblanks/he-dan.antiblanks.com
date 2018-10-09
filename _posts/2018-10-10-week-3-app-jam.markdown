@@ -20,15 +20,11 @@ Finally mention is given to the importance of finding the time and the space to 
 
 ### Understanding the brief
 
-TODO...
+This task is about practicing all aspects of creative application design and development; from ideation, to identifying a chosen idea, to developing that idea and illustrating this with wire frames or mock ups and finally using the right platform and tools in order to realise that idea and develop the idea as a prototype.
 
-Spontaneous, far out creative ideas, not be afraid of the idea and allow myself to experiment freely
+Understanding the time constraints are important; 48 hours is not long, the project will need to be managed effectively and broken apart to illustrate the different elements required in the overall task. I will need to time box each element effectively and stick closely to plan. In order to get the most from the task I should allocate larger blocks of time to be allocated when I have little distraction to maintain focus.
 
-Interesting divergent designs
-
-Project management, approach up front, time boxing and stickng to it,
-
-> arrange times when I can participate
+I should try to work quickly in the earlier stages of the task in order to leave more time for the production elements which are more time consuming. In order to uncover the best ideas I should allow myself to be spontaneous in brainstorming and not be fearful of allowing myself to experiment freely. To be more efficient, my mind maps and wire frames should be sketched and not polished and the design and prototyping framework should be selected accordingly for speed of delivery.
 
 ## My approach
 
