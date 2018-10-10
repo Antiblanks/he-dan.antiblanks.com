@@ -8,7 +8,7 @@ tags: [Diary, Project development]
 
 ## The brief
 
-This week we are engaging in an *App Jam*; an extreme development practice that *celebrates risky experimentation, and spontaneous creativity*.
+This week we are engaging in an app jam; an extreme development practice that *celebrates risky experimentation, and spontaneous creativity*.
 
 The task is to try and create a prototype for an application from beginning to end in only 48 hours; It is mentioned that the short time frame should force us to design a *very small but hopefully very interesting application*.
 
@@ -16,33 +16,36 @@ We should explore new ideas and concepts with hope to discover creativity within
 
 > Note: It is mentioned that Tim Schafer at Double Fine Studios in San Francisco who have created a range of well known games including Grim Fandango, Psychonauts & Broken Age use Game Jams to recognise and develop new intellectual property and many of their recent games originate from such Game Jams.
 
-Finally mention is given to the importance of finding the time and the space to engage in this practice and that we should *take the activity seriously and plan ahead* if we are to be successful.
+There is mention given to the importance of finding the time and the space to engage in this practice and that we should *take the activity seriously and plan ahead* if we are to be successful.
+
+Finally, there is a theme for the app jam which has been selected using Verb, Noun & Adjective (VNA) ideation cards and this is *Guide, Opponent, Restricted*.
 
 ### Understanding the brief
 
-This task is about practicing all aspects of creative application design and development; from ideation, to identifying a chosen idea, to developing that idea and illustrating this with wire frames or mock ups and finally using the right platform and tools in order to realise that idea and develop the idea as a prototype.
+This task is about identifying ideas and validating them through rapid prototyping and eventually developing a stronger idea into a more polished prototype.
 
-Understanding the time constraints are important; 48 hours is not long, the project will need to be managed effectively and broken apart to illustrate the different elements required in the overall task. I will need to time box each element effectively and stick closely to plan. In order to get the most from the task I should allocate larger blocks of time to be allocated when I have little distraction to maintain focus.
+In order to uncover better ideas I should allow myself to be spontaneous in brainstorming and not be fearful of allowing myself to experiment freely.
 
-I should try to work quickly in the earlier stages of the task in order to leave more time for the production elements which are more time consuming. In order to uncover the best ideas I should allow myself to be spontaneous in brainstorming and not be fearful of allowing myself to experiment freely. To be more efficient, my mind maps and wire frames should be sketched and not polished and the design and prototyping framework should be selected accordingly for speed of delivery.
+I should try to work in cycles to ideate, select an idea, and then construct prototypes to validate the idea. I should select methods that enable me to reduce the time required for each iteration and maximise the number of cycles I can complete in order to fail quickly and move on. Anything I can do to reduce time in validating an idea early will help me to arrive at a stronger end piece. To be more efficient, my mind maps, wire frames and early prototypes should be sketched and not polished and I should test in a concise and focused manor.
+
+Understanding the time constraints from the outset are important; 48 hours is not long, the project will need to be managed effectively and broken apart to illustrate the different elements required in the overall task. I will need to time box each element effectively and stick closely to plan. In order to get the most from the task I should allocate larger dedicated blocks of time where I have little distraction to maintain focus.
 
 ## My approach
 
-Problem / solution approach
+As established above I will look to work in cycles formed of the following tasks:
 
-Theme / Story approach
+- **Ideation**: (2 hours) Brainstorm and create mind maps to highlight potential ideas based on the theme. I will use a combination of the *problem & solution* and *theme and story* approach to ideating.
+- **Selecting an idea**: (1 hour) Select a stronger idea and create a mind map to explore the idea further.
+- **Sketching & paper prototyping**: (1 hour) Sketch rough wire frames of key screens to form user journeys and present these to show how the user would interact.
+- **Critiquing the paper prototyping**: (1 hour) Test the idea by walking through the paper prototype with an impartial third party and gathering feedback.
+- **Sketched digital prototyping**: (4 hours) Take the sketches into prototyping software such as [InVision](https://www.invisionapp.com/) and create an interactive prototype to illustrate a vertical or horizontal slice of the application.
+- **Designed digital prototyping**: (6 hours) Convert the sketches into more polished art work using [Sketch](https://www.sketchapp.com/) and import these into the InVision prototype.
 
-Comprehensive research mission, learning about a topic and waiting for a design to emerge from the research process not appropriate, slow boil ideas, could use these: Cryptants?
+TODO: Small cycle, discredit quickly
 
-Construct and test prototypes (see image grabbed) smaller (quick) and larger (slower) cycles, rapid and maximise cycles, reduce time required for each iteration, reduce time in testing to run quickly and maximise information in as short a time as possible, test in a concise and focused way, prototypes should be rough and ready in the early stages, paper prototypes, present in workflow for how the user interacts.
+TODO: Larger cycle for apps that make it through the smaller cycle
 
-Test your apps and test user stories, see the wizard of oz approach, get user feedback. This is to iron out any flaws.
-
-In the later stages create a digital prototype, an interactive sketch (InVision), then implement one core feature (vertical slice) of the application (sobriety test app for example)
-
-Jenson (2002) Prototyping - Failing and failing fast
-
-TODO...
+TODO: Time management (Trello)
 
 #### Identify problems
 
@@ -76,4 +79,5 @@ TODO...
 
 In alphabetical order:
 
-1. TODO...
+1. [InVision](https://www.invisionapp.com/)
+2. [Sketch](https://www.sketchapp.com/)
