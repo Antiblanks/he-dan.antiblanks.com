@@ -60,11 +60,11 @@ This part has been designed to focus on the strongest idea and develop it furthe
 
 My intention is to ideate only once at the beginning (*Part 1*), and then select three ideas to develop and prototype rapidly in cycles (*Part 2*), and finally select the strongest idea for developing further into a programmatic prototype (*Part 3*).
 
-I am going to work in dedicated sessions, each with a set goal. Below is my session plan:
+I am going to work in eight dedicated sessions, each with a set time and goal, the sessions will be broken down to support the above approach. Below is my session plan:
 
-**TODO: Insert Trello grab here**
+![](/assets/img/GAM710_AJ_004_Trello_001.png)
 
-## Session 1
+## Session 1: Identifying ideas
 
 I started this session by brainstorming various meanings of each of the words in the theme *Guide, Opponent, Restricted*. My intention was just to warm up my creativity and start to highlight potential terms for expansion.
 
