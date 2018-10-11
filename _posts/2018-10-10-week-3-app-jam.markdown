@@ -32,20 +32,37 @@ Understanding the time constraints from the outset are important; 48 hours is no
 
 ## My approach
 
-As established above I will look to work in cycles formed of the following tasks:
+I'm going to break my jam into three parts:
 
-- **Ideation**: (2 hours) Brainstorm and create mind maps to highlight potential ideas based on the theme. I will use a combination of the *problem & solution* and *theme and story* approach to ideating.
+### Part 1: Identifying ideas
+
+This part has been designed to promote spontaneous creativity and experimentation with ideas to identify various potential avenues for exploration. Tasks will include:
+
+- **Ideation**: (4 hours) Brainstorm and create mind maps to highlight potential ideas based on the theme. I will use a combination of the *problem & solution* and *theme and story* approach to ideating.
+
+### Part 2: Selecting an idea and developing it
+
+This part has been designed to select a stronger idea from the step above and then rapidly develop the idea to identify whether the idea is worthy of further development. Tasks will include:
+
 - **Selecting an idea**: (1 hour) Select a stronger idea and create a mind map to explore the idea further.
 - **Sketching & paper prototyping**: (1 hour) Sketch rough wire frames of key screens to form user journeys and present these to show how the user would interact.
 - **Critiquing the paper prototyping**: (1 hour) Test the idea by walking through the paper prototype with an impartial third party and gathering feedback.
+
+### Part 3: Developing the final idea
+
+This part has been designed to focus on the strongest idea and develop it further to provide a working programmatic prototype of the core application feature. Tasks will include:
+
 - **Sketched digital prototyping**: (4 hours) Take the sketches into prototyping software such as [InVision](https://www.invisionapp.com/) and create an interactive prototype to illustrate a vertical or horizontal slice of the application.
-- **Designed digital prototyping**: (6 hours) Convert the sketches into more polished art work using [Sketch](https://www.sketchapp.com/) and import these into the InVision prototype.
+- **Designed digital prototyping**: (8 hours) Convert the sketches into more polished art work using [Sketch](https://www.sketchapp.com/) and import these into the InVision prototype.
+- **Programmatic prototyping**: (16 hours) Demonstrate the core of the application as a coded prototype using the appropriate platform and tools.
 
-TODO: Small cycle, discredit quickly
+### Intention
 
-TODO: Larger cycle for apps that make it through the smaller cycle
+My intention is to ideate only once at the beginning (*Part 1*), and then select three ideas to develop and prototype rapidly in cycles (*Part 2*), and finally select the strongest idea for developing further into a programmatic prototype (*Part 3*).
 
-TODO: Time management (Trello)
+I am going to work in dedicated sessions, each with a set goal. Below is my session plan:
+
+**TODO: Insert Trello grab here**
 
 #### Identify problems
 
