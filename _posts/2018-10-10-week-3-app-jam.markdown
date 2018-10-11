@@ -56,7 +56,7 @@ This part has been designed to focus on the strongest idea and develop it furthe
 - **Designed digital prototyping**: (8 hours) Convert the sketches into more polished art work using [Sketch](https://www.sketchapp.com/) and import these into the InVision prototype.
 - **Programmatic prototyping**: (16 hours) Demonstrate the core of the application as a coded prototype using the appropriate platform and tools.
 
-### Intention
+### Intent and project management
 
 My intention is to ideate only once at the beginning (*Part 1*), and then select three ideas to develop and prototype rapidly in cycles (*Part 2*), and finally select the strongest idea for developing further into a programmatic prototype (*Part 3*).
 
@@ -64,25 +64,25 @@ I am going to work in dedicated sessions, each with a set goal. Below is my sess
 
 **TODO: Insert Trello grab here**
 
-#### Identify problems
+## Session 1
 
-TODO...
+I started this session by brainstorming various meanings of each of the words in the theme *Guide, Opponent, Restricted*. My intention was just to warm up my creativity and start to highlight potential terms for expansion.
 
-#### Break out the bigger issues
+### Terms related to the word *Guide*
 
-TODO...
+![](/assets/img/GAM710_AJ_001_Guide_Scamp.png)
 
-#### Select the biggest problem
+### Terms related to the word *Opponent*
 
-TODO...
+![](/assets/img/GAM710_AJ_002_Opponent_Scamp.png)
 
-#### Developing my solution
+### Terms related to the word *Restricted*
 
-TODO...
+![](/assets/img/GAM710_AJ_003_Restricted_Scamp.png)
 
-## The solution
+### Combining terms to create stories
 
-TODO...
+Next I started to combine some of the stronger terms in each brainstorm to construct ideas for potential themes and stories on which to base my application. What I found interesting here is that the majority of my ideas were for games or at least had some gamification element, after saying only last week that *I am not a big gamer* in my [post about platforms and tools]({% post_url 2018-10-03-week-2-setup-of-platform-and-tools %})... Maybe I misjudged myself?!
 
 ## Summary
 
