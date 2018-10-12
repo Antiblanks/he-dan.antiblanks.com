@@ -84,6 +84,26 @@ I started this session by brainstorming various meanings of each of the words in
 
 Next I started to combine some of the stronger terms in each brainstorm to construct ideas for potential themes and stories on which to base my application. What I found interesting here is that the majority of my ideas were for games or at least had some gamification element, after saying only last week that *I am not a big gamer* in my [post about platforms and tools]({% post_url 2018-10-03-week-2-setup-of-platform-and-tools %})... Maybe I misjudged myself?!
 
+| Guide | Opponent | Restricted
+| ---- | ---- |
+| A patient toward something | A disease or illness | By how far he/she can go without medication
+| Audio instruction | Blindness | By sight that is worsening
+| Example of shape to copy | Other player | By number of attempts
+| Light at the end of a tunnel | An enemy | By the walls of a tunnel
+| Girl guide wants badges | Other player/s | By the rules to be awarded a badge
+| Speed signs | Police / speed cameras | By minimum or maximum speed
+| Guiding a missile | A target | By different factors that affect direction
+| Guiding a metal object | Magnets pushing or pulling | By the space between the magnets which are getting closer together
+| Instructions | Time limit | By being stuck in a room
+
+### Developing the narrative for each combination of terms
+
+Next I studied the above table of combined terms and began to expand the stories around some of the stronger combinations. The following is a list of potential application ideas based on this process, I've tried to pick very different ideas to get a nice variation for selection:
+
+- **Sick Steve**: A game aimed at adults for amusement - Sick Steve has been infected by a deadly virus that will kill him. Using your finger you need to keep Steve upright and moving forwards to guide him down corridors, paths and streets to find the medication he so badly needs. As time goes by Steve's condition worsens and he becomes harder to keep upright. If you hit the left/right sides then Steve will fall and die.
+- **Shape maker**: A game aimed at all ages but more so at children for learning to mark make - Players are challenged to copy a shape which is drawn for them as a guide by the computer. Shapes drawn are judged on accuracy and how closely they resemble the guide shape. The shapes start easy (a circle) and get more and more difficult to replicate as the game progresses. Players can play against themselves or against others.
+- **Speed awareness application**: A challenge game aimed at adults to raise awareness of speeding - Players are shown a speed-o-meter that they need to keep between a restricted minimum and maximum number by moving their finger up and down a scale to raise or lower their speed. The speed of the vehicle is affected by factors such as terrain, gradient and weather conditions. The target speed changes regularly and is indicated by signs that will appear to guide the player. Players can play against themselves or against others.
+
 ## Summary
 
 TODO...
