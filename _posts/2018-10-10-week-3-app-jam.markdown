@@ -95,26 +95,92 @@ Next I started to combine some of the stronger terms in each brainstorm to const
 | Guiding a missile | A target | By different factors that affect direction
 | Guiding a metal object | Magnets pushing or pulling | By the space between the magnets which are getting closer together
 | Instructions | Time limit | By being stuck in a room
+| A number of options to remember | Other player/s | By seeing only part of something
 
 ### Developing the narrative for each combination of terms
 
 Next I studied the above table of combined terms and began to expand the stories around some of the stronger combinations. The following is a list of potential application ideas based on this process, I've tried to pick very different ideas to get a nice variation for selection:
 
 - **Sick Steve**: A game aimed at adults for amusement - Sick Steve has been infected by a deadly virus that will kill him. Using your finger you need to keep Steve upright and moving forwards to guide him down corridors, paths and streets to find the medication he so badly needs. As time goes by Steve's condition worsens and he becomes harder to keep upright. If you hit the left/right sides then Steve will fall and die.
-- **Shape maker**: A game aimed at all ages but more so at children for learning to mark make - Players are challenged to copy a shape which is drawn for them as a guide by the computer. Shapes drawn are judged on accuracy and how closely they resemble the guide shape. The shapes start easy (a circle) and get more and more difficult to replicate as the game progresses. Players can play against themselves or against others.
-- **Speed awareness application**: A challenge game aimed at adults to raise awareness of speeding - Players are shown a speed-o-meter that they need to keep between a restricted minimum and maximum number by moving their finger up and down a scale to raise or lower their speed. The speed of the vehicle is affected by factors such as terrain, gradient and weather conditions. The target speed changes regularly and is indicated by signs that will appear to guide the player. Players can play against themselves or against others.
+- **Trace Shapes**: A game aimed at all ages but more so at children for learning to mark make - Players are challenged to trace a shape which is drawn for them as a guide by the computer. Shapes drawn are judged on accuracy and how closely they resemble the guide shape. The shapes start easy (a circle) and get more and more difficult to replicate as the game progresses. Players can play against themselves or against others.
+- **Speed Awareness Application**: A challenge game aimed at adults to raise awareness of speeding - Players are shown a speed-o-meter that they need to keep between a restricted minimum and maximum number by moving their finger up and down a scale to raise or lower their speed. The speed of the vehicle is affected by factors such as terrain, gradient and weather conditions. The target speed changes regularly and is indicated by signs that will appear to guide the player. Players can play against themselves or against others.
+- **Looking for Lucha**: A [Catch Phrase](https://en.wikipedia.org/wiki/Catchphrase_(UK_game_show)) style quiz game aimed at all ages for amusement - The Mexican Luchadores have gone missing before a rumble and you need to help find them. The game begins by showing you all the Luchadores and one by one you need to uncover each by removing tiles to guess which Luchadore is hiding. You start the game with a budget and removing tiles will cost you. The aim of the game is to find all the Luchadores and spend as little money as you can.
+- **Escape Room**: An accompanying application aimed at Escape Room game enthusiasts - The application will bring cohesion to all the locations. Owners can add their Escape Room to the app. The app will keep players time and score the user on how well they do at getting out of a room. At it's core the application will use Augmented Reality (AR) to help users complete a room. The user will scan a QR code in the room when they need help, there will be three levels of hint; *beginner*, *intermediate* and *advanced* and taking hints will add time penalties onto the users score. Players can play against themselves or against others.
+
+## Session 2: Selecting ideas for development
+
+At this point I changed my session plan slightly; I had planned to use this session to break out one single idea from the previous session and develop it, but it felt more appropriate to shorten the session and spend this time validating all of the ideas to quickly identify whether any of these would be viable in the market place and whether they would have a worthy value proposition. In my opinion, without ticking both of these boxes there is very little point in developing an idea.
+
+In the interest of saving time and not detracting too far from the production part of the task I chose only to skim the surface of validation. This would be enough to identify the stronger ideas and could then form the basis for an expanded evaluation later should I decide to take one of these ideas further. I time boxed this session to two hours.
+
+### Idea 1: Sick Steve
+
+I liked this idea, it's quirky and it's a bit of fun. The game could be used to raise awareness for a particular illness and would serve as a good experiential piece at a trade show. If built accordingly the game could easily be re-skinned to be used for different clients and to raise awareness for different diseases/illnesses.
+
+Based on experience, *if* we could find a customer for this we could re-skin and re-sell the game for about £7,000-10,000 margin as an experiential piece. Alternatively we could release the game into the device stores - A comparable and popular game on the App Store would be [Temple Run](https://itunes.apple.com/gb/app/temple-run-classic/id420009108) which has a similar mechanic, is highly addictive and has had in access of four million downloads and has an average rating of 4.4/5.
+
+Temple Run's value proposition is that they make money from sale of coins. Though Sick Steve doesn't have a value mechanic imagined at this stage, a similar idea could be applied and users could buy medications to keep them alive longer.
+
+I felt overall that Sick Steve is a pretty viable application and one to consider for developing further.
+
+* Stats taken from the [Temple Run page on Wikipedia](https://en.wikipedia.org/wiki/Temple_Run) and the [Temple Run page on The App Store](https://itunes.apple.com/gb/app/temple-run-classic/id420009108).
+
+### Idea 2: Trace Shapes
+
+I liked this idea as it is educational and it fits my ideals of enriching peoples lives with my applications. I thought that the game would be best placed as a download on the device stores, and this is where I went initially to search for similar applications. Sadly, it didn't take long to discount the idea - It's not that it's not a viable idea, in fact it is, but the market is saturated with these applications and the competition is too strong. There are some that are executed really well such as [Little Writer](https://itunes.apple.com/us/app/little-writer-the-tracing-app-for-kids/id515890480).
+
+### Idea 3: Speed Awareness Application
+
+This is a novel idea but I am just not that convinced it would work as a marketable application. I think it would be a bit of fun initially but I would question whether this would be addictive enough to gain any interest. Of course, this is only my opinion so I did a quick search on the device stores for something comparable but having exhausted all relevant search terms I couldn't find anything. This is potentially a good thing but it is high risk to think about developing this application without more in-depth validation.
+
+### Idea 4: Looking for Lucha
+
+I really like this idea. From a personal point of view I think Lucha Libre (Mexican Wrestling) is really interesting. I've honestly never seen a fight but the masks themselves are quite iconic and there is an almost cult-like following of the sport in western countries. Also the mechanic of the game could quickly and easily be re-purposed for numerous themes and markets if Lucha Libre didn't have the audience.  
+
+This type of puzzle application would be best placed as a game made available on the device stores. There are a few applications on both device stores who use the Lucha Libre theme like the language learning application [Vocabador](https://itunes.apple.com/gb/app/vocabador/id450150869). If popular, puzzle games can do very well on the stores, a comparable application would be [Guess The Person](https://itunes.apple.com/us/app/guess-the-person/id515909521) which has a very similar mechanic. It's hard to see on the App Store just how many downloads this application has received but the last version (1.66) was released on Aug 8th 2018 and since then the application has acquired 2.9k ratings so it's clearly got a large user base.
+
+Guess The Person's value proposition is to offer a free and paid version where the user pays to play without adverts. Looking for Lucha actually has a better value proposition in that users could pay for pesos in order to stay alive longer and complete the game.
+
+I felt overall that Looking for Lucha is a pretty viable application and one to consider for developing further.
+
+* Stats taken from the [Guess The Person page on the App Store](https://itunes.apple.com/us/app/guess-the-person/id515909521).
+
+### Idea 5: Escape Room
+
+From the outset I felt that this was a strong idea. There are a large number of Escape Room games worldwide; with roughly 55,000 Escape Rooms in the UK and an estimated 2,000,000 in the US, that's a big user base. Also, there is no one company providing the rooms and a large number are independently owned, so there's a clear gap for an independent application which could be adopted to bring cohesion to all the rooms.   
+
+This type of application would have to be a mobile application and would need to be cross platform to maximise the user base. There are a number of Escape Room applications on the device stores but none that I can see which are quite like this; most on offer are virtualised escape room games such as [Can You Escape](https://itunes.apple.com/gb/app/can-you-escape/id658293394) and [Escape Challenge](https://itunes.apple.com/gb/app/escape-challenge/id603652689). None that I can see appear to bring cohesion to the offline games.
+
+I felt overall that Escape Room is a highly viable application and one to consider for developing further.
+
+Stats taken from the [Exit Games article on the global number of Escape Rooms](http://exitgames.co.uk/blog/2017/09/14/by-the-numbers-uk-vs-the-rest-of-the-world/).
 
 ## Summary
 
 TODO...
 
+Changing the session plan, why did I do it? What did I learn from it?
+
 ## What's next?...
 
 TODO...
+
+Further validation of the market place for the stronger ideas, use App Annie to validate numbers
 
 ## References
 
 In alphabetical order:
 
-1. [InVision](https://www.invisionapp.com/)
-2. [Sketch](https://www.sketchapp.com/)
+1. [Can You Escape](https://itunes.apple.com/gb/app/can-you-escape/id658293394)
+2. [Catch Phrase](https://en.wikipedia.org/wiki/Catchphrase_(UK_game_show))
+3. [Escape Challenge](https://itunes.apple.com/gb/app/escape-challenge/id603652689)
+4. [Exit Games article on the global number of Escape Rooms](http://exitgames.co.uk/blog/2017/09/14/by-the-numbers-uk-vs-the-rest-of-the-world/)
+5. [Guess The Person](https://itunes.apple.com/us/app/guess-the-person/id515909521)
+6. [Guess The Person page on the App Store](https://itunes.apple.com/us/app/guess-the-person/id515909521)
+7. [InVision](https://www.invisionapp.com/)
+8. [Little Writer](https://itunes.apple.com/us/app/little-writer-the-tracing-app-for-kids/id515890480)
+9. [Sketch](https://www.sketchapp.com/)
+10. [Temple Run](https://itunes.apple.com/gb/app/temple-run-classic/id420009108)
+11. [Temple Run page on The App Store](https://itunes.apple.com/gb/app/temple-run-classic/id420009108)
+12. [Temple Run page on Wikipedia](https://en.wikipedia.org/wiki/Temple_Run)
+13. [Vocabador](https://itunes.apple.com/gb/app/vocabador/id450150869)
