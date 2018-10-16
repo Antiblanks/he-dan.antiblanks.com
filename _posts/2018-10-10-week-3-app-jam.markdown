@@ -155,11 +155,55 @@ I felt overall that Escape Room is a highly viable application and one to consid
 
 Stats taken from the [Exit Games article on the global number of Escape Rooms](http://exitgames.co.uk/blog/2017/09/14/by-the-numbers-uk-vs-the-rest-of-the-world/).
 
+## Session 3: Developing Looking for Lucha
+
+This session was all about developing the first of three stronger ideas. I selected the *Looking for Lucha* puzzle game as it proved a relatively viable product and I was keen on the idea and I wanted to see where it would go. I initially allocated three hours for this session but quickly realised that wasn't going to be enough time so this session was pushed out to five hours.
+
+I set out by sketching the idea and developing the screens. I intended to work purely on paper at this point but I actually found this more time consuming and a touch frustrating, instead what I did was sketched the assets onto paper and them imported these into Balsamiq Mockups; I found by doing this I was able to move things around and form the UI much quicker. I had sketched the IA and the general flow of pages before hand, so by the time I got the assets into Balsamiq Mockups it was just a matter of rapidly structuring the pages and then experimenting with position and hierarchy.
+
+I went through a few revisions overall and below is the final series of mockups constructed as flows to detail the user flow through the core part of the application.
+
+### Landing screen
+
+![](/assets/img/GAM710_AJ_005_LookingForLucha_001.png)
+
+This is the screen the user will land on once the application has loaded, it's very simple with intent to position a top line view of the challenge and set the scene for the game.
+
+### Guide screen
+
+![](/assets/img/GAM710_AJ_006_LookingForLucha_002.png)
+
+When the user clicks 'Look for Lucha now' on the landing screen this is where they will be taken. The guide screen shows the user all the Luchadores that have gone missing, clicking on a Luchadore will open a dialog that will show the user a larger image that is easier to memorise and detail the name as well as a helpful hint to highlight a unique recognisable feature of the Luchadore.
+
+> Various Luchadore will share the same or similar features in order to make the game harder but every Luchadore will have at least one unique identifying feature.
+
+When the user is ready to play they will click 'Find the first Lucha' and the game will begin.
+
+### Game level screen
+
+![](/assets/img/GAM710_AJ_007_LookingForLucha_003.png)
+
+The game level screen shows the core game mechanic which is very simple; The user is presented with twelve tiles concealing a Luchadore, the first random tile has been removed. Underneath the tiles is a carousel showing a thumbnail of each hidden Luchadore, the user can make a selection by highlighting the Luchadore they think is behind the tiles and clicking 'Select: *Luchadore name*'. If the user feels unable to make a decision on which Luchadore is hiding they can click on a tile and pay the amount of pesos shown to remove the tile.
+
+### Game level end screen
+
+![](/assets/img/GAM710_AJ_008_LookingForLucha_004.png)
+
+The game level end screen has three states:
+
+- **Correct answer, game incomplete**: If the answer given on the previous screen was correct and there are more Luchadore hiding then a success message is shown and a call to action presented to 'Find the next Lucha', clicking this button will take the user back to the game screen with the next Luchadore hidden.
+- **Correct answer, game complete**: If the answer given on the previous screen was correct and there are no more Luchadore hiding then the game has been completed! A success message is shown that is tailored to the users score, with two calls to action 'Finish' and 'See the leaderboard'. If the user clicks 'Finished' they are taken home. If the user clicks 'See the leaderboard' then they are taken to see the top ten scorers.
+- **Incorrect answer**: If the answer given on the previous screen was incorrect then a failure message is shown with two calls to action 'Try again' and 'Go home'. If the user clicks 'Try again' and they have remaining pesos then they will be taken back to the game screen with the same Luchadore hidden. However if the user has no remaining pesos then the user will be taken back to the start of the game.
+
+> Later we could monetise the application here - Instead of the 'Try again' button taking the user back to the start of the game if they have no remaining pesos, we could show a dialog that reads 'You have no pesos left so you will be taken back to the start of the game' with a call to action to 'Buy more pesos to continue'.
+
 ## Summary
 
 TODO...
 
-Changing the session plan, why did I do it? What did I learn from it?
+Changing the session plan, why did I do it? What did I learn from it? Agile but good to have a plan as a guide in the first place.
+Validating only two ideas to allow more time for product development.
+Learning that working in Balsamiq was quicker than on paper.
 
 ## What's next?...
 
