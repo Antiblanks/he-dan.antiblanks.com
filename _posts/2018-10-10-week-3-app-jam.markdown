@@ -205,6 +205,18 @@ Changing the session plan, why did I do it? What did I learn from it? Agile but 
 Validating only two ideas to allow more time for product development.
 Learning that working in Balsamiq was quicker than on paper.
 
+Things I've learned:
+Having industry experience constrained me a bit too much, focusing on creating a near complete programmatic prototype limited me and led me to discount the stronger idea Escape Room
+I applied too much structure to the task which limited my spontaneous exploration
+Too much market analysis possibly, though it did help me to discount ideas quickly, it also stifled my creativity
+Too worried about the end product being substantial and this also restricted my creativity, I was so focused on exiting with a more complete product that I discounted what was clearly the strongest idea
+So used to running/leading projects from a management or tech lead role and so used to applying structure and planning, I found it really hard to break out of that approach
+I actually had a somewhat of an epiphany during this task, I realised that being in the industry for so long has shaped me into someone who is so focused on end-to-end management process and validating ideas for their viability in the market place and there value proposition that I have constrained myself and my creativity to a point where my ideas are not able to flourish.
+
+Things I would do differently next time:
+Coming prepared with some knowledge in areas I want to explore, like AR, had to abandon the stronger Escape Room idea as understanding the AR integration would have taken too much time away from the task. I should have learned the technology I might want to use before the jam (AR/VR). Not knowing the technology turned me off the stronger Escape Room idea because I didn't want to waste too much time learning AR.
+
+
 ## What's next?...
 
 TODO...
