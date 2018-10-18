@@ -199,9 +199,14 @@ The game level end screen has three states:
 
 ## Session 4: Discounting ideas and developing Looking for Lucha further
 
-I had intended this session to sketch and prototype the Escape Room idea, however, having reached this point eleven hours into the jam, I realised that exploring this would not leave me enough time to create a working programmatic prototype for either Looking for Lucha or Escape Room.
+I had intended this session to sketch and prototype the Escape Room idea, however, having reached this point eleven hours into the jam, I realised that exploring another idea wouldn't leave me enough time to create a working programmatic prototype for either Looking for Lucha or Escape Room.
 
-Another key reason for shelving the Escape Room idea for further development in this jam is that I felt I lacked the required AR experience to be able to construct a prototype within the given time limit. For both these reasons I decided to use this session to create designs for the Looking for Lucha application that could be taken into InVision or used for the programmatic prototype. I allocated eight hours for this session. Below are some swatches of my completed designs:
+Another key reason for shelving the Escape Room idea for further development in this jam is that I felt I lacked the required AR experience to be able to construct a prototype within the given time limit. For both these reasons I decided to use this session to create designs for the Looking for Lucha application that could be taken into InVision or used for the programmatic prototype. I allocated ten hours for this session. Below are some of my completed designs:
+
+![](/assets/img/GAM710_AJ_009_LookingForLucha_Designs_001.png)
+![](/assets/img/GAM710_AJ_010_LookingForLucha_Designs_002.png)
+![](/assets/img/GAM710_AJ_011_LookingForLucha_Designs_003.png)
+![](/assets/img/GAM710_AJ_012_LookingForLucha_Designs_004.png)
 
 ## Summary
 
