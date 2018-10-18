@@ -208,6 +208,10 @@ Another key reason for shelving the Escape Room idea for further development in 
 ![](/assets/img/GAM710_AJ_011_LookingForLucha_Designs_003.png)
 ![](/assets/img/GAM710_AJ_012_LookingForLucha_Designs_004.png)
 
+## Session 5: Developing the programmatic prototype
+
+TODO...
+
 ## Summary
 
 In this post I've outlined my approach and experience of the *App Jam*. I started by identifying an end goal to exit with a programmatic prototype and constructed a rough timeline and broke these into focused sessions in order to achieve this.
