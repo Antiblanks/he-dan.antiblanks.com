@@ -197,31 +197,45 @@ The game level end screen has three states:
 
 > Later we could monetise the application here - Instead of the 'Try again' button taking the user back to the start of the game if they have no remaining pesos, we could show a dialog that reads 'You have no pesos left so you will be taken back to the start of the game' with a call to action to 'Buy more pesos to continue'.
 
+## Session 4: Discounting ideas and developing Looking for Lucha further
+
+I had intended this session to sketch and prototype the Escape Room idea, however, having reached this point eleven hours into the jam, I realised that exploring this would not leave me enough time to create a working programmatic prototype for either Looking for Lucha or Escape Room.
+
+Another key reason for shelving the Escape Room idea for further development in this jam is that I felt I lacked the required AR experience to be able to construct a prototype within the given time limit. For both these reasons I decided to use this session to create designs for the Looking for Lucha application that could be taken into InVision or used for the programmatic prototype. I allocated eight hours for this session. Below are some swatches of my completed designs:
+
 ## Summary
 
-TODO...
+In this post I've outlined my approach and experience of the *App Jam*. I started by identifying an end goal to exit with a programmatic prototype and constructed a rough timeline and broke these into focused sessions in order to achieve this.
 
-Changing the session plan, why did I do it? What did I learn from it? Agile but good to have a plan as a guide in the first place.
-Validating only two ideas to allow more time for product development.
-Learning that working in Balsamiq was quicker than on paper.
+As can be seen throughout the post I didn't stick to the plan rigidly but instead made decisions to change direction as and when required to support the overall exit strategy; you could loosely say I adopted a more agile approach, and applied the Kanban methodology to structure my plan but adopted more of a scrum based approach to my sessions (sprints) in order to promote change.
 
-Things I've learned:
-Having industry experience constrained me a bit too much, focusing on creating a near complete programmatic prototype limited me and led me to discount the stronger idea Escape Room
-I applied too much structure to the task which limited my spontaneous exploration
-Too much market analysis possibly, though it did help me to discount ideas quickly, it also stifled my creativity
-Too worried about the end product being substantial and this also restricted my creativity, I was so focused on exiting with a more complete product that I discounted what was clearly the strongest idea
-So used to running/leading projects from a management or tech lead role and so used to applying structure and planning, I found it really hard to break out of that approach
-I actually had a somewhat of an epiphany during this task, I realised that being in the industry for so long has shaped me into someone who is so focused on end-to-end management process and validating ideas for their viability in the market place and there value proposition that I have constrained myself and my creativity to a point where my ideas are not able to flourish.
+The ideation session gave me three viable ideas of which Escape Room was clearly the stronger. I discounted this idea for various reasons as explained above and focused on taking the weaker Looking for Lucha puzzle game into design and programmatic prototyping.
 
-Things I would do differently next time:
-Coming prepared with some knowledge in areas I want to explore, like AR, had to abandon the stronger Escape Room idea as understanding the AR integration would have taken too much time away from the task. I should have learned the technology I might want to use before the jam (AR/VR). Not knowing the technology turned me off the stronger Escape Room idea because I didn't want to waste too much time learning AR.
+I rapidly developed the UX/UI and completed some of the key user journeys as wire frames which I improved in cycles of change, review, critique and validation. I created polished designs from the wire frames and finally created a programmatic prototype demonstrating an end-to-end horizontal slice of the application.  
 
+## Conclusion
+
+On the one hand you could say that my *App Jam* was a success, I constructed a rough plan and that helped me manage my time and steer my agile decision making in selecting the focus for each session.
+
+Ultimately I exited with a working programmatic prototype and this was my original goal. I also learned a few positive things about my process; For example I found that I was able to work quicker with Balsamiq Mockups than with paper prototyping, and I actually created quite a successful workflow in this phase that I will reuse.
+
+However, this being said, I question whether I got the best out of the experience. I say this for a number of reasons:
+
+For one, having a goal in mind was slightly restricting; In my original plan I wanted to develop three ideas into paper prototypes but due to time constraints and being too focused on exiting with a working prototype I only developed the one idea and it was not the strongest.
+
+I think to a degree, having so much leadership and management experience constrained me in my spontaneity, focusing on creating a near complete programmatic prototype limited me and led me to discount the stronger *bigger* idea Escape Room and focus on a weaker *small* idea that I knew I could near complete within the confines of the time limit. I think perhaps that I am so used to running projects from a management or tech leadership role and so used to applying structure and planning to a project that I found it really hard to break out of that approach and perhaps that was not what this task required.
+
+I learned a lot during this task. I realised that being in the industry and working on enterprise projects for so long has shaped me into someone who is so focused on the end-to-end management process and on validating ideas for their viability in the market place and value proposition that I have constrained myself and my creativity to a point where my ideas are not able to flourish.
+
+I think perhaps my biggest learning is that I should try to allow myself to get excited about an idea and grow it to the sketch or paper prototype stage before I start looking at the market. It might be that by following an idea, I take something that wasn't going to be viable but it becomes viable throughout the creative process. I will certainly bear this in mind next time around.
+
+The other learning which stands out for me is that I would come to a jam prepared with some knowledge in the technologies I want to explore; in this case having explored AR before and getting setup to develop with this would have enabled me to prototype the stronger Escape Room idea.
 
 ## What's next?...
 
-TODO...
+With regard to the Looking For Lucha application, it has been taken to a near complete stage so I will find time to give this the small push needed to get this into the App Store at some point.
 
-Further validation of the market place for the stronger ideas, use App Annie to validate numbers
+With regard to the Escape Room idea, despite discounting this, one positive outcome is that I do have the idea lodged in the back of my mind and perhaps this can become something I look at in more detail for one of the bigger projects during the course.
 
 ## References
 
