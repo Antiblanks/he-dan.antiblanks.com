@@ -34,9 +34,15 @@ Fortunately this goal hasn't changed as a result of anything I've learned so far
 
 ## My experience so far
 
-The creative piece in week one was incredibly valuable for me. It fulfilled part of what I was looking for from the course; reigniting my creativity was almost immediate and thankfully I realised that I hadn't lost it at all, it's just that I don't make enough time to be creative. Not having any *great* ideas was an issue that I had already identified as being a blocker to creating a successful IP. My creativity used to be unstoppable, I would frequently find my imagination running away with itself and I was wondering what had changed. It's now very apparent that this is caused by lack of free time; I am so busy all the time now that my mind is not left idle to wonder. I don't think I can fix this given my responsibilities but week one affirmed for me that I need to set time aside to be creative and that there are ways to kick start the creativity when it doesn't come readily.
+The creative piece in week one was incredibly valuable for me. It fulfilled part of what I was looking for from the course; reigniting my creativity was almost immediate and thankfully I realised that I hadn't lost it at all, it's just that I don't make enough time to be creative. Not having any *great* ideas was an issue that I had already identified as being a blocker to creating a successful IP.
 
-The platforms and tools task in week two was less interesting if I am honest - Having been at this game for a long time I know my tools already so from the outset I wasn't particularly excited about the prospect of delving into this. However, I realise now that I misused this time; I spent countless hours writing a detailed journal post that, though interesting did really stand to confirm...
+My creativity used to be unstoppable, I would frequently find my imagination running away with itself and I was wondering what had changed. It's now very apparent that this has been caused by my lack of free time; I am so busy all the time now that my mind is not left idle to wonder.
+
+I don't think I can fix this, given my responsibilities, but week one affirmed for me that I need to set time aside to be creative and reminded me that there are ways to kick start the creativity if it doesn't come readily.
+
+The platforms and tools task in week two was less interesting - Having been at this game for a long time I know my tools already so from the outset I wasn't particularly excited about the prospect of delving into this. Saying this, I did enjoy weighing up the options and exploring alternative solutions despite settling back into my previously preferred stack.
+
+In hindsight I do realise that I actually misused this time; I spent countless hours writing a detailed journal post that, though interesting, did really just stand to confirm what I already knew. What I should have done with this week, rather than looking for alternatives was to trust my experience and spend my time focusing on a technology that I hadn't yet worked with but I knew was something I wanted to explore: Setting up a React Native / iOS / Android boilerplate with Augmented Reality (AR) integrated would have been perfect for this time. I would have enjoyed the task more and I would have been set to hit the ground running come the App Jam.
 
 ## Summary
 
