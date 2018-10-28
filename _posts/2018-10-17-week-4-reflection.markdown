@@ -40,7 +40,7 @@ Looking back, my creativity used to be unstoppable, I would frequently find my i
 
 **The platforms and tools task** in week two was less interesting - Having been at this game for a long time I know my tools already so from the outset I wasn't particularly excited about the prospect of delving into this. Saying this, I did enjoy weighing up the options and exploring alternative solutions despite settling back into my previously preferred stack.
 
-In hindsight I do realise that I actually misused this time; I spent countless hours writing a detailed (5000 word +) journal post that, though interesting, did really just stand to confirm what I already knew. What I should have done with this week, rather than looking for alternatives was to trust my experience and spend my time focusing on a technology that I hadn't yet worked with but I knew was something I wanted to explore: Expanding my React Native / iOS / Android boilerplate to integrate Augmented Reality (AR) and Virtual Reality (VR) would have been a much better use of this time; I would have enjoyed the task more and I would have been set to hit the ground running come the App Jam. Also, I need to try and shorten my blog posts so that I dedicate less time to writing and more time to the production tasks.
+In hindsight I do realise that I actually misused this time; I spent countless hours writing a detailed (5000 word +) journal post that, though interesting, did really just stand to confirm what I already knew. What I should have done with this week, rather than looking for alternatives was to trust my experience and spend my time focusing on a technology that I hadn't yet worked with, but I knew was something I wanted to explore: Expanding my React Native / iOS / Android boilerplate to integrate Augmented Reality (AR) and Virtual Reality (VR) would have been a much better use of this time; I would have enjoyed the task more and I would have been set to hit the ground running come the App Jam. Also, my experience over this week did highlight that I need to try and shorten my blog posts so that I dedicate less time to writing and more time to the production work.
 
 **The App Jam** was great, my [post]({% post_url 2018-10-10-week-3-app-jam %}) on week three goes into more detail about my experience. Though I felt again that I misused the time, the process was extremely useful in realising a few fundamentals that are potentially holding me back from creating a successful IP. One of my biggest realisations was summarised in this quote:
 
@@ -54,7 +54,7 @@ In summary I would say my learnings have identified the following challenges tha
 
 ## My new goals
 
-As I said previously, my long term goal has not changed; I still want to exit the course with at least one IP. However my experience so far has helped to identify a few areas that I need to work on in order to achieve this.
+As I said previously, my long term goal has not changed; I still want to exit the course with at least one IP. However my experience so far has helped me to identify a few areas that I need to work on in order to achieve this.
 
 ### Finding winning ideas
 
@@ -68,7 +68,7 @@ For this I need to *find more time to be creative and exercise creativity regula
 
 ### Getting ready to develop applications
 
-This relates to *skilling up on technology that I want to use so it's easier to start developing with this*. As I mentioned above I do want to explore using AR and VR in my applications. I have some minor VR experience but it's limited to experiential work I've been involved with using Unity and I have no experience in AR at all. I want to be able to hit the ground running on developing AR and VR applications so my goal here is to expand my current React Native boilerplate to integrate these technologies and implement some of the abstract functionality so that I can easily start to develop an application that utilises both of these.
+This relates to *skilling up on technology that I want to use so it's easier to start developing with this*. As I mentioned above I do want to explore using AR and VR in my applications. I have some minor VR experience but it's limited to experiential work I've been involved with using Unity and not for mobile, and I have no experience in AR at all. I want to be able to hit the ground running on developing AR and VR applications so my goal here is to expand my current React Native boilerplate to integrate these technologies and implement some of the abstract functionality so that I can easily start to develop an application that utilises both of these.
 
 - **Making it Specific**: The goal is to expand my current React Native boilerplate to integrate AR and VR
 - **Making it Measurable**: I want to have a complete boilerplate in my Github repository that is ready to develop against

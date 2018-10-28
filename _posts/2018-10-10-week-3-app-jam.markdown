@@ -208,9 +208,37 @@ Another key reason for shelving the Escape Room idea for further development in 
 ![](/assets/img/GAM710_AJ_011_LookingForLucha_Designs_003.png)
 ![](/assets/img/GAM710_AJ_012_LookingForLucha_Designs_004.png)
 
-## Session 5: Developing the programmatic prototype
+## Session 5: Developing the programmatic prototype (part 1)
 
-TODO...
+My goal for this session was to create the underlying mechanic for the application, I had allocated twelve hours with which to complete this end-to-end.
+
+In order to get up and running quickly, I chose to utilise a React Native boilerplate that I setup and that we use at [Antiblanks](http://www.antiblanks.com). The boilerplate is easy to get started with and offers a number of commonly used components and infrastructural elements that are a necessity in most web or mobile applications. The boilerplate is built on a Redux pattern with Redux Saga; out of the box there is integrated navigation, screen and modal functionality alongside a number of useful libraries currently found in my stack and minimal generic styling.
+
+Working quickly to stub out the control flow in the application sagas and focus on completing the happy path, in the twelve hours I was able to get all the screens and modals into place as per the design and most of the control flow for the core of the application.
+
+The application didn't look pretty at this point, but it was functional and that was the purpose of this session. Thankfully I didn't hit any development snags; I was careful not to get lost down any rabbit holes and utilising a boilerplate and technology I am comfortable with lowered the risk of this.
+
+## Session 6: Developing the programmatic prototype (part 2)
+
+Having created most of the control flow in the previous session, my goal for this session was to tie off all the remaining functionality and tidy up the view layer of the application enough that it is presentable. Again I allocated twelve hours for this session.
+
+I did hit a few snags with my work in this session; importing the icons as SVGs using the [React Native SVG module](https://github.com/react-native-community/react-native-svg) proved to be challenging. Like I mentioned before I was wary not to waste time and I was reaching a point where I was about to accept defeat and just use PNGs, but in the end I found a solution just before giving up.
+
+> Note to self: When working with SVGs always take steps to simplify graphics by flattening text, converting strokes to paths and creating a union of the entire icon before attempting to import the icon into my application.
+
+## Session 7: Developing the programmatic prototype (part 3)
+
+I had intended for the previous session to be the last, but due to shelving the Escape Room exploration, I had saved myself some time so I decided to use this final session to polish the application a little and bring over some of the graphics.
+
+Once I got going, the styling started to come together very quickly, and as always, the result of making the UI look less clunky was deeply gratifying.
+
+As you will see in my video, my finished piece is not quite as clean as the design, but I had to cut some corners, and fascinating over minor details such as converting the flat and square game board and modal backgrounds to suit the design wasn't going to happen in the seven hours I had left in my jam!
+
+When I downed my tools I was relatively pleased with the outcome; like I said the design could be polished and there are a couple of known bugs, but in general I succeeding in doing what I set out to do and for this reason I can't complain.
+
+## App Jam outcome video
+
+Video coming soon!
 
 ## Summary
 
@@ -218,7 +246,7 @@ In this post I've outlined my approach and experience of the *App Jam*. I starte
 
 As can be seen throughout the post I didn't stick to the plan rigidly but instead made decisions to change direction as and when required to support the overall exit strategy; you could loosely say I adopted a more agile approach, and applied the Kanban methodology to structure my plan but adopted more of a scrum based approach to my sessions (sprints) in order to promote change.
 
-The ideation session gave me three viable ideas of which Escape Room was clearly the stronger. I discounted this idea for various reasons as explained above and focused on taking the weaker Looking for Lucha puzzle game into design and programmatic prototyping.
+The ideation session gave me three viable ideas of which Escape Room was clearly the stronger. I discounted this idea for various reasons and focused on taking the weaker Looking for Lucha puzzle game idea into design and to realise as a programmatic prototype.
 
 I rapidly developed the UX/UI and completed some of the key user journeys as wire frames which I improved in cycles of change, review, critique and validation. I created polished designs from the wire frames and finally created a programmatic prototype demonstrating an end-to-end horizontal slice of the application.  
 
@@ -234,7 +262,7 @@ For one, having a goal in mind was slightly restricting; In my original plan I w
 
 I think to a degree, having so much leadership and management experience constrained me in my spontaneity, focusing on creating a near complete programmatic prototype limited me and led me to discount the stronger *bigger* idea Escape Room and focus on a weaker *small* idea that I knew I could near complete within the confines of the time limit. I think perhaps that I am so used to running projects from a management or tech leadership role and so used to applying structure and planning to a project that I found it really hard to break out of that approach and perhaps that was not what this task required.
 
-I learned a lot during this task. I realised that being in the industry and working on enterprise projects for so long has shaped me into someone who is so focused on the end-to-end management process and on validating ideas for their viability in the market place and value proposition that I have constrained myself and my creativity to a point where my ideas are not able to flourish.
+I learned a lot during this jam. I realised that being in the industry and working on enterprise projects for so long has shaped me into someone who is so focused on the end-to-end management process and on validating ideas for their viability in the market place and value proposition that I have constrained myself and my creativity to a point where my ideas are not able to flourish.
 
 I think perhaps my biggest learning is that I should try to allow myself to get excited about an idea and grow it to the sketch or paper prototype stage before I start looking at the market. It might be that by following an idea, I take something that wasn't going to be viable but it becomes viable throughout the creative process. I will certainly bear this in mind next time around.
 
@@ -250,16 +278,18 @@ With regard to the Escape Room idea, despite discounting this, one positive outc
 
 In alphabetical order:
 
-1. [Can You Escape](https://itunes.apple.com/gb/app/can-you-escape/id658293394)
-2. [Catch Phrase](https://en.wikipedia.org/wiki/Catchphrase_(UK_game_show))
-3. [Escape Challenge](https://itunes.apple.com/gb/app/escape-challenge/id603652689)
-4. [Exit Games article on the global number of Escape Rooms](http://exitgames.co.uk/blog/2017/09/14/by-the-numbers-uk-vs-the-rest-of-the-world/)
-5. [Guess The Person](https://itunes.apple.com/us/app/guess-the-person/id515909521)
-6. [Guess The Person page on the App Store](https://itunes.apple.com/us/app/guess-the-person/id515909521)
-7. [InVision](https://www.invisionapp.com/)
+1. [Antiblanks](http://www.antiblanks.com)
+2. [Can You Escape](https://itunes.apple.com/gb/app/can-you-escape/id658293394)
+3. [Catch Phrase](https://en.wikipedia.org/wiki/Catchphrase_(UK_game_show))
+4. [Escape Challenge](https://itunes.apple.com/gb/app/escape-challenge/id603652689)
+5. [Exit Games article on the global number of Escape Rooms](http://exitgames.co.uk/blog/2017/09/14/by-the-numbers-uk-vs-the-rest-of-the-world/)
+6. [Guess The Person](https://itunes.apple.com/us/app/guess-the-person/id515909521)
+7. [Guess The Person page on the App Store](https://itunes.apple.com/us/app/guess-the-person/id515909521)
+8. [InVision](https://www.invisionapp.com/)
 8. [Little Writer](https://itunes.apple.com/us/app/little-writer-the-tracing-app-for-kids/id515890480)
-9. [Sketch](https://www.sketchapp.com/)
-10. [Temple Run](https://itunes.apple.com/gb/app/temple-run-classic/id420009108)
-11. [Temple Run page on The App Store](https://itunes.apple.com/gb/app/temple-run-classic/id420009108)
-12. [Temple Run page on Wikipedia](https://en.wikipedia.org/wiki/Temple_Run)
-13. [Vocabador](https://itunes.apple.com/gb/app/vocabador/id450150869)
+10. [Sketch](https://www.sketchapp.com/)
+11. [React Native SVG module](https://github.com/react-native-community/react-native-svg)
+12. [Temple Run](https://itunes.apple.com/gb/app/temple-run-classic/id420009108)
+13. [Temple Run page on The App Store](https://itunes.apple.com/gb/app/temple-run-classic/id420009108)
+14. [Temple Run page on Wikipedia](https://en.wikipedia.org/wiki/Temple_Run)
+15. [Vocabador](https://itunes.apple.com/gb/app/vocabador/id450150869)
