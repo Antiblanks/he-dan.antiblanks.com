@@ -238,7 +238,7 @@ When I downed my tools I was relatively pleased with the outcome; like I said th
 
 ## App Jam outcome video
 
-Video coming soon!
+You can see my outcome video on Youtube [here](https://www.youtube.com/watch?v=3d5q41q5BQo). 
 
 ## Summary
 
