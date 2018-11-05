@@ -16,7 +16,7 @@ The source material over this week is focused on the different types of applicat
 
 ### Different types of application
 
-Though I knew already what types of application I want to create, I wasn't perhaps aware of the exact terms by which they are identified. Knowing the common name for these categories will enable me to perform more focused market research and competitor analysis on my ideas. To clarify at this point and to tighten my description of the types of app I'm interested in creating that were first mentioned in this [post]({% post_url 2018-10-03-week-2-setup-of-platform-and-tools %}), I can establish that I am most interested in creating *Serious Game* and *Gamification* applications with potential cross over into *eHealth / mHealth*.
+Though I knew already what types of application I want to create, I wasn't perhaps aware of the exact terms by which they are identified. Knowing the common name for these categories will enable me to perform more focused market research and competitor analysis on my ideas. To clarify at this point and to tighten my description of the types of app I'm interested in creating that were first mentioned in this [post]({% post_url 2018-10-03-week-2-setup-of-platform-and-tools %}), I can establish that I am most interested in creating *Serious Games* and *Gamification* applications with potential ties into *eHealth / mHealth*.
 
 ### Market research
 
@@ -37,26 +37,22 @@ The source material related to market research over this week stands to affirm m
 - **Analyse the competitor apps**: Use AppTrace gives key data and stats about apps on the market
 - **Test the competitor apps**: Competitor testing, research method to assess competitors products through the eyes of the end user and identify issues where the app could be improved, the results of which can go on to inform your idea and your end product
 
-I've created the following SMART action to perform the above checklist on each of the stronger application ideas that I devise in my weekly ideation sessions:
+I've created the following SMART action to perform the above checklist on each of the stronger application ideas that I devise in my weekly ideation sessions mentioned in this [post]({% post_url 2018-10-17-week-4-reflection %}):
 
-- **Making it Specific**: ?
-- **Making it Measurable**: ?
-- **Making it Attainable**: ?
-- **Making it Relevant**: ?
-- **Making it Time-Based**: ?
+- **Making it Specific**: The goal is to validate the strongest idea from each ideation session
+- **Making it Measurable**: I want to validate all six of the stronger ideas presented by the ideation sessions
+- **Making it Attainable**: I want to spread this over six individual one hour long sessions and will schedule these sessions at the same time each week
+- **Making it Relevant**: The session will be used to validate ideas before they are considered for development of both of my applications on the course
+- **Making it Time-Based**: I want to achieve this in six weeks time
 
 There were two other important learnings from this week that are worthy of mention:
 
-- **Looking for trends in applications**: I hadn't identified this as being a useful starting point for ideation. I've now included this as an additional technique to drive ideas in my weekly ideation session mentioned in this [post]({% post_url 2018-10-17-week-4-reflection %}).
+- **Looking for trends in applications**: I hadn't identified this as being a useful starting point for ideation. I've now included this as an additional technique to drive ideas in my weekly ideation sessions already mentioned.
 - **Serious game submission criteria in the Apple App Store**: I wasn't aware of the difficulties I would face in getting approval for a *Serious Game* in the Apple App Store. Being this is one of my favoured application types I need to have a thorough understanding of the criteria and be mindful of this when developing my ideas. I have created a one hour long diary entry next week to digest this criteria.
 
 ## Summary
 
 In this post I've clarified the common names for the types of application that I am interested in creating. I've also demonstrated my understanding of the importance of market research in creating successful applications, and I've outlined a checklist to test my application ideas for market viability that has then been used as the basis for a SMART action to ensure all of my application ideas are validated.
-
-## What's next?...
-
-
 
 ## References
 
