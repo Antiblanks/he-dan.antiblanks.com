@@ -26,7 +26,7 @@ The source material related to market research over this week stands to affirm m
 - **How is the market segmented**: What are the different types of user within this user group?
 - **Which market segments are most relevant to my application idea**: Which of these user types are most likely to use my application?
 - **What are the demographic and technographic characteristics of the users in these segments**: What are the characteristics of the identified user types and are any of these *high yield* user types that are going to be profitable?
-- **How are the needs of these segments currently being met**: Look for competitor applications to inform me whether there are existing solutions and how well these are satisfying my target users needs. This can be achieved by reviewing all the respective app market places for the platforms I want to support; [Apple's App Store](https://www.apple.com/uk/ios/app-store) and [Google Play](https://play.google.com/store) in order to identify the same or similar apps as my idea and use analysis tools such as [AppTrace](http://www.apptrace.com/) to highlight the performance of these apps within the marketplace. Also by adopting competitor testing I can assess the competitor products through the eyes of the end user and identify whether there are issues that my app could improve.
+- **How are the needs of these segments currently being met**: Look for competitor applications to inform me whether there are existing solutions and how well these are satisfying my target users needs. This can be achieved by reviewing all the respective app market places for the platforms I want to support; [Apple's App Store](https://www.apple.com/uk/ios/app-store) and [Google Play](https://play.google.com/store) in order to identify the same or similar apps as my idea and use analysis tools such as [AppTrace](http://www.apptrace.com/) to highlight the performance of these apps within the marketplace. Services like [Crunchbase](https://www.crunchbase.com) can be used to see whether these apps raised funding and how much. [LinkedIn](https://www.linkedin.com) can be used to gauge the size of an app by it's number of employees. Finally by adopting competitor testing I can assess the competitor products through the eyes of the end user and identify whether there are issues that my app could improve.
 
 I've created the following SMART action to ask the above questions for each of the stronger application ideas that I devise in my weekly ideation sessions mentioned in this [post]({% post_url 2018-10-17-week-4-reflection %}):
 
@@ -49,4 +49,6 @@ In this post I've clarified the common names for the types of application that I
 
 1. [Apple's App Store](https://www.apple.com/uk/ios/app-store)
 2. [AppTrace](http://www.apptrace.com/)
-3. [Google Play](https://play.google.com/store)
+3. [Crunchbase](https://www.crunchbase.com)
+4. [Google Play](https://play.google.com/store)
+5. [LinkedIn](https://www.linkedin.com)
