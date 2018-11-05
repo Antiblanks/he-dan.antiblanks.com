@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week Five: Types of App"
+title: "Week five: Types of app"
 date: 2018-10-24 20:16:00 +0100
 categories: [GAM710]
 tags: [Diary, Project development]

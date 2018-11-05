@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week Three: The app jam!"
+title: "Week three: The app jam!"
 date: 2018-10-09 06:14:00 +0100
 categories: [GAM710]
 tags: [Diary, Project development]
@@ -238,7 +238,7 @@ When I downed my tools I was relatively pleased with the outcome; like I said th
 
 ## App Jam outcome video
 
-You can see my outcome video on Youtube [here](https://www.youtube.com/watch?v=3d5q41q5BQo). 
+You can see my outcome video on Youtube [here](https://www.youtube.com/watch?v=3d5q41q5BQo).
 
 ## Summary
 
