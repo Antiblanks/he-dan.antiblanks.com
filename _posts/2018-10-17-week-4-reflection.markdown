@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week Four: Reflection"
+title: "Week four: Reflection"
 date: 2018-10-17 09:00:00 +0100
 categories: [GAM710]
 tags: [Diary, Project development]
