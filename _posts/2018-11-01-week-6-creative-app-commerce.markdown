@@ -42,19 +42,19 @@ I've created the following SMART actions to support this:
 
 **Creating a business plan**
 
-- **Making it Specific**: ?
-- **Making it Measurable**: ?
-- **Making it Attainable**: ?
-- **Making it Relevant**: ?
-- **Making it Time-Based**: ?
+- **Making it Specific**: The goal is to create a relevant business plan for the 'Escape Room' application
+- **Making it Measurable**: I will break the business plan into XXX sections and complete one section at a time
+- **Making it Attainable**: I want to achieve this over the next XXX weeks
+- **Making it Relevant**: The business plan will be used to identify my monetisation model and drive the value proposition for my pitch to investors
+- **Making it Time-Based**: I want to spend one hour per week on this for the next XXX weeks
 
 **Creating an investor pitch document**
 
-- **Making it Specific**: ?
-- **Making it Measurable**: ?
-- **Making it Attainable**: ?
-- **Making it Relevant**: ?
-- **Making it Time-Based**: ?
+- **Making it Specific**: The goal is to create an investor pitch deck for the 'Escape Room' application
+- **Making it Measurable**: I will break the pitch deck into XXX sections and complete one section at a time
+- **Making it Attainable**: I want to achieve this over the next XXX weeks
+- **Making it Relevant**: The investor pitch deck will be used to try and acquire funding for furthering development of the 'Escape Room' application past the MVP version I create in the first module
+- **Making it Time-Based**: I want to spend one hour per week on this for the next XXX weeks
 
 ## Summary
 
