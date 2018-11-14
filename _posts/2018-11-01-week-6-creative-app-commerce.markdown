@@ -39,11 +39,17 @@ TODO...
 
 ### The importance of unique selling points
 
-Finding an idea with a unique selling point or shaping your idea to have a feature that sets it apart from your competitors is instrumental when trying to get funding. As I identified above *Paid Apps (Pay money to download)* was the best performing monetisation model in 2017 and having a unique selling point is important when convincing a user to pay for your app. Of course you can look at competitors and offer the same thing that has been executed better and charge less which is an option but it's the unique features that will allow you to charge more. The more money you can charge the better as this will then be easier to sell to a potential investor, especially the type of investor that is motivated primarily by the figures.
+Finding an idea with a unique selling point or shaping your idea to have a feature that sets it apart from your competitors is instrumental when trying to get funding. As I identified above *Paid Apps (Pay money to download)* was the best performing monetisation model in 2017 and having a unique selling point is important when convincing a user to pay for your app. Of course you can look at your competitors and offer the same thing that you execute better and charge less which is an option but it's the unique features that will allow you to charge more. The more money you can charge the better as this will then be easier to sell to a potential investor, especially the type of investor that is motivated primarily by the figures.
 
 ### Pitching to investors
 
-TODO...
+Pitching is something that I'm relatively new to, and something that I was frankly quite terrified of. For years I was content to sit behind the scenes and I actively sought a partnership that put me in the technical driving seat but kept me at arms length when it came to pitch delivery.
+
+Over time, having attended many meetings and realising that I am in fact a very confident speaker, I realised that shying away from pitches was actually a mistake, and that I'm often the person who knows the product best so I should be out selling it. I've since been involved with groups such as [BNI](http://bnilondon.com) where I was judged on a sixty second pitch every week and more recently one of our products [Roadle](http://www.roadle.co.uk) was shortlisted for [The Pitch 2018](http://www.thepitch.uk) which I attended as the co-founder to construct the ninety second pitch we delivered.
+
+I'm always looking to improve my pitching skills and I found [Rich Barham's video on Canvas](https://falmouthflexible.instructure.com/courses/293/pages/week-6-business-plans-and-pitching?module_item_id=15441) to be very helpful in exposing more depth to pitch consideration.
+
+The main learning for me was that looking back our previous pitches have been based on a common template that we have built over the years at [Antiblanks](http://www.antiblanks.com). Given the format of the pitch we would tailor the deck in length but the structure of the pitch would always remain the same: *Introduction, the problem, the solution, the value proposition, the market, the business model, the investment proposition, the team, our previous work*. I now understand that I need to better research my audience and tailor the order of content specific to what they are interested in.
 
 ### Contents of a business plan
 
@@ -75,9 +81,12 @@ I've created the following SMART actions to support this:
 
 ## Summary
 
-In this post I've looked more deeply at the four key areas highlighted by the introduction video: Funding and monetisation models, the importance of unique selling points, pitching to investors and the contents of a business plan. In reading about these topics I've expanded my knowledge and set the foundations to complete the two SMART actions I've identified in order to create both a business plan and an investor pitch document for the 'Escape Room' application and future applications.
+In this post I've looked more deeply at the four key areas highlighted by the introduction video: Funding and monetisation models, the importance of unique selling points, pitching to investors and the contents of a business plan. In reading about these topics I've expanded my knowledge and set the foundations to complete the two SMART actions I've identified in order to create both a business plan and an investor pitch document for the 'Escape Room' application and for future applications.
 
 ## References
 
-1. [How Will your App Make Money? post on Tech.co](https://tech.co/6-app-monetization-models-make-money-2015-08)
-2. [The 5 Best Strategies To Monetize Your Mobile App In 2018 post on StartUS Magazine](https://magazine.startus.cc/best-strategies-monetize-mobile-app-2018)
+1. [Antiblanks](http://www.antiblanks.com)
+2. [BNI](http://bnilondon.com)
+3. [How Will your App Make Money? post on Tech.co](https://tech.co/6-app-monetization-models-make-money-2015-08)
+4. [Rich Barham's video on Canvas](https://falmouthflexible.instructure.com/courses/293/pages/week-6-business-plans-and-pitching?module_item_id=15441)
+5. [The 5 Best Strategies To Monetize Your Mobile App In 2018 post on StartUS Magazine](https://magazine.startus.cc/best-strategies-monetize-mobile-app-2018)
