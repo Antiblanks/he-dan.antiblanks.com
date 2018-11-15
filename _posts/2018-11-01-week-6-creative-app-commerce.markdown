@@ -18,42 +18,36 @@ As has been the case in most weeks on the course so far, I do have first hand in
 
 ### Funding and monetisation models
 
-The two, 'funding' and 'monetisation models' go hand in hand but more so in reverse. The monetisation model is important to get right, without a viable monetisation model your application is not going to have any worth and therefore you will struggle to get funded.
-
-**Monetisation models**
+The two, 'funding' and 'monetisation models' go hand in hand but more so in reverse. The monetisation model is important to get right first, without a viable monetisation model your application is not going to have any worth and therefore you will struggle to get funded.
 
 There are various options available when it comes to monetisation and the key is to consider which of these suit your application and your audience the best. Below is a list of common ways to make money from an application taken directly from a Tech.co post [How will your app make money?](https://tech.co/6-app-monetization-models-make-money-2015-08). Though this post was written in 2015 the methods haven't changed but the ordering has ever so slightly. To be more current I've re-ordered my list based on the 2017 trends reported in this StartUS post [The 5 best strategies to monetise your mobile app in 2018](https://magazine.startus.cc/best-strategies-monetize-mobile-app-2018):
 
-- **Paid Apps (Pay money to download)**: This means that the app cannot be downloaded for free and it must be purchased from the app store if the user wishes to use it. You should be able to showcase your app to be something new and unique, one which is different from similar free apps available.
+- **Paid Apps (Pay money to download)**: This means that the app cannot be downloaded for free and it must be purchased from the app store if the user wishes to use it.
 - **In-App Purchases (Selling virtual or physical goods)**: This strategy involves the selling of virtual or physical goods within the app itself which helps the company to yield profits.
 - **In-App Advertising (Free with ads)**: Most commonly seen in smartphone apps, the company gets rid of the cost barrier and allows free downloads. It aims to gather information about the people using the app along with a good user base so that this data can be sold to app publishers who then place specific ads in your app.
 - **Freemium (Gated features)**: In this strategy, the app is available for free but some of the features are locked and unlocking them costs money. The app’s basic functionality is accessible by the user but he has to pay a price for using its proprietary or premium features.
 - **Paywalls (Subscriptions)**: Being similar to Freemium, the content instead of the features are locked. A specific amount of content can be viewed for free after which the user needs to sign up for a paid subscription to view more content.
-- **Sponsorship (Incentivised advertising)**: This refers to partnering up with advertisers who reward your user when they complete specific in-app actions. In order to be a part of the incentive system, agencies and brands pay up and you take a share of the revenue from the rewards redeemed by users.
+- **Sponsorship (Incentivised advertising)**: This refers to partnering with advertisers who reward your user when they complete specific in-app actions. In order to be a part of the incentive system, agencies and brands pay and you take a share of the revenue from the rewards redeemed by users.
 
-When selecting the monetisation model/s for my apps I will first need to understand the audience and what model/s they perform best with them, I will then weight in favour of the higher performing models from 2017 trends and tailor my solution to use one or more of these techniques.
-
-**Funding**
-
-TODO...
+When selecting the monetisation model/s for my apps I will first need to understand the audience and what model/s perform best with them, I will then weight in favour of the higher performing models outlined above by the 2017 trends and tailor my solution to use one or more of these techniques.
 
 ### The importance of unique selling points
 
-Finding an idea with a unique selling point or shaping your idea to have a feature that sets it apart from your competitors is instrumental when trying to get funding. As I identified above *Paid Apps (Pay money to download)* was the best performing monetisation model in 2017 and having a unique selling point is important when convincing a user to pay for your app. Of course you can look at your competitors and offer the same thing that you execute better and charge less which is an option but it's the unique features that will allow you to charge more. The more money you can charge the better as this will then be easier to sell to a potential investor, especially the type of investor that is motivated primarily by the figures.
+Finding an idea with a unique selling point or shaping your idea to have a feature that sets it apart from your competitors is instrumental when trying to get funding. As I identified above *Paid Apps (Pay money to download)* was the best performing monetisation model in 2017 and having a unique selling point is important when convincing a user to pay for your app. Of course you can look at your competitors and offer the same thing but execute it better and charge less which is an option but it's the unique features that will allow you to charge more. The more money you can charge the better as this will then be easier to sell to a potential investor, especially the type of investor that is motivated primarily by the figures.
 
 ### Pitching to investors
 
-Pitching is something that I'm relatively new to, and something that I was frankly quite terrified of. For years I was content to sit behind the scenes and I actively sought a partnership that put me in the technical driving seat but kept me at arms length when it came to pitch delivery.
+Pitching is something that I'm relatively new to, and something that I was frankly quite terrified of. For years I was happy to sit behind the scenes and I actively sought a partnership that put me in the technical driving seat but kept me at arms length when it came to pitch delivery.
 
-Over time, having attended many meetings and realising that I am in fact a very confident speaker, I realised that shying away from pitches was actually a mistake, and that I'm often the person who knows the product best so I should be out selling it. I've since been involved with groups such as [The Business Networking Institute (BNI)](http://bnilondon.com) where I was judged on a sixty second pitch every week and more recently one of our products [Roadle](http://www.roadle.co.uk) was shortlisted for [The Pitch 2018](http://www.thepitch.uk) which I attended as the co-founder to construct the ninety second pitch we delivered.
+Over time, having attended many meetings I realised that I am in fact a very confident speaker and that shying away from pitches was actually a mistake, and that I'm often the person who knows the product best so I should be out selling it. I've since been involved with groups such as [The Business Networking Institute (BNI)](http://bnilondon.com) where I was judged on a sixty second pitch every week and more recently one of our products [Roadle](http://www.roadle.co.uk) was shortlisted for [The Pitch 2018](http://www.thepitch.uk) which I attended as the co-founder to construct the ninety second pitch we delivered.
 
 I'm always looking to improve my pitching skills and I found [Rich Barham's video on Canvas](https://falmouthflexible.instructure.com/courses/293/pages/week-6-business-plans-and-pitching?module_item_id=15441) to be very helpful in exposing more depth to pitch consideration.
 
-Looking back our previous pitches, they have all been based on a common template that we have built over the years at [Antiblanks](http://www.antiblanks.com). Given the format of the pitch we would tailor the content in length but the structure of the pitch would always remain the same. I now understand that I need to better research my audience and tailor the content specific to what they are most interested in.
+Looking back at our previous pitches, they have all been based on a common template that we have built over the years at [Antiblanks](http://www.antiblanks.com). Given the format of the pitch we would tailor the content in length but the structure of the pitch would always remain the same. I now understand that I need to better research my audience and tailor the content specific to what they are most interested in.
 
 ### Contents of a business plan
 
-Historically at Antiblanks we've only ever created an investor pitch deck that has a structure which bears a strong likeness to that of a typical startup app business plan template such as [this one](https://www.apppartner.com/write-business-plan-app-startup) I found on AppPartner.com. This weeks content has helped me to identify that the investor pitch deck we are pitching to all investors is actually too much and what we should be doing is constructing our pitch from our investor pitch deck but use the relevant content tailored to our audience. The investor pitch deck can then be sent as a follow up to our pitch for more detailed information.
+Historically at Antiblanks we've only ever created an investor pitch deck that has a structure which bears a strong likeness to that of a typical startup app business plan template such as [this one from AppPartner.com](https://www.apppartner.com/write-business-plan-app-startup). This weeks content has helped me to identify that the investor pitch deck we are pitching to all investors is actually too much and what we should be doing is constructing our pitch from our investor pitch deck but use the relevant content tailored and organised to our audience. The investor pitch deck can then be sent as a follow up to our pitch for more detailed information.
 
 ### Tying this to my project
 
