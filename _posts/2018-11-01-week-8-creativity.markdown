@@ -16,6 +16,8 @@ The source material this week was focused on creativity. At first glance I thoug
 
 In particular the introduction to the term 'stickiness', the term used to define *something about an application that encourages a user to stay longer or return*, and how this can be driven by what Professor Tanya Krzywinska refers to as 'Soap Opera Tactics' that she defines as being *the way you can build stickiness into your app and use creative processes in order to achieve this*, was very insightful. The video then goes on to describe *hook tactics* and *hook structures* that are built into an application to keep an audience interested and willing to subscribe over time and how these strategies should be designed in tandem with monetisation.
 
+TODO: Mention this article: https://www.apppartner.com/secret-mobile-app-stickiness
+
 ### Tying this to my project
 
 Prior to reading this weeks content I had decided, for the Escape Room application that my monetisation strategy should be based on having a paywall and that the wall is applied at point of adding a room. So users can find and play rooms for free but businesses must subscribe to add their rooms. As a value proposition this works as I would only need to subscribe 1% of the rooms in the UK and US alone (roughly 20,550 rooms) and charge them something very affordable, almost negligible (say less than £1.00/month) in order to support a business.
