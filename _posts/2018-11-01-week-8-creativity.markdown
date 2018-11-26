@@ -16,11 +16,15 @@ The source material this week was focused on creativity. At first glance I thoug
 
 In particular the introduction to the term 'stickiness', the term used to define *something about an application that encourages a user to stay longer or return*, and how this can be driven by what Professor Tanya Krzywinska refers to as 'Soap Opera Tactics' that she defines as being *the way you can build stickiness into your app and use creative processes in order to achieve this*, was very insightful. The video then goes on to describe *hook tactics* and *hook structures* that are built into an application to keep an audience interested and willing to subscribe over time and how these strategies should be designed in tandem with monetisation.
 
-Prior to watching this video I had decided that my monetisation strategy should be based around having a paywall and that the wall is applied at point of adding a room. So users can find and play rooms for free but businesses must subscribe to add their rooms. As a value proposition this works as I would only need to subscribe 1% of the rooms in the UK and US (roughly 20,550 rooms) and charge them something very affordable, almost negligible in fact (say less than £1.00/month) in order to have a business. Also, this works from a marketing point of view because the businesses are pushing the application onto the players to improve their experience. However, this approach rests on one very important factor and this is that the experience I offer to the player must greatly enhance the current experience otherwise the rooms will not be prepared to adopt the application.
-
-This is where understanding the audience and creating stickiness will really bring benefit.
-
 ### Tying this to my project
+
+Prior to reading this weeks content I had decided, for the Escape Room application that my monetisation strategy should be based on having a paywall and that the wall is applied at point of adding a room. So users can find and play rooms for free but businesses must subscribe to add their rooms. As a value proposition this works as I would only need to subscribe 1% of the rooms in the UK and US alone (roughly 20,550 rooms) and charge them something very affordable, almost negligible (say less than £1.00/month) in order to support a business.
+
+> Note: The subscription cost needs more evaluation. This will be considered in more depth once I have gauged the interest in the application from escape room businesses and TODO: Question from post (link to audience research here)
+
+This strategy also works well from a marketing point of view because the businesses are pushing the application onto the players to improve their experience. However, this approach rests on one very important factor and this is that the accompanying experience offered to the player by having the app installed must greatly enhance the current analogue experience otherwise the rooms will not be prepared to pay for the subscription.
+
+This is where understanding the audience and creating stickiness with hooks will really bring benefit and (hopefully) drive subscriptions.
 
 XXX I've created the following SMART action to support this:
 
