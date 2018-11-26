@@ -36,7 +36,7 @@ This is where understanding the audience and creating stickiness with hooks will
 
 ## Summary
 
-In the above post I've identified my unfamiliarity with the term 'stickiness'. I've then gone on to outline the steps I've taken to research what this means and better understand ways in which to achieve this within my applications.    
+In the above post I've acknowledged my unfamiliarity with the term 'stickiness'. I've then gone on to outline the steps I've taken to research what this means and better understand ways in which to achieve this within my applications. Finally I've created a SMART action to hone my strategy for achieving stickiness in my Escape Room application that will be conducted after I've completed the previous action to better understand my audience.
 
 ## References
 
