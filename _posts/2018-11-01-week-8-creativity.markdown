@@ -22,7 +22,7 @@ Though designing and implementing hooks to keep users interested or draw users b
 
 ### Tying this to my project
 
-Prior to reading this weeks content I had decided, for the Escape Room application that my monetisation strategy should be based on having a paywall and that the wall is applied at point of adding a room. So users can find and play rooms for free but businesses must subscribe to add their rooms. As a value proposition this works as I would only need to subscribe 1% of the rooms in the UK and US alone (roughly 20,550 rooms) and charge them a very affordable business cost, almost negligible (say less than £1.00 / month) which would be viable as a business.
+Prior to reading this weeks content I had decided, for the Escape Room application that my monetisation strategy should be based on having a paywall and that the wall is applied at point of adding a room. So users can find and play rooms for free but businesses must subscribe to add their rooms to the app. As a value proposition this works as I would only need to subscribe 1% of the rooms in the UK and US alone (roughly 20,550 rooms) and charge them a very affordable business cost, almost negligible (say less than £1.00 / month) which would be viable as a business.
 
 > Note: The subscription cost above needs more evaluation. This will be considered in more depth once I have gauged the interest in the application from escape room businesses and sought information via my audience research outlined in this [post]({% post_url 2018-11-01-week-7-audience-research %}).
 
