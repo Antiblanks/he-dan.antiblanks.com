@@ -22,20 +22,21 @@ The effect on users of adopting an emerging technology can be seen in mobile app
 
 ### Tying this to my project
 
-Previously identified during the App Jam that not being ready to develop with AR held me back and prevented me from exploring the strongest idea for the AR driven Escape Room application that I have since gone on to consider as the app I will develop on the course. As a result of this I realised the need to be ready to develop applications with new technology and in this [post](2018-10-17-week-4-reflection) on reflection in week four I created a SMART action to integrate both AR and VR as forks of my React Native boilerplate. Upon further reflection during this week I realise that
+I had previously identified during the [App Jam]({% post_url 2018-10-10-week-3-app-jam %}) in week three that not being ready to develop with AR influenced my decision not to explore the core mechanic for the AR driven Escape Room application (the strongest idea from the jam that I have since gone on to consider as the app I will develop for my final project). As a result of this I realised the importance of being ready to develop applications with emerging technology that interests me and in this [post]({% post_url 2018-10-17-week-4-reflection %}) in week four I created a SMART action to integrate both AR and VR as forks of my React Native boilerplate.
 
-Going beyond this application I need to **<<TODO>>**
+This action has already been put into effect and thus I have already tied this learning to my project. However, upon further reflection during this week I realise that there is a more long term action required in order to continually be ready to develop current apps with emerging technology. In my opinion this requires a two-part approach; the first challenge is to keep abreast of new technology, this is not a problem for me given I subscribe to and regularly consume tech blogs such as [TechCrunch](https://www.techcrunch.com) and [Mashable](https://mashable.com), but the second challenge is ensuring I am ready to develop with tech when I find something of interest.
 
 I’ve created a SMART action to ensure I’m ready to develop applications with emerging tech:
-• Specific: The goal is to create forks of my current React Native boilerplate to integrate various emerging technologies, so I can easily develop against these.
-• Measurable: For each piece of technology that interests me, I want to have a forked boilerplate in my Github repository that is ready to develop against.
-• Attainable: I’ve already forked the boilerplate to integrate Google Maps and various Firebase libraries so I know the effort required and can manage integrating one technology alongside my regular two week sprint.
-• Relevant: One or more forked boilerplates will potentially be used for one of my applications on the course or thereafter. I should be able to combine them easily to create the bare bones of an app which requires each chosen tech.
-• Time-Based: I want to have either AR or VR integrated into a forked boilerplate by the time we restart the course in the new year.
+
+- **Making it Specific**: The goal is to create forks of my current React Native boilerplate to integrate various emerging technologies, so I can easily develop against these.
+- **Making it Measurable**: For each piece of technology that interests me, I want to have a forked boilerplate in my Github repository that is ready to develop against.
+- **Making it Attainable**: I’ve already forked the boilerplate to integrate Google Maps, various Firebase libraries and partially integrated AR so I know the effort required and can manage integrating one technology alongside my regular two week sprint.
+- **Making it Relevant**: One or more forked boilerplates will potentially be used for one of my applications on the course or thereafter. I should be able to combine them easily to create the bare bones of an app which requires each chosen tech.
+- **Making it Time-Based**: I want to have either AR, VR or both integrated into a forked boilerplate by the time we restart the course in the new year.
 
 ## Summary
 
-??
+In the above post I've talked briefly about how the source material over this week combined with my previous experience has identified the importance of utilising emerging technology in my applications. I've indicated that this is not a new learning for me and I've gone on to illustrate how I have already made steps to integrate AR into my React Native boilerplate so that I am ready to use this to develop the core mechanic for my Escape Room app in the new year. Finally I've gone on to acknowledge the need for continually being ready to develop with merging technology that interests me and I've created a SMART action to satisfy this.
 
 ## References
 
@@ -44,4 +45,5 @@ I’ve created a SMART action to ensure I’m ready to develop applications with
 3. [Pokemon Go!](https://www.pokemon.com/uk/pokemon-video-games/pokemon-go)
 4. [Pokemon Go! earnings on Forbes](https://www.forbes.com/sites/insertcoin/2018/07/09/pokemon-go-has-made-1-8-billion-as-it-turns-two-years-old)
 5. [Substance Global](https://www.substanceglobal.com)
-6. [The Top 7 Technology Trends for 2018 post on DataFloq](https://datafloq.com/read/the-top-7-technology-trends-for-2018/4085)
+6. [TechCrunch](https://www.techcrunch.com)
+7. [The Top 7 Technology Trends for 2018 post on DataFloq](https://datafloq.com/read/the-top-7-technology-trends-for-2018/4085)
