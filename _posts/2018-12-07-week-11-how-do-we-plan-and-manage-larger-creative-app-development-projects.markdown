@@ -16,7 +16,20 @@ The source material this week was focused on XYZ
 
 TODO: Current experience & how I can relate to this...
 
+• Bloom.fm first introduction to agile methodologies
+  - Influences from both Scrum and Kanban
+  - Loose, not hugely rigid
+• My Perfect Volkswagen
+  - Scrum
+  - Refined further, true agile, more rigid
+    - Backlog, sprint planning team & client (planning poker), 2 week sprint, sprint review with team & client (deploy, preview, progress weighed [velocity]), sprint retrospective team no client (well? wrong? improved?)
+• Falabella
+  - Somewhere in the middle, paved the way for how I manage projects today
+
 TODO: What if anything this weeks content has taught me...
+
+• Traditional Waterfall approach to the System Development Life Cycle (SDLC)
+• Scrum approach to the System Development Life Cycle (SDLC)
 
 ### Tying this to my project
 
