@@ -12,7 +12,13 @@ Write a 250-300 word post noting your progress so far. Identify one challenge an
 
 ## My experience in week eleven
 
-The source material this week was focused on XYZ
+The source material this week was focused on project management strategies and some of the workflows and pipelines associated with creative app development. The introductory material touched on two approaches to the System Development Life Cycle (SDLC), the first being the traditional (and now much less common) *Waterfall* approach and the second being the more modern *Scrum* approach which is one of the various methodologies that sits under the *Agile* umbrella term.
+
+Both *Waterfall* and *Agile* terms are not new to me, though being my career in enterprise software development began post 2000 my experience has almost entirely been within Agile methods and my understanding of Waterfall is based purely on the negative opinions I've read or heard that stand to discredit this for one reason or another. In my opinion considering the Waterfall approach for any large scale app development today after having been introduced to Agile methods seems nonsensical but in reality experience has taught me that there are facets of the Waterfall approach still found in a lot of projects, especially in agency work, I think that the main reason for this is that clients generally like an end-to-end plan of how long a project will take and how much it will cost and this is easier to do with a traditional bottom-up technique of detailing all requirements and estimating each task based on this which is unfortunately more Waterfall than Agile. So, in my experience it is quite common to practice a mixture of Waterfall and Agile with more emphasis on Waterfall for the initial estimate but then on Agile for the remainder of the SDLC. Saying this I have had some good experiences working on pure Agile projects. The [My Perfect Volkswagen app](https://www.volkswagen.co.uk/perfect/app) I architected at [Tribal Worldwide](http://www.tribalworldwide.co.uk) was built entirely using Agile practices; we stuck quite rigidly to the Scrum methodology with some small influences from Kanban. The project was managed using JIRA, we worked in two week sprints, each sprint kicked off with a sprint planning meeting utilising techniques such as planning poker and followed by a sprint review with the sprint team and client where we would deploy, preview and weigh progress and calculate our velocity, finally we would hold a sprint retrospective without the client to reflect on how well we did, what went wrong and how we could improve. This project taught me a lot about project management, it turned me onto the benefits of agile and greatly influenced how I approach project management today. The most notable benefits I saw from working in this fashion was how the regular client preview near removed the risk of time wastage in the development cycle and how this promoted positive change and ultimately resulted in a better application.
+
+
+
+
 
 TODO: Current experience & how I can relate to this...
 
@@ -96,4 +102,6 @@ In the above post I've XYZ
 
 ## References
 
-1. ??
+1. [Bloom.fm Wikipedia page](https://en.wikipedia.org/wiki/Bloom.fm)
+2. [My Perfect Volkswagen app](https://www.volkswagen.co.uk/perfect/app)
+3. [Tribal Worldwide](http://www.tribalworldwide.co.uk)
