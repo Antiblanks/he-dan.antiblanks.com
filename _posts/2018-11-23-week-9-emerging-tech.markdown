@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week nine: Emerging Tech"
+title: "Emerging Tech"
 date: 2018-11-23 19:27:00 +0100
 categories: [GAM710]
 tags: [Diary, Project development]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week eleven: How do we plan and manage larger creative app development projects?"
+title: "How do we plan and manage larger creative app development projects?"
 date: 2018-12-07 10:34:00 +0100
 categories: [GAM710]
 tags: [Diary, Project development]

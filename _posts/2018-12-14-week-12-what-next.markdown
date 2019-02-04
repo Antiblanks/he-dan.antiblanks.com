@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week twelve: What next?"
+title: "What next?"
 date: 2018-12-14 20:55:00 +0100
 categories: [GAM710]
 tags: [Diary, Project development]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week ten: Who else is making apps"
+title: "Who else is making apps"
 date: 2018-11-30 16:15:00 +0100
 categories: [GAM710]
 tags: [Diary, Project development]

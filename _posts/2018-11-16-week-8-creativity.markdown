@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week eight: Creativity"
+title: "Creativity"
 date: 2018-11-16 21:38:00 +0100
 categories: [GAM710]
 tags: [Diary, Project development]

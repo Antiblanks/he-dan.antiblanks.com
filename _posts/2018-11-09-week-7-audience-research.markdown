@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week seven: Audience research"
+title: "Audience research"
 date: 2018-11-09 09:43:00 +0100
 categories: [GAM710]
 tags: [Diary, Project development]
