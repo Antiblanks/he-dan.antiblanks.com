@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week three: The app jam!"
+title: "The app jam!"
 date: 2018-10-09 06:14:00 +0100
 categories: [GAM710]
 tags: [Diary, Project development]

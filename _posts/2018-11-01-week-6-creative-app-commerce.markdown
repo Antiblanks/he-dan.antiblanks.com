@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week six: Creative app commerce"
+title: "Creative app commerce"
 date: 2018-11-01 00:17:00 +0100
 categories: [GAM710]
 tags: [Diary, Project development]

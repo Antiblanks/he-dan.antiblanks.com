@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week two: Selection and setup of platform and tools"
+title: "Selection and setup of platform and tools"
 date: 2018-10-03 09:30:00 +0100
 categories: [GAM710]
 tags: [Diary, Project development]
