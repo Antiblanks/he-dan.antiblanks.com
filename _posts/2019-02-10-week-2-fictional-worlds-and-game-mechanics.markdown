@@ -21,10 +21,9 @@ Despite itching to throw myself into the development of Escape The App, I had pl
 • Anyway, I've digressed, what I learned this week from the source material is XYZ and this is how I'm going to use this knowledge to better Escape The App. TODO...
 
 • Narrative:
-  2012: Real-world social interactions and dying. Millenials are increasingly turning to their devices to play virtual games above  
-  Fearful of real-world problem solvers becoming extinct
-  In an effort to draw gamers away from their computers to interact in the real world the government formed a top secret underground movement known as Escape
-  Their objective was to flood our world with Escape Games
+  - In 2012 real world social interactions and dying. Millennials are increasingly turning to their devices to socialise and play virtual games. Statistics predict that by 2021 all offline social interactions will become extinct.
+  - In an effort to encourage real world social interactions the government formed a top secret underground movement known as Escape
+  Their objective was to flood our world with Escape Games...
 
 ## Summary
 
