@@ -24,7 +24,7 @@ Despite itching to throw myself into the development of Escape The App, I had pl
   - In 2012 real world social interactions were dying. Millennials were increasingly turning to their devices to socialise and play virtual games. Statistics showed that by 2021 all offline social interactions will have become extinct.
   - As a last resort world governments formed a top secret underground movement to encourage offline social interactions through exciting Escape Games. This movement was known as Escape.
   - By 2018 the Escape movement is proven to be working, offline social interactions have increased by 1000% but economical factors are forcing a clamp down on funding and yet again the survival of real world social interactions hangs in the balance.
-  - With no funding the fate of real world social interactions and Escape Gaming is now in the hands of the people. We are Escape, and we are the revolution.
+  - With no funding the fate of real world social interactions and Escape Gaming is now in the hands of the people. We are Escape, we are the revolution and we need you.
 
 ## Summary
 
