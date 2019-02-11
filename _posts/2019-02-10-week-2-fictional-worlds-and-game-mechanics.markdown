@@ -12,7 +12,15 @@ The source material this week was split over the design of fictional worlds and 
 
 The [Narrative Design video by Che Wilbraham](https://falmouthflexible.instructure.com/courses/296/pages/week-2-narrative-design-che-wilbraham?module_item_id=19025) introduced us to the term 'Interactive Narrative' and explained the design of this being to create a possible space (Story World) in which a player can act to create their own experience (Storyline). The video went on to outline the difference between Embedded and Emergent Narrative and how these terms relate to Interactive Narrative in that the Story World is formed of Embedded Narrative and the Emergent Narrative is tied more to the Storyline that the player creates. I found this to be very inspiring and above anything the video instilled the importance of narrative behind gameplay and creating stickiness within apps.
 
-The [Role Playing Games video by Che Wilbraham](https://falmouthflexible.instructure.com/courses/296/pages/week-2-role-playing-games-che-wilbraham?module_item_id=19026) TODO...
+The [Role Playing Games video by Che Wilbraham](https://falmouthflexible.instructure.com/courses/296/pages/week-2-role-playing-games-che-wilbraham?module_item_id=19026) took us through the different parts and mechanics behind a Role Player Game (RPG). First there is a run through of the character representation, challenge representation and conflict resolution and some hint at how this can be achieved by assigning attributes to each of the game sprites to determine their properties. Next there is a run through of the setting, flavour, complexity and players with a description of each part, followed by a short piece titled *Why do you want to make a game?* which is focused on the drivers behind the idea of the game and ensuring it is meaningful. Next there is a slide on how to bring everything together ensuring that all parts of the system fit with the story, a slide on the importance of getting inspiration through research and finally a slide on what Che Wilbraham terms as *Play Test* that is an expansion on the iterative approach of design, prototyping and evaluation mentioned in this [post]({% post_url 2019-02-03-week-1-game-design %}) with more emphasis on the feedback loop and how this can be used to improve the game.
+
+**
+
+Having created a number of games I'm very accustomed to this language and I could easily relate to everything
+
+Why do you want to make a game - more interesting, because this is the part where I've found weakness in my previous endeavours
+
+**
 
 ### Tying this to my project
 
