@@ -24,10 +24,27 @@ Ergodic Literature:
 • CHanging variables altering cybertext (video example)
 • References to the decisions made by the user and how these positively affected the outcome (narrative)
 • State machines etc, really talking my language but never applied it at this level of complexity
+• Traversal mechanisms - Check on what these are?...
+
+An Introduction to Ren'Py:
+• Framework used to build interactive visual novels
+• Very basic but quite a powerful framework, very procedural, much akin to a console app
+TODO: Follow this to setup Ren.Py: https://falmouthflexible.instructure.com/courses/296/pages/week-3-an-introduction-to-renpy?module_item_id=19039
+
+
 
 ### Tying this to my project
 
 • Going too fast? Goals too lofty? Slow it down perhaps, more consideration in the game mechanics vs getting something into production that can be iterated on?
+
+• State shapes and how this affects the cybernetic narratives
+  - How to player decisions affect state and how does this state affect their emergent narrative
+
+• User type and how this affects cybernetic narratives
+  - Question up front: 'Are you an XXX or a YYY'
+
+• Start looking as the gamification as a whole and not just the playable element
+  - How to we build cybernetic narratives into this?...
 
 ## Summary
 
