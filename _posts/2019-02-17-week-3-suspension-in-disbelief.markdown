@@ -31,7 +31,30 @@ An Introduction to Ren'Py:
 • Very basic but quite a powerful framework, very procedural, much akin to a console app
 TODO: Follow this to setup Ren.Py: https://falmouthflexible.instructure.com/courses/296/pages/week-3-an-introduction-to-renpy?module_item_id=19039
 
-
+Pursuing Interactive Suspension of Disbelief
+• From his work on Telltale Game's The Walking Dead to the beginnings of their new game at Campo Santo, designer and writer Sean Vanaman explores the challenges encountered and techniques used in creating tonal, emotional, systemic and narrative consistency in the pursuit of suspending a player's disbelief.
+• All games based on the same thing:
+  - Believable characters
+  - Discoverable story
+  - Responsive systems
+• Stories about people help us to see past our disbelief in the text
+• Samuel Taylor Coleridge - Players shouldn't have to ignore certain aspects of the experience just to find narrative or connect to the story
+• Do do this:
+  - Communicate with the player
+  - Focus on the human experience
+  - Worth engaging emotionally
+• If you're on a date with the player:
+  - Get to know them, listen to what they are saying
+  - Return with comfortably predictable and excitingly surprising responses
+• Dancing with the player
+  - Effortless
+  - Let the player lead you (check this, who leads?)
+• Walking dead and where it failed
+  - When the dialog was not as responsive - players eyes glaze, they are experiencing a story but not their story
+• Tonal consistency
+  - Real conversation
+  - Building a relationship
+  - Long list of things that will hinder this (see list)
 
 ### Tying this to my project
 
@@ -45,6 +68,15 @@ TODO: Follow this to setup Ren.Py: https://falmouthflexible.instructure.com/cour
 
 • Start looking as the gamification as a whole and not just the playable element
   - How to we build cybernetic narratives into this?...
+  - Who communicates with the user? Who is this person? Think about tonal consistency and narrative cohesion etc
+    - Real conversation
+    - Building a relationship
+
+• Suspension in disbelief
+  - Stories about people help us to see past our disbelief in the text, how can we fine tune our narrative to introduce real people?
+  - How to introduce the date scenario into this? Get to know them, listen to what they are saying (audience research) and then give them what they want
+  - Think about the responses, the prompts and the hooks, these need to be tailored to the player, they need to feel like their experiencing their own story
+  - Don't make it too complicated, make the CTA's easy so that the player can easily lead us through the experience
 
 ## Summary
 
