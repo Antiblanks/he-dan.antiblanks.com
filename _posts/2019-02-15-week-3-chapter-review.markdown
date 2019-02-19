@@ -90,4 +90,5 @@ information?
 
 13. What does this book or article contribute to my own work?*
 
-• 
+• Deeper understanding of how to suspend disbelief
+• Potential inclusion of a carefully crafted introduction or preface to acclimatise the player into the game
