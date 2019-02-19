@@ -51,23 +51,43 @@ Next:
 
 4. Could the evidence be interpreted in other ways?
 
-
+•
 
 5. What is the author's research method (e.g. qualitative, quantitative,
 experimental)?
 
-
+• Not sure this is relevant?...
 
 6. What is the author's theoretical framework (e.g. psychological, developmental,
 feminist)?
+
+• ?
+
 7. What is the relationship assumed by the author between theory and practice?
+
+• ?
+
 8. Has the author critically evaluated the other literature in the field?
 
-
+• Yes very much so, 57-64 exploring many views on the term 'suspension of disbelief'
 
 9. Does the author include literature opposing her / his point of view?
+
+• ?
+
 10. Is the research data valid i.e. based on a reliable method and accurate
 information?
+
+• Not sure this is relevant?...
+
 11. Can you 'deconstruct' the argument – identify the gaps or jumps in the logic?
+
+• ?
+
 12. What are the strengths and limitations of this study?
+
+• ?
+
 13. What does this book or article contribute to my own work?*
+
+• 
