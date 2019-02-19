@@ -79,6 +79,8 @@ Pursuing Interactive Suspension of Disbelief
 
 • Going too fast? Goals too lofty? Slow it down perhaps, more consideration in the game mechanics vs getting something into production that can be iterated on? Reading material always encourages me to put the brakes on, forcing me to think deeper about elements before rushing into implementation, was doing code but parked in favour of working creatively around the narrative and improve it using everything we've learned this week
 
+• Good quote: 'A need in the field is ideas on how to create rooms that can be changed between plays in a fair manner, to both reduce cheating and allow people to replay the same game.' http://scottnicholson.com/pubs/stateofescape.pdf Could this inspire the narrative by adding an extra layer of play on  top of escape rooms? Tasks needing to be completed in a certain order etc?... How would we do this without jeopardising gameplay and could we police this? 
+
 ## Summary
 
 TODO...
