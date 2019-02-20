@@ -52,6 +52,8 @@ Next:
   • Holland - ?
   • Brian Sutton Smith - ?
   • JRR Tolkien - ?
+  • Hall - ?
+  • Lindley & Brown - ?
 
 3. How convincing are the reasons given to the author’s point of view?
 
@@ -86,7 +88,8 @@ feminist)?
 
 9. Does the author include literature opposing her / his point of view?
 
-• Hard to find the authors point of view being that the chapter is more of an exploration of the meaning and not the authors opinion of the meaning
+• Hard to find the authors point of view initially being that the first half of the chapter is more of an exploration of the meaning based on the opinions of various credible sources and not the authors opinion of the meaning
+• The author's point of view starts to emerge around page 73 into the later half of the chapter...
 
 10. Is the research data valid i.e. based on a reliable method and accurate
 information?
@@ -107,3 +110,4 @@ information?
 • Deeper understanding of what it means to suspend disbelief and assistance in forming a more comprehensive and considered strategy for doing this in my application/s based on various other opinions on the subject
 • Potential inclusion of a carefully crafted introduction or preface to acclimatise the player into the game
 • Tolkien's use of maps and annotations and how these can be used to realise fictional worlds is inspiring in the sense of understanding that it is these pieces that help to glue the narrative together and deeper immerse the player into the world you are creating for them giving them context of the world you are describing. This makes me wonder whether there is some way I can glue the escape games together as missions, potentially to be succeeded in a specific order with a graphical representation of ones progress. Games upon games. The idea that a more holistic game could be introduced?...
+• Passivity or failure to react quickly enough to the cues provided by the text is one of the most common mechanics for failure and restarting games
