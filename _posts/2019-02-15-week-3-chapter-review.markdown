@@ -44,10 +44,19 @@ Next:
   • Roland Barthes' - notion of the 'Death of the author'
   • Robert Hodge and David Tripp - media effects debate
   • Ferri - ?
+  • Iser - ?
+  • Wayne Booth - ?
+  • Gerrig - ?
+  • Perren & Arsenault - ?
+  • Kant - ?
+  • Holland - ?
+  • Brian Sutton Smith - ?
+  • JRR Tolkien - ?
 
 3. How convincing are the reasons given to the author’s point of view?
 
 • The inclusion of references are convincing
+• The depth of analysis and the heavy use of references from many credible authors
 
 4. Could the evidence be interpreted in other ways?
 
@@ -56,7 +65,7 @@ Next:
 5. What is the author's research method (e.g. qualitative, quantitative,
 experimental)?
 
-• Not sure this is relevant?...
+• Definitely Qualitative Research based/formed by reading a bulk of works on the subject by many different authors and analysing their opinions
 
 6. What is the author's theoretical framework (e.g. psychological, developmental,
 feminist)?
@@ -70,10 +79,14 @@ feminist)?
 8. Has the author critically evaluated the other literature in the field?
 
 • Yes very much so, 57-64 exploring many views on the term 'suspension of disbelief'
+• 68 throwing idea into jeopardy
+• 69 catharsis clash
+• 70 cautions against it, questioned the positioning, if not the spirit of suspension of disbelief (Tolkien's objection)
+• 71-72 Tolkien and Coleridge opposed
 
 9. Does the author include literature opposing her / his point of view?
 
-• ?
+• Hard to find the authors point of view being that the chapter is more of an exploration of the meaning and not the authors opinion of the meaning
 
 10. Is the research data valid i.e. based on a reliable method and accurate
 information?
@@ -86,9 +99,11 @@ information?
 
 12. What are the strengths and limitations of this study?
 
-• ?
+• Strengths
+  - Broad opinion research into many credible authors and consideration of a large number of differing opinions
 
 13. What does this book or article contribute to my own work?*
 
-• Deeper understanding of how to suspend disbelief
+• Deeper understanding of what it means to suspend disbelief and assistance in forming a more comprehensive and considered strategy for doing this in my application/s based on various other opinions on the subject
 • Potential inclusion of a carefully crafted introduction or preface to acclimatise the player into the game
+• Tolkien's use of maps and annotations and how these can be used to realise fictional worlds is inspiring in the sense of understanding that it is these pieces that help to glue the narrative together and deeper immerse the player into the world you are creating for them giving them context of the world you are describing. This makes me wonder whether there is some way I can glue the escape games together as missions, potentially to be succeeded in a specific order with a graphical representation of ones progress. Games upon games. The idea that a more holistic game could be introduced?...
