@@ -6,4 +6,4 @@ categories: [GAM720]
 tags: [Diary, Project development]
 ---
 
-Coming soon!
+This post is coming soon!

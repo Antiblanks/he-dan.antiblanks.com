@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Suspension in disbelief"
+title: "Suspension of disbelief"
 date: 2019-02-17 09:11:00 +0100
 categories: [GAM720]
 tags: [Diary, Project development]
@@ -8,23 +8,11 @@ tags: [Diary, Project development]
 
 ## My experience in week three
 
-The source material this week was...
+The source material this week was a continuation on narrative design and introduced us to the term *Suspension of disbelief*.
 
-Introduction video:
-• Suspension in disbelief, Doug Brown, film/TV tactics into game
-• Interplay between thought and interactivity
-• Pure solutionism - Really interesting. What we've been doing wrong in the past, reflect on this later
-• Vast body of research - Important, what we've been doing wrong in the past, I am already doing this
+The [Introduction Video by Alcwyn Parker](https://falmouthflexible.instructure.com/courses/296/pages/week-3-introduction?module_item_id=19033) sets the premise for a week of content designed to make us draw a link between theory and practice. There is mention of a term *Pure solutionism* (new to me), that was coined by Evgeny Morozov in his book 'To Save Everything, Click Here'. The term describes *the belief that all difficulties have benign solutions, often of a technocratic nature* and can refer to *the providing of a solution or solutions to a customer or client (sometimes before a problem has been identified)*. The term raised my interest as I've been guilty of making this mistake in the past within my own work and I've reflected on this as being an attributor to failure for one or more my applications. Parker summarises by highlighting the importance of audience research and how using research to inform your practice will inevitably lead to a higher quality of output. I completely agree and acknowledged the importance of research myself in this [post]({% post_url 2018-11-09-week-7-audience-research %}) within the previous study block as well as citing my own applications that have suffered from not completely understanding my customers and what they want.
 
-Ergodic Literature:
-• Cybertexts, cybernetic narratives - (form of Ergodic Literature) Narratives that change when we interact with them
-• Scripton & Texton - Interesting these and how they feed into the delivery of narrative
-• User functions - Interpretative, explorative, configurative etc - Interesting
-• Operators, variables, role play, game flow, empowerment to make decisions, changing settings of such premises - Less interesting, done a lot of this, not much learning here but does encourage me think this through deeper for Escape and not just rush through it and rely on my subconcious doing a good job of this
-• CHanging variables altering cybertext (video example)
-• References to the decisions made by the user and how these positively affected the outcome (narrative)
-• State machines etc, really talking my language but never applied it at this level of complexity
-• Traversal mechanisms - Check on what these are?...
+The [Ergodic Literature Video by Dr Michael Scott](https://falmouthflexible.instructure.com/courses/296/pages/week-3-ergodic-literature?module_item_id=19037) explores the world of ergodic literature, a term coined by Espen Aarseth. Despite only short, the video is highly theoretic. There is introduction to *cyber texts* and *cybernetic narratives* as one form of Ergodic Literature that is described as narratives that change when we interact with them or *texts that change their form in response to some kind of logic*. We are introduced to *scriptons* being a part of a narrative that can be meaningfully conveyed and presented to the reader as a unit, and *textons* being a component part of this, usually a word or symbol that can be understood in isolation, but when strung together with other *textons*, will form a *scripton*. There is then some exploration into four layers of user functions - *interpretive functions* being interpretation based on the user's prior knowledge of context, *explorative functions* being the pathway the user takes and the order in which they experience scriptons, *configurative functions* being the decisions that are made by the user to dynamically manipulate the scriptons in the text and *textonic functions* being the calculations that directly manipulate textons themselves. This forms the theoretical premise for the next part of the video which describes how this applies in practice when related to the architecture of a game, particularly state variables that are manipulated by the user's decision making which then alter the cyber text. There is a juxtapositional demonstration of this using a scene taken from the game 'Mass Effect' which brings welcome context to the theory by showing two different eventualities and explaining the prior good and bad user decisions that led to the shape of state in each. Having built numerous games the concept of state and how state properties affect outcomes was not new to me but bringing some theory to this was hugely interesting. 
 
 An Introduction to Ren'Py:
 • Framework used to build interactive visual novels
@@ -39,7 +27,7 @@ Pursuing Interactive Suspension of Disbelief
   - Responsive systems
 • Stories about people help us to see past our disbelief in the text
 • Samuel Taylor Coleridge - Players shouldn't have to ignore certain aspects of the experience just to find narrative or connect to the story
-• Do do this:
+• To do this:
   - Communicate with the player
   - Focus on the human experience
   - Worth engaging emotionally
@@ -58,6 +46,9 @@ Pursuing Interactive Suspension of Disbelief
   - Event manager working with speech manager and delivering correct dialog based on state
 
 ### Tying this to my project
+
+• Pure solutionism
+  - Reflection...
 
 • State shapes and how this affects the cybernetic narratives
   - How to player decisions affect state and how does this state affect their emergent narrative
