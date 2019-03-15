@@ -6,7 +6,7 @@ categories: [GAM720]
 tags: [Diary, Project development]
 ---
 
-## My experience in week three
+## My experience in week four
 
 The source material this week was...
 
@@ -40,7 +40,8 @@ The source material this week was...
   - Colour wheel
     - Complimentary colours and theory behind different types of relationships including complimentary, near complimentary, double complimentary, split complimentary, triad, analogous and mutual complimentary
   - Josef Albers
-    - 
+    - Book Interaction of Colour
+    -
 
 ### Tying this to my project
 
