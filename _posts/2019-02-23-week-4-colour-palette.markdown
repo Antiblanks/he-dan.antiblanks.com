@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Colour palette"
-date: 2019-02-25 23:23:00 +0100
+date: 2019-02-23 23:23:00 +0100
 categories: [GAM720]
 tags: [Diary, Project development]
 ---
