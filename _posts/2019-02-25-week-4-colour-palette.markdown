@@ -10,7 +10,7 @@ tags: [Diary, Project development]
 
 As per the brief, in the spirit of Josef Albers, I've created some colour palettes derived from the environment taken from some photos I have in my collection. I've tried to be quite varied in the tone of colour and selected one shot from winter, one from spring and one final shot from summer to experiment with how this influences the colours and their relationships.
 
-### Sunrise (winter)
+### Early morning (winter)
 
 ![](/assets/img/GAM720_Wk4_Photo1--001.png)
 
@@ -20,7 +20,7 @@ Due to the time of year and the time of day there is very little vibrance to the
 
 Due to the selection being so neutral it's harder to identify the clear relationships between the colours, however I would say that the darker blue grey first from the left and the yellow grey second from the right are complimentary and the blue second from the left and the yellow grey second from the right are near complimentary. Given the time of day / year, all the colours are low on the chroma scale.
 
-### Morning (spring)
+### Early morning (spring)
 
 ![](/assets/img/GAM720_Wk4_Photo3--001.png)
 
