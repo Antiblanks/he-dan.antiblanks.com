@@ -18,17 +18,17 @@ The [Colour Theory Video by Alcwyn Parker](https://falmouthflexible.instructure.
 
 Ahead of this weeks study I had already made decisions about the colours I would use in Escape The App and these have already been fed into the designs. As I've suggested earlier in this post my decision process when selecting my colour palette for my designs today has become almost subconscious and at first I thought this to be true in how I arrived at this palette. However, upon reflection I can recall the main drivers for using these colours and I've noted these within the graphic below.
 
-**TODO: Add colour palette graphic**
+![](/assets/img/GAM720_Wk4_EscapePalette--001.png)
 
 In light of undertaking the colour palette task this week and learning of Apple's guides to colour selection, I thought it would be interesting for me to explore the palette I've chosen and see the relationships between the colours I've chosen to see if they adhere to Apple's suggested best practice.
 
-**TODO: Add grab from https://color.adobe.com of my palette on the wheel**
+![](/assets/img/GAM720_Wk4_EscapePaletteTest--001.png)
 
-**TODO: Assessment of the above**
+Apple suggests we *use complementary colours throughout our apps*. You can see that the red and the green I've selected are almost perfectly complimentary which is good being they will be used side by side to indicate success and failure so there needs to be a clear separation between the two. Both are highly vibrant and well saturated (especially the red) that is 100% saturated on Munsell's chroma scale. The red and the blue (which is the colour I'd selected for interactive elements, again adhering to Apple's suggestion that we should *consider choosing a key colour to indicate interactivity throughout your app*) are near complimentary which is good being these will be used side by side during game play, the red being used to indicate the countdown timer and the blue for the complete game Call To Action (CTA). In contrast the green and the blue are quite similar tonally which means they will sit well together but from a communication point of view these colours when used side by side will not separate well so I should bear in mind when constructing my designs that the two should never be layered on top of one another.
 
 ## Summary
 
-In this post I've given a brief summary of the source material from Canvas this week. I've noted the information I've found to be new and most of interest. Finally I've looked at the colour palette I had pre-selected for Escape The App and I've stress tested it against some of the theory I've learned over the week and critiqued to ensure that the palette is as strong as it could be.
+In this post I've given a brief summary of the source material from Canvas this week. I've noted the information I've found to be new and most of interest. Finally I've looked at the colour palette I had pre-selected for Escape The App and I've stress tested it against some of the theory I've learned over the week and critiqued to ensure that the palette adheres to Apple's suggestions of best practice.
 
 ## References
 
