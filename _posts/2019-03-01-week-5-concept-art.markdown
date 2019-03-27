@@ -40,7 +40,7 @@ The design style for Escape The App is very flat and vector based, I never had a
 - **Successfully completing a game**: On this screen the virtual games master will say: 'Nice one! You escaped `{GAME-NAME}` in `{ESCAPE-TIME}`. You've earned a new game rank of `{GAME-RANK}` and global rank of `{GLOBAL-RANK}`.'
 - **Failing to complete a game**: On this screen the virtual games master will say: 'You didn't manage to escape `{GAME-NAME}`. You call yourself an escape artist?! The Escape movement needs you to be better than this!'
 
-You'll see that I've mentioned the 'virtual games master' in all of the above parts of the narrative, this is the character I hinted toward exploring in this [post]({% post_url 2019-02-17-week-3-suspension-of-disbelief %}). Obviously I realise I'm jumping slightly ahead here being that I need to better understand the virtual games master character/s first before I create this artwork, so for this reason I'm going to park this for now and I will revisit this task after completing next weeks content on character design.
+You'll see that I've mentioned the 'virtual games master' in all of the above parts of the narrative, this is the character I hinted toward exploring in this [post]({% post_url 2019-02-17-week-3-suspension-of-disbelief %}). Obviously I realise I'm jumping slightly ahead here being that I need to better understand the virtual games master character/s first before I create this artwork, so for this reason I've created a Trello ticket for this requirement [here](https://trello.com/c/9u8Ixz45/37-des003-create-artwork-to-drive-narrative-during-game-play-16-hrs) and I'm going to park this task for the time being and revisit it after completing next weeks content on character design.
 
 ## Summary
 
