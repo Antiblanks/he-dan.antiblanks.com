@@ -29,15 +29,18 @@ The work of [Phoebe Herring](https://phoebeherring.com) and the [Introduction to
 
 ### Tying this to my project
 
-• The design style for Escape The App is very flat and vector based, I never had any intention to introduce 3D models or video into the app as it wouldn't suit the creative direction, however I have been looking for an artistic style to create visual stills to embed parts of narrative throughout my application. I've always been a fan of the look achieved with rotoscoping in the film [A Scanner Darkly](https://www.imdb.com/title/tt0405296) and the drawing style of Phoebe Herring is not too dissimilar and I'd quite like to experiment with utilising the learned photo bashing techniques to drive these.
+The design style for Escape The App is very flat and vector based, I never had any intention to introduce 3D models or video into the app as it wouldn't suit the creative direction, however I have been looking for an artistic style to create visual stills to embed parts of the narrative throughout my app. I've always been a fan of the look achieved with rotoscoping in the film [A Scanner Darkly](https://www.imdb.com/title/tt0405296) and the drawing style introduced to us by Sean Vanaman in [Telltale Game's](https://telltale.com) 'The Walking Dead' is not too dissimilar to this. I'd quite like to experiment with the learned photo bashing techniques from this week taking inspiration from these examples as well as historical revolution art to drive this artwork. One of the Canvas tasks this week was to create a piece of concept art that illustrates a situation where our main app concept might be used. I've chosen to twist this a little to use my time to directly support the development of Escape The App and instead I'm going to attempt to create the artwork to deliver some parts of the narrative before, during, and after game play. There are several screens (or dialogs) that need artwork to help drive the narrative to the user that I've listed below:
 
-• The task this week was to create a piece of concept art that illustrates a situation where your main app concept might be used. I've chosen to twist this a little to directly support the development of Escape The App and instead I'm going to attempt to create one or two images that will be used to deliver parts of the narrative before and after game play, these being:
+> For now the narrative will be delivered using static images in a more retro RPG game fashion but as the app matures through the cycle of iterative play testing these would become animations to improve the production value.
 
-- **Countdown to starting a game**: On this screen the virtual games master TODO...
-- **Successfully completing a game**: On this screen the virtual games master TODO...
-- **Failing to complete a game**: On this screen the virtual games master TODO...
+- **Countdown to starting a game**: On this screen the virtual games master will say: 'Get ready to play `{GAME-NAME}`, starting in `{COUNTDOWN}`.'
+- **New clue available**: On this screen the virtual games master will say: 'The Escape movement have issued a new clue `{CLUE-NAME}` for room `{ROOM-NUMBER}`, do you want to take this now?'
+- **Confirm take clue**: On this screen the virtual games master will say: 'Are you sure you want to take clue `{CLUE-NAME}` in room `{ROOM-NUMBER}`? Taking this clue will add `{TIME-PENALTY}` to your escape time.'
+- **Confirm quit game**: On this screen the virtual games master will say: 'What... you're quitting?! Really?... are you sure? Quitting `{GAME-NAME}` will end the game and reset the game timer back to `{TIME-ALLOWED-FOR-GAME}`.'
+- **Successfully completing a game**: On this screen the virtual games master will say: 'Nice one! You escaped `{GAME-NAME}` in `{ESCAPE-TIME}`. You've earned a new game rank of `{GAME-RANK}` and global rank of `{GLOBAL-RANK}`.'
+- **Failing to complete a game**: On this screen the virtual games master will say: 'You didn't manage to escape `{GAME-NAME}`. You call yourself an escape artist?! The Escape movement needs you to be better than this!'
 
-You'll see that I've mentioned the 'virtual games master' in all three of the above parts of narrative, this is the character I hinted toward exploring in this [post]({% post_url 2019-02-17-week-3-suspension-of-disbelief %}). I realise I'm getting slightly ahead of myself here in creating art for these screens being that I need to better understand the virtual games master character/s first before I tackle this so for this reason I will revisit this task after completing the character design work.
+You'll see that I've mentioned the 'virtual games master' in all of the above parts of the narrative, this is the character I hinted toward exploring in this [post]({% post_url 2019-02-17-week-3-suspension-of-disbelief %}). Obviously I realise I'm jumping slightly ahead here being that I need to better understand the virtual games master character/s first before I create this artwork, so for this reason I'm going to park this for now and I will revisit this task after completing next weeks content on character design.
 
 ## Summary
 
@@ -46,3 +49,4 @@ TODO...
 ## References
 
 1. [A Scanner Darkly film on IMDB](https://www.imdb.com/title/tt0405296)
+2. [Telltale Game's website](https://telltale.com)
