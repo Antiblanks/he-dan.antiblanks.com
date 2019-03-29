@@ -8,12 +8,12 @@ tags: [Diary, Project development]
 
 In this post I'm going to experiment with some of the techniques given in the [Introduction to Digital Painting video by Phoebe Herring](https://falmouthflexible.instructure.com/courses/296/pages/week-5-phoebe-herring-introduction-to-digital-painting?module_item_id=19067) coupled with some techniques I've already learned working as a designer to create some artwork for the following screens to be used in Escape The App:
 
-- **Countdown to starting a game**: When an escape game is selected for game play.
-- **New clue available**: During game play when a new clue is available.
-- **Confirm take clue**
-- **Confirm quit game**
-- **Successfully completing a game**
-- **Failing to complete a game**
+- **Countdown to starting a game**: Shown when an escape game is selected for game play.
+- **New clue available**: Shown during game play when a new clue is available.
+- **Confirm take clue**: Shown to seek confirmation from the user when taking a clue.
+- **Confirm quit game**: Shown to seek confirmation from the user when quitting a game.
+- **Successfully completing a game**: Shown to the user when they complete a game within the time limit.
+- **Failing to complete a game**: Shown to the user when they fail to complete a game within the time limit.
 
 ### My technique
 
@@ -27,39 +27,45 @@ You can see here that in all cases that the art is highly posterised, there is m
 
 ![](/assets/img/GAM720_PhotoBashing--002.png)
 
-What I want to try and do is to find a series of techniques in Photoshop that I can utilise together to quickly create art that is stylistically similar to the above examples and the following is the approach I've taken to achieve this:
+What I want to try and do is to find a series of techniques in Photoshop that I can utilise together to quickly create art that is stylistically similar to the above posterised examples but having a more painted look influenced by the work of Phoebe Herring. The following is the approach I've taken to achieve this:
+
+**The raw image**
+
+This is my starting point, it's an image taken from a Google search for disused factory buildings. Despite being dilapidated the form of the architecture is quite futuristic and has a dystopian look about it. With a 360 degree lookout through the big bay windows, I'd imagine this to be somewhere that the headquarters for an underground movement might be found.
+
+![](/assets/img/GAM720_PhotoBashing--003.png)
 
 **Applying a Dry Brush filter**
 
-Filters > Artistic > Dry Brush > (Brush size: 2, brush detail: 8, Texture: 1)
+I've applied an Artistic Dry Brush filter to this and tweaked the levels on the filter to achieve a believable painted effect similar to the look and feel of Phoebe Herring's work.
 
-To get the artistic painted feel
+> Filters > Artistic > Dry Brush > (brush size: 2, brush detail: 8, texture: 1)
 
-The Dry Brush filter in the Photoshop Filter Gallery gives a good base paint effect, this can be used to make t
-
-**Applying a Halftone Pattern filter**
-
-Filters > Sketch > Halftone pattern > (Size: 1, contrast: 8)
-
-To get the black and white poster look
+![](/assets/img/GAM720_PhotoBashing--004.png)
 
 **Applying a Cutout filter**
 
-Filters > Artistic > Cutout > (Number of levels: 8, edge simplicity: 4, edge fidelity: 2)
+I've applied an Artistic Cutout filter to this and tweaked the levels on the filter to achieve distinct colour separation and move the image toward the look of a vectorised illustration.
 
-To get the distinct colour separation and move the image toward a more vectorised illustration
+> Filters > Artistic > Cutout > (number of levels: 8, edge simplicity: 4, edge fidelity: 2)
 
-### Countdown to starting a game
+![](/assets/img/GAM720_PhotoBashing--005.png)
 
-TODO: Text and images...
+**Applying adjustment layers**
 
-### Successfully completing a game
+I've applied a saturation adjustment layer to desaturate the image and knock out the colour to black and white, I've then applied a red colour fill that I've set to use the overlay blend mode and finally I've applied a levels adjustment layer to bring out the white and black to create more contrast and complete the vectorised look I'm after.
 
-TODO: Text and images...
+![](/assets/img/GAM720_PhotoBashing--006.png)
 
-### Failing to complete a game
+**Introducing the games master character**
 
-TODO: Text and images...
+I've introduced my first female games master character into the image to overlay the background and treated her with a similar set of filters as described above as well as adding some of my own shadows and lighting to get her to sit better within the environment. To make the subject stand out more over the background I've been more sensitive with the levels on the Artistic Cutout filter so that the treatment of the figure is a little less vectorised.
+
+![](/assets/img/GAM720_PhotoBashing--007.png)
+
+### Tying this to my project
+
+As a starting point I'm pretty pleased with the style of this image. There is definitely room for improvement as to an experienced Photoshop artist this image does look a little amateur and overly reliant on filters, however in favour of getting an end-to-end prototype of my game completed by the end of the study block I'll use this technique to create all the visuals to drive my narrative throughout game play and then revisit the treatment of the artwork later as the app evolves through play testing. Whatever technique I settle upon, I need to be mindful that though initially my narrative will be delivered by static images of the games master, later my intention is for the statics to be replaced by rotoscoped video or animation and if I decide to go down the path of rotoscoping then the technique I use would preferably need to be less time consuming as I'll be required to treat every frame in the same fashion.
 
 ## References
 
