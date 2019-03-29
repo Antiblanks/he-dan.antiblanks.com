@@ -37,7 +37,7 @@ This is my starting point, it's an image taken from a Google search for disused 
 
 **Applying a Dry Brush filter**
 
-I've applied an Artistic Dry Brush filter to this and tweaked the levels on the filter to achieve a believable painted effect similar to the look and feel of Phoebe Herring's work.
+I've applied an artistic dry brush filter to this and tweaked the levels on the filter to achieve a believable painted effect similar to the look and feel of Phoebe Herring's work.
 
 > Filters > Artistic > Dry Brush > (brush size: 2, brush detail: 8, texture: 1)
 
@@ -45,7 +45,7 @@ I've applied an Artistic Dry Brush filter to this and tweaked the levels on the 
 
 **Applying a Cutout filter**
 
-I've applied an Artistic Cutout filter to this and tweaked the levels on the filter to achieve distinct colour separation and move the image toward the look of a vectorised illustration.
+I've applied an artistic cutout filter to this and tweaked the levels on the filter to achieve distinct colour separation and move the image toward the look of a vectorised illustration.
 
 > Filters > Artistic > Cutout > (number of levels: 8, edge simplicity: 4, edge fidelity: 2)
 
@@ -57,11 +57,17 @@ I've applied a saturation adjustment layer to desaturate the image and knock out
 
 ![](/assets/img/GAM720_PhotoBashing--006.png)
 
-**Introducing the games master character**
+**Introducing the third colour**
 
-I've introduced my first female games master character into the image to overlay the background and treated her with a similar set of filters as described above as well as adding some of my own shadows and lighting to get her to sit better within the environment. To make the subject stand out more over the background I've been more sensitive with the levels on the Artistic Cutout filter so that the treatment of the figure is a little less vectorised.
+I've introduced the blue from my colour palette to round off the image treatment. I've done this by selecting a colour range sampling a lighter pink / white colour from the previous image to isolate the highlights. I've then coloured this selection with the blue and applied the hue blend mode to the blue layer so that the blue colour only affects areas with colour and the white areas remain almost untouched.
 
 ![](/assets/img/GAM720_PhotoBashing--007.png)
+
+**Introducing the games master character**
+
+Finally I've introduced my first female games master character into the image to overlay the background and treated her with a similar set of filters as described above as well as adding some of my own shadows and lighting to get her to sit better within the environment. To make the subject stand out more over the background I've been more sensitive with the levels on the artistic cutout filter so that the treatment of the figure is a little less vectorised.
+
+![](/assets/img/GAM720_PhotoBashing--008.png)
 
 ### Tying this to my project
 
