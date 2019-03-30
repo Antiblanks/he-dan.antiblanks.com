@@ -20,7 +20,7 @@ I've started by cutting out a female from one of the above images. I've opted fo
 
 **Adding a beret**
 
-...
+Taking influence from Che Guevara who was often pictured wearing a beret, I sought a similar style of head piece for my female character. I've cut this out, comped it onto the figure's head and then made some adjustments to the levels as well as adding some custom shadows to make it sit better tonally within the image. I've then taken the Escape movement logo and placed this onto the front of the beret.
 
 ![](/assets/img/GAM720_CharacterDesign--003.png)
 
