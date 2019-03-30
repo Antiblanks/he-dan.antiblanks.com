@@ -31,13 +31,13 @@ What I want to try and do is to find a series of techniques in Photoshop that I 
 
 **The raw image**
 
-This is my starting point, it's an image taken from a Google search for disused factory buildings. Despite being dilapidated the form of the architecture is quite futuristic and has a dystopian look about it. With a 360 degree lookout through the big bay windows, I'd imagine this to be somewhere that the headquarters for an underground movement might be found.
+This was my starting point, it's an image taken from a Google search for disused factory buildings. Despite being dilapidated the form of the architecture is quite futuristic and has a dystopian look about it. With a 360 degree lookout through the big bay windows, I imagined this to be somewhere that the headquarters for an underground movement might be found.
 
 ![](/assets/img/GAM720_PhotoBashing--003.png)
 
 **Applying a Dry Brush filter**
 
-I've applied an artistic dry brush filter to this and tweaked the levels on the filter to achieve a believable painted effect similar to the look and feel of Phoebe Herring's work.
+I applied an artistic dry brush filter to this and tweaked the levels on the filter to achieve a believable painted effect similar to the look and feel of Phoebe Herring's work.
 
 > Filters > Artistic > Dry Brush > (brush size: 2, brush detail: 8, texture: 1)
 
@@ -45,7 +45,7 @@ I've applied an artistic dry brush filter to this and tweaked the levels on the 
 
 **Applying a Cutout filter**
 
-I've applied an artistic cutout filter to this and tweaked the levels on the filter to achieve distinct colour separation and move the image toward the look of a vectorised illustration.
+I applied an artistic cutout filter to this and tweaked the levels on the filter to achieve distinct colour separation and move the image toward the look of a vectorised illustration.
 
 > Filters > Artistic > Cutout > (number of levels: 8, edge simplicity: 4, edge fidelity: 2)
 
@@ -53,19 +53,19 @@ I've applied an artistic cutout filter to this and tweaked the levels on the fil
 
 **Applying adjustment layers**
 
-I've applied a saturation adjustment layer to desaturate the image and knock out the colour to black and white, I've then applied a red colour fill that I've set to use the overlay blend mode and finally I've applied a levels adjustment layer to bring out the white and black to create more contrast and complete the vectorised look I'm after.
+I applied a saturation adjustment layer to completely desaturate the image, I then applied a red colour fill that I set to use the overlay blend mode and finally I applied a levels adjustment layer to bring out the white and black to create more contrast and complete the vectorised look I was after.
 
 ![](/assets/img/GAM720_PhotoBashing--006.png)
 
 **Introducing the third colour**
 
-I've introduced the blue from my colour palette to round off the image treatment. I've done this by selecting a colour range sampling a lighter pink / white colour from the previous image to isolate the highlights. I've then coloured this selection with the blue and applied the hue blend mode to the blue layer so that the blue colour only affects areas with colour and the white areas remain almost untouched.
+I introduced the blue from my colour palette to round off the image treatment. I did this by selecting a colour range sampling a lighter pink / white colour from the previous image to isolate the highlights. I then coloured the selection with the blue and applied the hue blend mode to the blue layer so that the blue colour only affects areas with colour and the white areas remain almost untouched.
 
 ![](/assets/img/GAM720_PhotoBashing--007.png)
 
 **Introducing the games master character**
 
-Finally I've introduced my first female games master character into the image to overlay the background and treated her with a similar set of filters as described above as well as adding some of my own shadows and lighting to get her to sit better within the environment. To make the subject stand out more over the background I've been more sensitive with the levels on the artistic cutout filter so that the treatment of the figure is a little less vectorised.
+Finally I introduced my first female games master character into the image to overlay the background and treated her with a similar set of filters as described above as well as adding some of my own shadows and lighting to have her sit better within the environment. To make the subject stand out more over the background I was more sensitive with the levels on the artistic cutout filter so that the treatment of the figure is a little less vectorised.
 
 ![](/assets/img/GAM720_PhotoBashing--008.png)
 

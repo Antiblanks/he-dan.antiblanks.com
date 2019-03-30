@@ -14,28 +14,28 @@ Admittedly these images look like they've been taken from a fashion shoot but I 
 
 **The raw image**
 
-I've started by cutting out a female from one of the above images. I've opted for using the female in the second image as the quality is better and she's faced to the front which is easier to work with.
+I started by cutting out a female from one of the above images. The look of the female in the first image is more inline with what I was after but I opted for using the female in the second image as the quality is better and she's faced to the front which is easier to work with.
 
 ![](/assets/img/GAM720_CharacterDesign--002.png)
 
 **Adding a beret**
 
-Taking influence from Che Guevara who was often pictured wearing a beret, I sought a similar style of head piece for my female character. I've cut this out, comped it onto the figure's head and then made some adjustments to the levels as well as adding some custom shadows to make it sit better tonally within the image. I've then taken the Escape movement logo and placed this onto the front of the beret.
+Taking influence from Che Guevara who was often pictured wearing a beret, I sought a similar style of head piece for my female character. I cut this out, placed it on the figure's head and then made some adjustments to the levels as well as adding some custom shadows to make it sit better tonally within the image. I then took the Escape movement logo and placed this onto the front of the beret.
 
 ![](/assets/img/GAM720_CharacterDesign--003.png)
 
 **Adding a trench coat**
 
-...
+I added a long khaki trench coat to achieve the combat style that was missing from the raw image and I rounded off the look by adding a red arm band inspired by those worn in the Chinese Cultural Revolution.  
 
 ![](/assets/img/GAM720_CharacterDesign--004.png)
 
 **Applying filters**
 
-...
+Finally I applied a subtle artistic dry brush filter and utilised some other techniques learned from the photo bashing task to make the image look less photo real and more painted.
 
 ![](/assets/img/GAM720_CharacterDesign--005.png)
 
 ### Tying this to my project
 
-As a starting point I'm pretty pleased with the
+As a starting point I'm pretty pleased with this as my first games master character. Everything about the character from the look of the female to her apparel and detailing is very near to how I pictured she should look. There is room for improvement of course - The logos on the beret and the arm band both need more art working, currently they look a bit flat and they could use some texturing to make them look like embroidery and lift them out a bit. Also the trench coat needs some more shadow as it's currently sitting a bit flat on the subject in places. Aside from this I'm quite pleased and being I've some quite heavy stylising planned to bring the visual treatment of the subject into the app which will definitely mask the imperfections, I'm happy to use this character to drive the narrative throughout the first version of the escape game play element. 
