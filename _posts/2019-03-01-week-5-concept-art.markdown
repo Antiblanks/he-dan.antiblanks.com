@@ -10,22 +10,9 @@ tags: [Diary, Project development]
 
 The source material this week was focused on concept art as a means of testing assumptions, communicating ideas and perfecting the look and feel of our designs.
 
-The [Introduction Video by Alcwyn Parker](https://falmouthflexible.instructure.com/courses/296/pages/week-4-introduction?module_item_id=19050)
+The [Introduction Video by Alcwyn Parker](https://falmouthflexible.instructure.com/courses/296/pages/week-4-introduction?module_item_id=19050) sets out to acquaint us with concept art and describe it's function as an initial stage in game art development to convey an idea before it is fully implemented, and it's benefit to us to test or experiment with our ideas to get a better feel for what we are trying to design before we spend hours creating the final assets. The video explains that concept art is as much about research as it is about fast generation of visual ideas, and that to be successful in the field the creator must be multi-disciplined and that being able to paint, draw and model alone is not enough without a solid understanding of design and a good sense of storytelling.
 
-• An initial stage in game art development, used to convey an idea before it is fully implemented.
-• It is a great way of testing or experimenting with ideas and getting a better feel for what you are trying to design, before you spend hours and hours creating the final assets.
-• In this week you explore a variety of core techniques and practices used to create art for games.
-• Concept art is as much about research as it is about fast generation of visual ideas, speed over execution.
-• Painting, drawing, modelling all are not enough, without a solid understanding of design and a good sense of storytelling.
-• Don’t get overwhelmed by the concept art you see out there in the wild. Instead, understand the context in which you are viewing it.
-
-The work of [Phoebe Herring](https://phoebeherring.com) and the [Introduction to Digital Painting video by Phoebe Herring](https://falmouthflexible.instructure.com/courses/296/pages/week-5-phoebe-herring-introduction-to-digital-painting?module_item_id=19067)
-
-• Used today for promotional art within games and concept art
-• Concept art is used to get design concepts worked up quickly before creating 3D models
-• Basics of drawing / painting with a Wacom tablet and some tips on moving around the canvas
-• Basics of setting up Photoshop to use for painting, swatches and palette selection, brushes and brush selection
-• TODO...
+We are shown the work of [Phoebe Herring](https://phoebeherring.com) and in her [Introduction to Digital Painting video](https://falmouthflexible.instructure.com/courses/296/pages/week-5-phoebe-herring-introduction-to-digital-painting?module_item_id=19067), Herring explains the relevance of digital painting today for both the creation of promotional art and concept art for games, and focuses on the later being her preferred vocation. Herring reinforces the practicality of concept art in getting designs worked up quickly before creating 3D models and in the video she demonstrates a variety of core techniques and practices we can use to create concept art. There is a brief setup guide that describes how we can configure Photoshop as a painters tool, and there are some useful tips on how to draw with a Wacom tablet, all of which I found very helpful being I've owned a Wacom tablet for over a decade but never really got to grips with it! There are several techniques covered in more depth including *Alt Pick Mixing* which presents the benefit of mixing colour on the canvas and utilising the Alt key to pick colours, there are some tips on colour use in that we should avoid shading with black and that we should vary hues where possible, there are some tips on boosting realism by limiting the colour palette and being smart about hue variation, and there are some tips on using gradients and how blending from a cooler darker colour to a lighter warmer one will give us a sense of lighting. The next technique covered is *Layout Flexibility* where the power of good composition is reinforced and the benefits of using Photoshop to achieve this are highlighted. The final technique is *Photo Bashing*, the use of which is presented as being partly controversial amongst the digital painting community, being that it can be viewed as cheating but it's presented objectively that this technique has a plethora of benefits which supersede this and herald this as a very useful technique to adopt. I can vouch for this with experience, I've never utilised photo bashing to the extent that Phoebe Herring does in this video to create painted art but I have experience in utilising this technique to create photo-real art for print and digital media so it's not too far a step for me to take what I already know and then embellish this with some of the painting techniques presented at the beginning of this video.
 
 ### Tying this to my project
 
@@ -44,7 +31,7 @@ You'll see that I've mentioned the 'virtual games master' in all of the above pa
 
 ## Summary
 
-TODO...
+In this post I've given a brief overview of the content within the source material from Canvas this week and I've highlighted what learnings I've taken from this. I've then outlined how Phoebe Herring's use of photo bashing has inspired me to utilise this technique to create some artwork for screens in Escape The App to deliver parts of the narrative to players throughout the game play experience and I've set myself a task to revisit this once I've nutted out my character design.
 
 ## References
 
