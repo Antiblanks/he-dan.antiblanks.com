@@ -20,7 +20,29 @@ The video then closes with some sound design considerations posed by Hugo Verwei
 
 The [Introduction to Sound Design Video by Pete Shepherd](https://falmouthflexible.instructure.com/courses/296/pages/week-7-an-introduction-to-sound-design?module_item_id=19090) XXX
 
+Fundamentals of audio for games
+Game audio split into 3 distinct areas combined to give the final product
+  - Composition - Composition of an engaging score making the player experience more immersive & control mood based on progression and situation.
+  - Sound design - Used to present action on screen such as gun shots etc
+  - Adaptive elements - Relates to both, implemented using programs such as FMod or WWise described on this [Youtube Instructional Video on Adding Sound with FMod and WWise](https://www.youtube.com/watch?v=S7pL4_yN7RY) as sound middleware programs, summarised as sounds that adapt to changes
+Looking into the above in more detail
+  - Underscores - Musical background that underpins the action on screen
+  - Leitmotifs - Musical phrase assigned to a character or scene
+  - Adaptive elements - Shifting changes to the underscore based on game or player conditions or playing a certain leitmotif when a character enters the screen
+Sound effects / sound affects
+  - Importance of good sound effect and sonic design
+  - Divide sonic elements in sound design into two basic descriptives
+    - Diegetic sound - Sounds that relate directly to what we are seeing on screen
+    - Non-diegetic sound - Sounds that do not relate directly to action on screen, used for ambience and scene setting
+The sounds we use
+  - Stock
+  - Recorded for true originality
+  - Unpacking the various techniques available for recording sound including field recording and foley sounds, synthesis and mimetic sound
+
+
 The [Foley and Found Sound content](https://falmouthflexible.instructure.com/courses/296/pages/week-7-foley-and-found-sound?module_item_id=19091) XXX
+
+Demonstrates the depth to which foley sound can be created, the particularities involved and how far people are willing to go to be more precise to add more production value and deliver a more convincing experience
 
 ### Tying this to my project
 
@@ -32,6 +54,14 @@ Sound is important in Escape The App... Images not working
 Earcons and Icons, will require both representational and abstract sounds
 Task to Experiment with sounds that might work to capture the essence of the functionality of the app in this [post]({% post_url 2019-03-16-week-7-experimenting-with-sounds %})
 
+Composition - probably should avoid being the rooms have their own ambient sounds and this could be jarring and create a bad user experience
+Sound design - will need to
+
+Leitmotif - Could use for the games master
+Diegetic sound - During game play any action on screen should have a diegetic sound attached to it, these would be XXX
+
+The sounds we use - Stock probably sufficient for Escape The App, would be nice to experiment with recording my own sounds but not sure if this product requires that depth being XXX, useful to know the techniques available for exploration in future when building XXX
+
 ## Summary
 
 In this post I've briefly summarised the source material from the week on Canvas and I've XXX
@@ -39,3 +69,4 @@ In this post I've briefly summarised the source material from the week on Canvas
 ## References
 
 1. [Earcons and Icons paper](http://www.daimi.au.dk/~dsound/DigitalAudio.dir/Papers/Earcons_and_Icons.pdf)
+2. [Youtube Instructional Video on Adding Sound with FMod and WWise](https://www.youtube.com/watch?v=S7pL4_yN7RY)
