@@ -46,8 +46,6 @@ Demonstrates the depth to which foley sound can be created, the particularities 
 
 ### Tying this to my project
 
-XXX
-
 Don't want to overlook this element
 create more meaningful interactions with the user
 Sound is important in Escape The App... Images not working
