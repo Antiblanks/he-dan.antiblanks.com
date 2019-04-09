@@ -24,7 +24,7 @@ For more inspiration and to get back in touch with the narrative I started going
 
 ![](/assets/img/GAM720_RevisedNarrativeDelivery--003.png)
 
-I felt this was a better solution all round. The design is more in keeping with the existing creative and when considering the execution, rather than being flat like the previous image, there is scope to animate the sound waves coming from the speaker in a diegetic manor to illustrate when the games master is speaking and for the message to type out as if it were a computer representing the spoken word using sound recognition. I'm much happier with this but on reflection, finding myself in this hole was a bit of a schoolboy mistake and probably due to the lesser amount I'm practicing design these days. To ensure I don't make this same mistake again I need to keep the brand and the creative direction in mind and be more conscious of the design limitations when visualising new elements.
+I felt this was a better solution all round. The design is more in keeping with the existing creative and when considering the execution, rather than being flat like the previous image, there is scope to animate the sound waves coming from the speaker in a diegetic manor to illustrate when the games master is speaking and for the message to type out as if it were a computer representing the spoken word using sound recognition. I'm much happier with this, but on reflection finding myself in this hole was a bit of a schoolboy mistake and probably due to the lesser amount I'm practicing design these days. To ensure I don't make this same mistake again I need to keep the brand and the creative direction in mind and be more conscious of the design limitations when visualising new elements.
 
 ### Summary
 
