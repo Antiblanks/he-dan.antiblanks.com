@@ -29,13 +29,13 @@ I worked up some new UX and designs to satisfy these stories which can be seen b
 
 **Journey for a new user:**
 
-![](/assets/img/GAM720_RevisedNarrativeDelivery--001.png)
+![](/assets/img/GAM720_ImprovedOnBoarding--001.png)
 
 > Splash -> Introduction -> Registration -> Welcome -> Landing
 
 **Journey for an existing user:**
 
-![](/assets/img/GAM720_RevisedNarrativeDelivery--001.png)
+![](/assets/img/GAM720_ImprovedOnBoarding--002.png)
 
 > Splash -> Login -> Welcome -> Landing
 
