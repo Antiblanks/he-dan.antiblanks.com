@@ -15,9 +15,9 @@ I considered each of these requirements in more depth to brainstorm potential so
 
 ### Composition, underscore, non-diegetic
 
-A Google search for 'Anxious sounds' led me on a path of discovery to identify ringing alarms sounds such as car and burglar alarms but this type of sound is consistent (not building) and more akin to a climactic situation, in my app perhaps more suited to the time having ran out but not running down. This prompted me to consider the function of an old fashioned egg timer that makes a consistent ticking noise as the time runs down and then sounds an alarm when the time runs out but though this builds anticipation, the sound doesn't build in intensity, it is consistent with a sudden climax. I then considered the solution of using a timer ticking sound and the potential of starting this as a low sound but intensifying the sound by increasing the pitch as time goes on, so it would start barely noticeable but sound like an alarm by the time it had reached it's end. Of course this seemed a bit obvious but as Sir Richard Branson can attest the [simple ideas are often the best](https://www.virgin.com/richard-branson/my-top-10-quotes-ideas).
+A Google search for 'Anxious sounds' led me on a path of discovery to identify ringing alarms sounds such as car and burglar alarms but this type of sound is consistent (not building) and more akin to a climactic situation, in my app perhaps more suited to the time having ran out but not running down. This prompted me to consider the function of an old fashioned egg timer that makes a consistent ticking noise as the time runs down and then sounds an alarm when the time runs out, but though this builds anticipation, the sound doesn't build in intensity, it is instead consistent with a sudden climax. I then considered the solution of using a timer ticking sound and the potential of starting this as a low sound but intensifying the sound by increasing the pitch as time goes on, so it would start barely noticeable but sound like an alarm by the time it had reached it's end. Of course this seemed a bit obvious but as Sir Richard Branson can attest the [simple ideas are often the best](https://www.virgin.com/richard-branson/my-top-10-quotes-ideas).
 
-I found this [timer sound](https://www.youtube.com/watch?v=qjqZqpmaVks) on YouTube that has other sounds integrated to satisfy it's own intended journey. My approach to TODO...
+My vision for the ticking underscore was to replicate the arrangement of an analogue clock ticking to emphasise the passing of time but replace the different parts within the composition with a variant of digital (potentially mimetic) beeping sounds that when increased in pitch will sound like an alarm. I found this [clock animation](https://www.youtube.com/watch?v=qjqZqpmaVks) on YouTube that helped me to understand the combination of sounds that are required and how they need to be arranged to portray a clock ticking. I then set about acquiring my own sounds, despite being warned off using stock sounds because they lack originality, I used a handful of sounds I found on [Sound Bible](http://soundbible.com) for experimentation with a view that I could record my own sounds to replace these if when combined these didn't yield something that sounded original. I opted for the beep of a house firm alarm, a morse code transmitter and an electrical test sensor. I then brought these sounds into [Audacity](https://www.audacityteam.org) and cut them up and arranged them to replicate the sound of the ticking clock. 
 
 ### Sound design, leitmotif or mimetic, diegetic
 
@@ -29,5 +29,7 @@ In this post I've TODO...
 
 ## References
 
-1. [Richard Branson on Quotes About Ideation](https://www.virgin.com/richard-branson/my-top-10-quotes-ideas)
-2. [Timer Sound on YouTube](https://www.youtube.com/watch?v=qjqZqpmaVks)
+1. [Audacity Sound Editor](https://www.audacityteam.org)
+2. [Richard Branson on Quotes About Ideation](https://www.virgin.com/richard-branson/my-top-10-quotes-ideas)
+3. [Sound Bible Stock Sounds Website](http://soundbible.com)
+4. [Timer Sound on YouTube](https://www.youtube.com/watch?v=qjqZqpmaVks)
