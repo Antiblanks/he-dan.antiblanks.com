@@ -72,6 +72,14 @@ In hindsight the fire alarm sound might be distracting, verify this during play 
 
 HIghlights that React Native though fine for my app might not be the best choice for building a more complicated game but should investigate https://github.com/bberak/react-native-game-engine
 
+Has it's drawbacks, could write some unit tests for GameSoundUtility, doesn't currently allow playing the same sound in a different channel
+
+Discovered that WAV's loop better than MP3: The lossless PCM WAV format is the best format for loops. Choose "WAV (Microsoft) signed 16-bit PCM" when exporting. Many lossy, size-compressed formats like MP3, WMA and ADPCM WAV suffer from added silence at the the start or end of the file or other issues that do not respect the exact length.
+
+I will need to add a sound on/off button
+
+
+
 ## References
 
 1. [Audacity Sound Editor](https://www.audacityteam.org)
