@@ -45,7 +45,15 @@ Finally I tweaked the gain of all seven tracks so that the composition sounded n
 2. [Two millisecond ticks with mid-range one second tick](/assets/sound/GAM720_Wk7_Underscore--002.mp3)
 3. [Two millisecond ticks with mid-range and high pitch one second tick](/assets/sound/GAM720_Wk7_Underscore--003.mp3)
 
-**Bringing the sounds into my app**
+### Sound design, leitmotif or mimetic, diegetic
+
+I'd always had in mind that the narrative would be delivered by the voice of the games master/s. My first games master, as created in this [post]({% post_url 2019-03-08-week-6-games-master-characters %}) is a young female so I set about considering my approach which initially seemed to be limited to finding a suitable female and then recording all the various snippets I required. After a bit of research online I found another solution in this [useful voice generator tool](http://onlinetonegenerator.com/voice-generator.html), and after experimenting with the voice options I found the digital narrator 'Karen' which didn't sound too dissimilar to the female voice I had pictured, so I set about recording some parts of the narrative using a Quicktime audio recording and exporting these to WAV using this [online sound converter](https://www.media.io/convert/mov-to-wav.html).
+
+This is where I ran into some complications; parts of my narrative are quite dynamic, phrases like 'This clue is for room #1' where the room number is dynamic, and 'This clue will add 00:01:30 onto your escape time' where the time penalty is dynamic make reading the narrative verbatim near impossible being that there would be so many permutations that I would need to record. This led me to consider recording different snippets and then stitching them together on the fly but if I did this I would be near-creating a Text To Speech (TTS) engine. It was at this point that I changed tact and started looking for existing TTS solutions and I found the [React Native TTS](https://github.com/ak1394/react-native-tts) library.
+
+**TODO...**
+
+### Bringing the sounds into my app
 
 Unfortunately React Native is not geared toward building games like Unity or Unreal Engine and as far as I could see there is no pre-existing game-centric adaptive sound manager available, so I settled on building my own sound manager to adapt my sounds during game play. I didn't want to reinvent the wheel completely of course so I did some research and this [article](https://medium.com/@emmettharper/the-state-of-audio-libraries-in-react-native-7e542f57b3b4) on Medium gave me some insight into the libraries available for working with sound and indicated these two as being the most relevant for my app:
 
@@ -54,7 +62,7 @@ Unfortunately React Native is not geared toward building games like Unity or Unr
 
 Unfortunately neither one of these were perfect. The `react-native-sound` library had a more suited interface for my requirements but it had not been maintained for quite some time which may present issues in future. The `react-native-track-player` library was actively being maintained but it didn't satisfy a lot of my requirements. Weighing the two I decided to use `react-native-sound` but anticipated that I may need to fork and maintain the library myself if required.
 
-> Note: Being my sound manager will be an interface that masks the library I leverage it didn't really matter which I used now as this could easily be switched out later without having to rework any control flow.
+> Note: Being my sound manager will be an interface (facade) that masks the library I leverage it didn't really matter which I used now as this could easily be switched out later without having to rework any control flow.
 
 Once I'd chosen my library to play sound I set about building my adaptive sound manager. I've listed the technical requirements I'd identified the class (or framework) would need to satisfy below. Aside from these requirements I also wanted the solution to be reusable so the interface would need to be more abstract and expose all the methods my game engine needed to combine and deliver the bespoke parts of the control flow:
 
@@ -67,7 +75,7 @@ Here's my solution which I separated into two files:
 
 **SoundUtility**
 
-This is a reusable sound utility module that wraps the `react-native-sound` library and exposes a common interface for the caller to add sounds into channels and control them independently or together. I won't go into much more detail as the code is well commented and speaks for itself.
+This is a reusable sound utility module that wraps the `react-native-sound` library and exposes a common interface for the caller to add sounds into channels and control them independently or at the same time if they are on the same channel. I won't go into much more detail as the code is well commented and speaks for itself.
 
 ```
 import Sound from 'react-native-sound';
@@ -538,29 +546,21 @@ export function* updateGame({ currentTime }) {
 }
 ```
 
-And that's how I've added the underscore sounds into my MVP version of the game. It's not a complete solution and there are some further improvements required. A keen eye will have spotted the `TODO` comments in my code that I've left by choice as they don't block completion of Escape The App so I've left these for the time being but will look to address these later when required. Aside from this there is one big challenge yet to face and this is that (unless I'm incredibly lucky) this solution will not play sounds in the background and this is, as I've stated on numerous occasions, imperative to delivering a good game play experience.
+And that's how I've added both the underscore and sound effects into my MVP version of the game. It's not a complete solution and there are some further improvements required. A keen eye will have spotted the `TODO` comments in my code that I've left by choice as they don't block completion of Escape The App so I've left these for the time being but will look to address these later when required. Aside from this there is one big challenge yet to face, and this is that this solution as it stands will not play sounds in the background and this is, as I've stated on numerous occasions, imperative to delivering a good game play experience. At bare minimum I will need to notify the user of a new clue being made available so I've created a [task](https://trello.com/c/QjS87pL0/47-dev013-implement-background-sounds) into the backlog on Trello to investigate this further at some point post first submission in a few weeks. Finally, in hindsight, having listened to the fire alarm sound over and over while development testing I realise that this sound might be distracting to the point of being annoying, this may be due to the fact that I am playing only the first thirty seconds of the game over and over again to develop features, but regardless I will need to bear this in mind and collect feedback during play testing and fix accordingly if required.
 
 > Additionally: I learned while writing this post that WAV files loop better than MP3 files. I didn't know this before but the lossless PCM WAV format is the best format for loops, and that many lossy, compressed formats like MP3, WMA and ADPCM WAV suffer from added silence at the the start or end of the file that do not respect the exact length.
 
-### Sound design, leitmotif or mimetic, diegetic
-
-TODO...
-
 ## Summary
 
-In this post I've TODO...
-
-In hindsight the fire alarm sound might be distracting, verify this during play test
-
-HIghlights that React Native though fine for my app might not be the best choice for building a more complicated game but should investigate https://github.com/bberak/react-native-game-engine
-
-
-
+In this post I've detailed my experiments with sound, noting my exploration to find a solution for both the adaptive underscore and for delivering diegetic sound effects to accompany various events as they take place on screen. I've expanded each solution to give detail on how I arrived at my final implementation and summarised how I've achieved this technically. Finally I've listed some improvements and further required considerations to bear in mind and created a task on Trello to address one of these later.
 
 ## References
 
 1. [Audacity Sound Editor](https://www.audacityteam.org)
 2. [Audio Libraries in React Native Post on Medium](https://medium.com/@emmettharper/the-state-of-audio-libraries-in-react-native-7e542f57b3b4)
-3. [Richard Branson on Quotes About Ideation](https://www.virgin.com/richard-branson/my-top-10-quotes-ideas)
-4. [Sound Bible Stock Sounds Website](http://soundbible.com)
-5. [Timer Sound on YouTube](https://www.youtube.com/watch?v=qjqZqpmaVks)
+3. [MOV to WAV Sound Converter](https://www.media.io/convert/mov-to-wav.html)
+4. [React Native TTS Library](https://github.com/ak1394/react-native-tts)
+5. [Richard Branson on Quotes About Ideation](https://www.virgin.com/richard-branson/my-top-10-quotes-ideas)
+6. [Sound Bible Stock Sounds Website](http://soundbible.com)
+7. [Timer Sound on YouTube](https://www.youtube.com/watch?v=qjqZqpmaVks)
+8. [Voice Generator Tool](http://onlinetonegenerator.com/voice-generator.html)
