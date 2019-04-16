@@ -49,7 +49,7 @@ Finally I tweaked the gain of all seven tracks so that the composition sounded n
 
 I'd always had in mind that the narrative would be delivered by the voice of the games master/s. My first games master, as created in this [post]({% post_url 2019-03-08-week-6-games-master-characters %}) is a young female so I set about considering my approach which initially seemed to be limited to finding a suitable female and then recording all the various snippets I required. After a bit of research online I found another solution in this [useful voice generator tool](http://onlinetonegenerator.com/voice-generator.html), and after experimenting with the voice options I found the digital narrator 'Karen' which didn't sound too dissimilar to the female voice I had pictured, so I set about recording some parts of the narrative using a Quicktime audio recording and exporting these to WAV using this [online sound converter](https://www.media.io/convert/mov-to-wav.html).
 
-This is where I ran into some complications; parts of my narrative are quite dynamic, phrases like 'This clue is for room #1' where the room number is dynamic, and 'This clue will add 00:01:30 onto your escape time' where the time penalty is dynamic make recording the narrative verbatim near impossible being that there would be so many permutations that I would need to record. This led me to consider recording different snippets and then stitching them together on the fly but I perceived the output would sound less organic and more robotic (like in-car satellite navigation) and this didn't appeal as the sound would be less human and thus would not uphold the suspension of disbelief. Also I realised that I would be near-creating a rudimentary Text To Speech (TTS) engine which seemed nonsensical. It was at this point that I changed tact and started looking for existing TTS solutions and I found the [React Native TTS](https://github.com/ak1394/react-native-tts) library. Installing this was pretty straightforward and once I'd setup some tests I found the voice of 'Karen' was in fact available. This seemed like an unlikely result so I went with it.
+This is where I ran into some complications; parts of my narrative are quite dynamic, phrases like 'This clue is for room #1' where the room number is dynamic, and 'This clue will add 00:01:30 onto your escape time' where the time penalty is dynamic make recording the narrative verbatim near impossible being that there would be so many permutations that I would need to record. This led me to consider recording different snippets and then stitching them together on the fly but I perceived the output would sound less organic and more robotic (like in-car satellite navigation) and this didn't appeal as the sound would be less human and thus would not uphold the suspension of disbelief. Also I realised that I would be near-creating a rudimentary Text To Speech (TTS) engine which seemed nonsensical. It was at this point that I changed tact and started looking for existing TTS solutions and I found the [React Native TTS](https://github.com/ak1394/react-native-tts) library. Installing this was pretty straightforward and I quickly setup some tests and discovered I could configure the speech engine to use the voice of 'Karen' which was a major plus point.
 
 ### Bringing sounds into my app
 
@@ -77,6 +77,7 @@ This is a reusable sound utility module that wraps the `react-native-sound` libr
 
 ```
 import Sound from 'react-native-sound';
+import Tts from 'react-native-tts';
 import { mergeRight, mergeDeepRight, pathOr, map, filter, find, forEach } from 'ramda';
 import resolveAssetSource from 'react-native/Libraries/Image/resolveAssetSource';
 
@@ -112,7 +113,13 @@ export const loadNativeSound = ({ asset, numberOfLoops, volume }, autoPlay = tru
  * @class SoundUtility
  * TODO: Need to add unit tests for this utility
  */
-export default class {
+class SoundUtility {
+  /**
+   * @var _instance
+   * Private singleton instance variable
+   */
+  _instance = null;
+
   /**
    * @var sounds
    * Sounds map to store all registered sounds
@@ -125,8 +132,20 @@ export default class {
    */
   channels = {};
 
-  constructor(channels = []) {
+  constructor(channels = [], language = 'en-AU') {
     forEach((channel) => this.channels[channel] = {}, channels);
+    Tts.setDefaultLanguage(language);
+    // NOTE: The following listeners are required to prevent errors
+    Tts.addEventListener('tts-start', () => {});
+    Tts.addEventListener('tts-finish', () => {});
+    Tts.addEventListener('tts-cancel', () => {});
+  }
+
+  static getInstance() {
+    if (!this._instance) {
+      this._instance = new SoundUtility();
+    }
+    return this._instance;
   }
 
   // Private
@@ -361,7 +380,28 @@ export default class {
     if (this.isPlaying(oldId)) this.stop(oldId);
     if (!this.isPlaying(newId)) this.play(newId);
   }
+
+  // TTS
+
+  /**
+   * @function startSpeaking
+   * Speak a specified phrase
+   * @param {String} phrase
+   */
+  startSpeaking(phrase) {
+    Tts.speak(phrase);
+  }
+
+  /**
+   * @function stopSpeaking
+   * Stop speaking and clear the TTS queue
+   */
+  stopSpeaking() {
+    Tts.stop();
+  }
 };
+
+export default SoundUtility;
 
 ```
 
@@ -544,13 +584,19 @@ export function* updateGame({ currentTime }) {
 }
 ```
 
-And that's how I've added both the underscore and sound effects into my MVP version of the game. It's not a complete solution and there are some further improvements required. A keen eye will have spotted the `TODO` comments in my code that I've left by choice as they don't block completion of Escape The App so I've left these for the time being but will look to address these later when required. Aside from this there is one big challenge yet to face, and this is that this solution as it stands will not play sounds in the background and this is, as I've stated on numerous occasions, imperative to delivering a good game play experience. At bare minimum I will need to notify the user of a new clue being made available so I've created a [task](https://trello.com/c/QjS87pL0/47-dev013-implement-background-sounds) into the backlog on Trello to investigate this further at some point post first submission in a few weeks. Finally, in hindsight, having listened to the fire alarm sound over and over while development testing I realise that this sound might be distracting to the point of being annoying, this may be due to the fact that I am playing only the first thirty seconds of the game over and over again to develop features, but regardless I will need to bear this in mind and collect feedback during play testing and fix accordingly if required.
+**Narrating the text on screen using TTS**
+
+```
+GameSoundUtility.getInstance().startSpeaking(phrase);
+```
+
+And that's how I've added both the underscore and sound effects into my MVP version of the game. It's not a complete solution and there are some further improvements required. A keen eye will have spotted the `TODO` comments in my code that I've left by choice as they don't block completion of Escape The App. Aside from this there is one big challenge yet to face, and this is that this solution will not play sounds in the background and this is, as I've stated on numerous occasions, imperative to delivering a good game play experience. At bare minimum I will need to notify the user of a new clue being made available so I've created a [task](https://trello.com/c/QjS87pL0/47-dev013-implement-background-sounds) into the backlog on Trello to investigate this further post first submission. Also, the TTS solution does sound a bit robotic and I'm not completely sure I'm happy with this. And finally, in hindsight, having listened to the fire alarm sound over and over while development testing I realise that this sound might be distracting to the point of being annoying, this may be due to the fact that I am playing only the first thirty seconds of the game over and over again to develop features, but regardless I will need to bear this in mind and collect feedback during play testing and fix accordingly if required.
 
 > Additionally: I learned while writing this post that WAV files loop better than MP3 files. I didn't know this before but the lossless PCM WAV format is the best format for loops, and that many lossy, compressed formats like MP3, WMA and ADPCM WAV suffer from added silence at the the start or end of the file that do not respect the exact length.
 
 ## Summary
 
-In this post I've detailed my experiments with sound, noting my exploration to find a solution for both the adaptive underscore and for delivering diegetic sound effects to accompany various events as they take place on screen. I've expanded each solution to give detail on how I arrived at my final implementation and summarised how I've achieved this technically. Finally I've listed some improvements and further required considerations to bear in mind and created a task on Trello to address one of these later.
+In this post I've detailed my experiments with sound, noting my exploration to find a solution for the adaptive underscore and for delivering diegetic sound effects to accompany various events as they take place on screen. I've expanded each solution to give detail on how I arrived at my final implementation and summarised how I've achieved this technically. Finally I've listed some improvements and further required considerations to bear in mind and created a task on Trello to address one of these later.
 
 ## References
 
