@@ -17,7 +17,21 @@ The [Introduction Video by Alcwyn Parker](https://falmouthflexible.instructure.c
 
 The video goes on to introduce us to a text by Andy Farnell called *Designing Sound* giving a quote from his book that champions sound synthesis in saying that *sounds constructed are more realistic and useful than recordings because they capture behaviour*, and describes Farnell's suggestion that there are three pillars of designing for sounds, these being physics, mathematics and psychology.
 
-The video summarises the relationship between programming and sound synthesis and introduces us to live-coding and algorave, as well as . 
+The video summarises the relationship between programming and sound synthesis and introduces us to live-coding and algorave, as well as .
+
+TODO...
+
+The [BBC Radiophonic Workshop Video](https://falmouthflexible.instructure.com/courses/296/pages/week-8-bbc-radiophonic-workshop?module_item_id=19103)
+
+TODO...
+
+The [Live Coding and Algorave Video by Dr Norah Lorway](https://falmouthflexible.instructure.com/courses/296/pages/week-8-live-coding-and-algoraves?module_item_id=19104)
+
+TODO...
+
+Introduction to Sonic PI and the task to create Audio Logo and Notification
+
+TODO...
 
 
 
