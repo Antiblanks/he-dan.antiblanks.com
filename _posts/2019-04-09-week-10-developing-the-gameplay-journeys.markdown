@@ -6,9 +6,9 @@ categories: [GAM720]
 tags: [Diary, Project development]
 ---
 
-My early research into the play of escape games indicated to me that escape game enthusiasts are highly competitive and have a strong will to play against one another to escape games in the least amount of time possible. This discovery was the foundation for building Escape The App which aims to bring gamification to the physical experience of playing escape games, and satisfying the competitive nature of my users is at the heart of every decision I make when approaching the development of the app.
+My early research into the play of escape games indicated to me that escape game enthusiasts are highly competitive and have a strong will to play against one another to escape games in the least amount of time possible. This discovery was the foundation for building Escape The App which aims to bring gamification to the physical experience of playing escape games and satisfying the competitive nature of my users is at the heart of every decision I make when approaching the development of the product.
 
-TODO: Though it's apparent from research into successful gamification apps that stickiness is achieved by good execution   a Like with any good gamification application Escape The App
+Though it's become apparent by looking at successful gamification apps and reading into the psychology behind what makes such apps successful [Bitcatcha Post on The Psychology Of Gamification](https://www.bitcatcha.com/blog/gamify-website-increase-engagement) that stickiness in my app will be achieved by well executed gamification that gives the user control, 
 
 For my escape game player users, the game play element is one of the most important core features.
 
