@@ -16,19 +16,23 @@ The article below shows the UX that I used to instigate the development of the p
 
 ![](/assets/img/GAM720_Wk10_GamePlay--001.png)
 
+### Iteratively improved playable experience
+
+TODO... This is the experience how it stands today...
+
+TODO... Introducing narrative into the experience touched on in this [post]({% post_url 2019-03-01-week-5-concept-art %}) + other improvements, include play game research?...
+
+TODO... Each flow image here + description...
 
 
 
 
 
+TODO... Since development commenced on the playable experience I've been continually subscribing to research the industry more in-depth, playing games, understadning more limitations, existing tech etc etc... Also...
 
 By looking at popular gamification apps like [Zombies Run](https://zombiesrungame.com) and reading about the psychology behind what makes a gamification app successful in various posts online such as this [Bitcatcha Post on The Psychology Of Gamification](https://www.bitcatcha.com/blog/gamify-website-increase-engagement), it's become more apparent that my app will find stickiness as a result of well executed gamification, satisfying the user's need for control, giving them an arena within which they can compete against themselves and others, establishing goals for them to aim for, giving them a sense of where they are in achieving these goals, rewarding their achievements with exclusivity and making the user feel special.
 
-For my escape game player users, the game play element is one of the most important core features.
 
-From playing numerous games as part of my research
-
-- **Starting a game**: As a player I want to start playing a game
 
 
 
