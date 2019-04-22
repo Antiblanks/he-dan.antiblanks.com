@@ -58,7 +58,7 @@ Audience research indicated that not allowing a game to be played unless it was 
 
 ### Technical solution
 
-The technical solution for the gameplay element is built using Redux and Redux Saga. At the heart of the playable experience is the `InitialState` for the game. This object defines the properties that can be altered during gameplay to support the gameplay mechanic.
+The technical solution for the gameplay element is built using Redux and Redux Saga. At the heart of the playable experience is the `Game/InitialState`. This object defines the properties that can be altered during gameplay to support the gameplay mechanic.
 
 ```
 export const INITIAL_STATE = {
@@ -178,139 +178,84 @@ export function* updateGame({ currentTime }) {
 }
 ```
 
-TODO... Reducer
+The `Game/Reducer` contains all methods that are responsible for updating the `game` part of state. Take for example the `giveClue` method which sets the `clueToGive` property to the new `clue` and adds the same `clue` to the `cluesGiven` dictionary.
 
 ```
-export const openGameSuccess = (state, { game }) => mergeRight(state,
-  mergeRight({ ...INITIAL_STATE }, {
-    selected: game,
-    status: GameStatusTypes.NONE
-  })
-);
-
-export const startGameSuccess = (state, { startTime }) => mergeRight(state, {
-  status: GameStatusTypes.PLAYING,
-  startTime
-});
-
-export const updateGameTime = (state, { currentTime }) => mergeRight(state, {
-  currentTime
-});
-
-export const prepareToFinishGameSuccess = (state, { finishTime }) => mergeRight(state, {
-  finishTime
-});
-
-export const finishGameSending = (state) => mergeRight(state, {
-  sending: true,
-  error: null
-});
-
-export const finishGameSuccess = (state) => mergeRight(state, {
-  status: GameStatusTypes.FINISHED,
-  sending: false,
-  error: null
-});
-
-export const finishGameFailed = (state, { error }) => mergeRight(state, {
-  sending: false,
-  error
-});
-
-export const quitGameSuccess = (state) => mergeRight(state, {
-  status: GameStatusTypes.QUIT
-});
-
-export const endGameSuccess = (state) => mergeRight(state, {
-  status: GameStatusTypes.ENDED
-});
-
-export const confirmGameSending = (state) => mergeRight(state, {
-  sending: true,
-  error: null
-});
-
-export const confirmGameSuccess = (state) => mergeRight(state, {
-  sending: false,
-  error: null
-});
-
-export const confirmGameFailed = (state, { error }) => mergeRight(state, {
-  sending: false,
-  error
-});
-
 export const giveClue = (state, { clue }) => mergeRight(state, {
   clueToGive: clue,
   cluesGiven: mergeRight(pathOr({}, ['cluesGiven'], state), {
     [clue.id]: clue
   })
 });
-
-export const takeClueSuccess = (state, { clue }) => mergeRight(state, {
-  cluesTaken: mergeRight(pathOr({}, ['cluesTaken'], state), {
-    [clue.id]: clue
-  })
-});
 ```
 
-TODO: GamePLayScreen updates to changes in state...
+The `GamePlayScreen` is the view class for the gameplay experience, this view is responsible for displaying the game based on the current shape of the game state. As an example I've extracted the `componentDidUpdate` method which is called every time the game state changes, this then calls (at time of writing) the private methods `_giveNewGameClue` and `_showGameStatusChange` to give a new clue if one is available and display a failed game if the game status has changed to `GameStatusTypes.ENDED`.
 
 ```
-componentDidUpdate({ clueToGive: previousClueToGive, status: previousStatus }) {
-  this._giveNewGameClue(previousClueToGive);
-  this._showGameStatusChange(previousStatus);
-}
+/**
+ * @class GamePlayScreen
+ * Game screen container component
+ */
+class GamePlayScreen extends Component {
+  ...
 
-_giveNewGameClue(previousClueToGive) {
-  const HIDE_CLUE_AVAILABLE_MODAL_DELAY = 15000;
-  const _openNewGameClueAvailableModal = (clue) => {
-    const { openModal, closeModal, isAnyModalVisible } = this.props;
-    if (isAnyModalVisible()) {
+  componentDidUpdate({ clueToGive: previousClueToGive, status: previousStatus }) {
+    this._giveNewGameClue(previousClueToGive);
+    this._showGameStatusChange(previousStatus);
+  }
+
+  _giveNewGameClue(previousClueToGive) {
+    const HIDE_CLUE_AVAILABLE_MODAL_DELAY = 15000;
+    const _openNewGameClueAvailableModal = (clue) => {
+      const { openModal, closeModal, isAnyModalVisible } = this.props;
+      if (isAnyModalVisible()) {
+        return undefined;
+      }
+      openModal(ModalTypes.NEW_GAME_CLUE_AVAILABLE_MODAL_KEY, {
+        clue,
+        onCancelPress: this._onCancelTakeGivenClueClick,
+        onConfirmPress: () => {
+          closeModal(ModalTypes.NEW_GAME_CLUE_AVAILABLE_MODAL_KEY);
+          setTimeout(() => this._onTakeClueClick(clue), 250);
+        },
+        onClosePress: this._onCancelTakeGivenClueClick
+      });
+      clearTimeout(this.closeClueAvailableModalTimer);
+      this.closeClueAvailableModalTimer = setTimeout(
+        () => closeModal(ModalTypes.NEW_GAME_CLUE_AVAILABLE_MODAL_KEY),
+        HIDE_CLUE_AVAILABLE_MODAL_DELAY
+      );
+    };
+    const { clueToGive } = this.props;
+    if (clueToGive && !previousClueToGive) {
+      _openNewGameClueAvailableModal(clueToGive);
       return undefined;
     }
-    openModal(ModalTypes.NEW_GAME_CLUE_AVAILABLE_MODAL_KEY, {
-      clue,
-      onCancelPress: this._onCancelTakeGivenClueClick,
-      onConfirmPress: () => {
-        closeModal(ModalTypes.NEW_GAME_CLUE_AVAILABLE_MODAL_KEY);
-        setTimeout(() => this._onTakeClueClick(clue), 250);
-      },
-      onClosePress: this._onCancelTakeGivenClueClick
-    });
-    clearTimeout(this.closeClueAvailableModalTimer);
-    this.closeClueAvailableModalTimer = setTimeout(
-      () => closeModal(ModalTypes.NEW_GAME_CLUE_AVAILABLE_MODAL_KEY),
-      HIDE_CLUE_AVAILABLE_MODAL_DELAY
-    );
-  };
-  const { clueToGive } = this.props;
-  if (clueToGive && !previousClueToGive) {
-    _openNewGameClueAvailableModal(clueToGive);
-    return undefined;
+    const previousClueToGiveId = pathOr(undefined, ['id'], previousClueToGive);
+    const clueToGiveId = pathOr(undefined, ['id'], clueToGive);
+    if (clueToGive && clueToGiveId !== previousClueToGiveId) {
+      _openNewGameClueAvailableModal(clueToGive);
+      return undefined;
+    }
   }
-  const previousClueToGiveId = pathOr(undefined, ['id'], previousClueToGive);
-  const clueToGiveId = pathOr(undefined, ['id'], clueToGive);
-  if (clueToGive && clueToGiveId !== previousClueToGiveId) {
-    _openNewGameClueAvailableModal(clueToGive);
-    return undefined;
-  }
-}
 
-_showGameStatusChange(previousStatus) {
-  const _openFailedGameModal = (game) => {
-    const { openModal } = this.props;
-    openModal(ModalTypes.FAILED_GAME_MODAL_KEY, {
-      game,
-      onAcknowledgePress: this._onAcknowledgeFailedGameClick,
-      onClosePress: this._onAcknowledgeFailedGameClick
-    });
+  _showGameStatusChange(previousStatus) {
+    const _openFailedGameModal = (game) => {
+      const { openModal } = this.props;
+      openModal(ModalTypes.FAILED_GAME_MODAL_KEY, {
+        game,
+        onAcknowledgePress: this._onAcknowledgeFailedGameClick,
+        onClosePress: this._onAcknowledgeFailedGameClick
+      });
+    }
+    const { status, game } = this.props;
+    if (status === GameStatusTypes.ENDED && status !== previousStatus) {
+      _openFailedGameModal(game);
+      return undefined;
+    }
   }
-  const { status, game } = this.props;
-  if (status === GameStatusTypes.ENDED && status !== previousStatus) {
-    _openFailedGameModal(game);
-    return undefined;
-  }
+
+  ...
 }
 ```
 
