@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Developing the game play journey's"
+title: "Developing the gameplay journey's"
 date: 2019-04-09 06:16:00 +0100
 categories: [GAM720]
 tags: [Diary, Project development]
@@ -58,7 +58,7 @@ Audience research indicated that not allowing a game to be played unless it was 
 
 ### Technical solution
 
-The technical solution for the gameplay element is built using Redux and Redux Saga. At the heart of the playable experience is the `Game/InitialState`. This object defines the properties that can be altered during gameplay to support the gameplay mechanic.
+The technical solution for the gameplay element is built using Redux and Redux Saga. At the heart of the playable experience is the `Game/InitialState`. This object defines the properties of `State.game` that can be altered during gameplay to support the gameplay mechanic.
 
 ```
 export const INITIAL_STATE = {
@@ -75,7 +75,7 @@ export const INITIAL_STATE = {
 };
 ```
 
-The control flow for the game engine is defined in the `GameSaga`. Upon starting a new game the `startGame` method is called which starts the game loop defined by the `_countdown` method which is called upon interval until it's stopped by the user or the allocated time runs out. On each interval of the game timer tick the `updateGame` method is called which calls private methods that update each part of the game, these include (at time of writing) the `_updateGameGiveClue` and `_updateGameChangeUnderscore` methods. Update methods in the `GameSaga` dispatch actions that are then caught by the reducers to manipulate state.
+The control flow for the game engine is defined in the `GameSaga`. Upon starting a new game the `startGame` method is called which starts the game loop defined by the private `_countdown` method which is called upon interval until it's stopped by the user or the allocated time runs out. On each interval of the game timer tick the `updateGame` method is called which calls private methods that update each part of the game, these include (at time of writing) the `_updateGameGiveClue` and `_updateGameChangeUnderscore` methods. Update methods in the `GameSaga` dispatch actions that are then caught by the reducers to manipulate state.
 
 ```
 /**
@@ -259,25 +259,23 @@ class GamePlayScreen extends Component {
 }
 ```
 
+The above is a summary of the current playable experience that I've prepared for submission. It's not 100% complete, there are some missing items already in scope; As I touched upon in this [post]({% post_url 2019-03-16-week-7-experimenting-with-sounds %}), I want to experiment with mimetic sounds and haptic feedback to notify the user when new clues have been made available, and there will almost definitely be more improvements that arise from play testing. However, for now I'm content that this is a stable solution that can be iterated on with less focus for the time being while I divert more attention to other parts of the application, namely the gamification elements.
 
+I've two reasons for shifting focus away from the playable experience:
 
-TODO... Since development commenced on the playable experience I've been continually subscribing to research the industry more in-depth, playing games, understadning more limitations, existing tech etc etc... Also...
+- Throughout the development of this element I've regularly been subscribing to the play of escape games to research the variety of experiences in greater depth and understand the nuances between them. I've played eight purposely selected games to date, with more booked in the coming weeks and this exercise is intended to inform me of where my solution falls short and highlight any further considerations to ensure my playable experience can satisfy and compliment the majority of games. I need to play more games before I feel confident that I have a good enough range of requirements before I consider altering the current experience. I don't have a particular number in mind but I want to feel that I'm seeing recurring patterns in the research and this could take at least two or three times the number of games I've already played.
 
-TODO... Mention finding the React Native game engine and how this might have saved time had I known about it
+- Having looked at popular gamification apps like [Zombies Run](https://zombiesrungame.com) and [Nike Run Club](https://www.nike.com/gb/en_gb/c/nike-plus/running-app-gps) and reading about the psychology behind what makes a gamification app successful in various posts online such as this [Bitcatcha Post on The Psychology Of Gamification](https://www.bitcatcha.com/blog/gamify-website-increase-engagement), it's become more apparent that my app will find stickiness as a result of well executed gamification, satisfying the user's need for control, giving them an arena within which they can compete against themselves and others, establishing goals for them to aim for, giving them a sense of where they are in achieving these goals, rewarding their achievements with exclusivity and making the user feel special. This has made me realise that *the game* in my app is more in the gamification and that the playable element is just the vessel to record escape times. For this reason, my opinion of the importance of the playable element within the application has lessened slightly.
 
-TODO... Sounds required, haptic feedback required
-
-By looking at popular gamification apps like [Zombies Run](https://zombiesrungame.com) and reading about the psychology behind what makes a gamification app successful in various posts online such as this [Bitcatcha Post on The Psychology Of Gamification](https://www.bitcatcha.com/blog/gamify-website-increase-engagement), it's become more apparent that my app will find stickiness as a result of well executed gamification, satisfying the user's need for control, giving them an arena within which they can compete against themselves and others, establishing goals for them to aim for, giving them a sense of where they are in achieving these goals, rewarding their achievements with exclusivity and making the user feel special.
-
-
-
-
+From a reflective point of view I feel that my solution is pretty solid, both as a technical piece and as an experience for the user. There is of course always room for improvement though: While writing this post I started to question why I'd written my own game loop and why I'd not thought to look for an existing game engine. While considering this I discovered the [React Native Game Engine](https://www.npmjs.com/package/react-native-game-engine). In short I feel that I dropped the ball here a little, perhaps it was because I didn't view what I was building as a typical *game* but really once I started writing a loop I should have looked about for 3rd party solutions as it saves time and the tools on offer can often influence new features that I had perhaps had not previously considered. Also, I feel that my narrative in parts of the gameplay experience could still use some work, most notably on the `GameFinishedScreen` where I could be more congratulatory and rewarding both in the messaging and the graphics - In my app (at time of writing) I have 'You've escaped `{GAME-NAME}`' accompanied by a red circular timer, in the Nike Run Club app they have 'Smashed it. `{RESULT}` is your personal best!' accompanied by a shield. The colour red in my design does not insinuate success and Nike's messaging is clearly a lot more encouraging.
 
 ## Summary
 
-In this post I've summarised TODO...
+In this post I've summarised how I've developed the first draft of the end-to-end gameplay experience. I've shown the initial UX and then demonstrated how this has been iteratively improved and I've summarised the technical solution. I've outlined my intentions for iteratively improving the experience based on more ongoing research and I've presented my intention to draw focus away from the playable element and onto the wider gamification elements within the app. And finally I've highlighted two areas where I could make improvements to the playable experience.
 
 ## References
 
 1. [Bitcatcha Post on The Psychology Of Gamification](https://www.bitcatcha.com/blog/gamify-website-increase-engagement)
-2. [Zombies Run Game Website](https://zombiesrungame.com)
+2. [Nike Run Club Website](https://www.nike.com/gb/en_gb/c/nike-plus/running-app-gps)
+3. [React Native Game Engine on Github](https://www.npmjs.com/package/react-native-game-engine)
+4. [Zombies Run Game Website](https://zombiesrungame.com)
