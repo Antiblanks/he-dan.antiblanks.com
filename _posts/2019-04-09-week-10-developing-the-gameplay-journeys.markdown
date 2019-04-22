@@ -18,15 +18,47 @@ The article below shows the UX that I used to instigate the development of the p
 
 ### Improved playable experience
 
-TODO... This is the experience how it stands today... Iteratively improved etc etc...
+After several iterations the below journey's summarise how the playable experience looks today, there has not been a vast departure within the overarching flows but having realised the importance of narrative in achieving stickiness which I first touched on in this [post]({% post_url 2019-03-01-week-5-concept-art %}), I've considered the messaging in much greater depth and devised a vessel to deliver this as described in this [post]({% post_url 2019-03-21-week-8-revising-the-narrative-delivery %}) and weaved the storyline into the game. Also, having played numerous escape games for research purposes since the creation of the initial UX, I've improved minor details in the content, design and animation to enhance the experience to better fulfil it's purpose.
 
-TODO... Introducing narrative into the experience touched on in this [post]({% post_url 2019-03-01-week-5-concept-art %}) + other improvements, include play game research?...
+**Starting a new game**
 
-TODO... Each flow image here + description...
+This journey has remained completely untouched and is exactly the same as in the original UX.
 
-### Technical elements within the experience
+![](/assets/img/GAM720_Wk10_GamePlay--002.png)
 
-TODO... Game state
+**Taking a newly available clue**
+
+This journey was not present in the original UX but was introduced as it was deemed during development testing that changes in the clue area when a clue becomes available were not apparent enough and new clues could go unseen. User feedback from playing games for research also highlighted that users would be far too involved in the physical aspect of playing a game that they would unlikely be holding their device, for this reason, if the app is active when a new clue is made available the visual notification is shown, however if the app is inactive the user will be notified of the new clue using haptic feedback accompanied by a mimetic sound and the message will be shown upon re-activating the app.
+
+![](/assets/img/GAM720_Wk10_GamePlay--003.png)
+
+**Taking a previously available clue**
+
+This journey has remained largely unchanged from the original UX, however it became apparent during development testing that there was a flow missing for users who want to take a clue they've already seen. To satisfy this I created the following [task](https://trello.com/c/svnVmXkA/49-dev015-add-clue-list-item-state-for-clue-that-has-been-taken) on Trello to alter the display of a clue in the available clues list to communicate to the user that the clue can be seen again with no further time penalty and altered the logic to skip the confirmation step if the clue had already been taken.
+
+![](/assets/img/GAM720_Wk10_GamePlay--004.png)
+
+**Quitting a game**
+
+User testing highlighted that the quit button (despite small) could be clicked by mistake which in turn would quit the game prematurely with no way for them to prevent this. To counter this I've added a step to check that the user wants to quit which gives them the option to cancel. Upon clicking cancel the user is returned to the game that has continued to run in the background.
+
+![](/assets/img/GAM720_Wk10_GamePlay--005.png)
+
+**Finishing a game**
+
+User testing highlighted that the finish button could quite easily be clicked by mistake which in turn would finish the game prematurely with no way for them to prevent this. To counter this I've added a step to check that the user wants to finish, the escape time is captured upon click and the game timer runs in the background so that the escape time is not frozen if the user decides to cancel finishing and then continue the game. Upon confirming the request to finish a game the users escape time is saved which updates their rank and badges and returns these to be displayed on the `GameFinishedScreen` as a reward for their achievement and accompanied by a customised message to boost the users feeling of heroism.
+
+![](/assets/img/GAM720_Wk10_GamePlay--006.png)
+
+**Playing an unsubscribed game**
+
+Audience research indicated that not allowing a game to be played unless it was added by a subscribing owner would be quite off putting for the escape game player and would be viewed as a barrier to gaining traction. For this reason I aim to add all the games manually which will allow players to find and play every game and submit their score against a game but that scores submitted for unsubscribed games will remain unverified until the owner has subscribed the game. Unsubscribed games have a far less comprehensive experience being that the characteristics of the game are unknown there are no clues given but the playable element is reduced to recording an escape time that can then be saved.
+
+![](/assets/img/GAM720_Wk10_GamePlay--007.png)
+
+### Technical solution
+
+The technical solution for the gameplay element is built using Redux and Redux Saga. At the heart of the playable experience is the `InitialState` for the game. This object defines the properties that can be altered during gameplay to support the gameplay mechanic.
 
 ```
 export const INITIAL_STATE = {
@@ -43,9 +75,31 @@ export const INITIAL_STATE = {
 };
 ```
 
-TODO... Game loop
+The control flow for the game engine is defined in the `GameSaga`. Upon starting a new game the `startGame` method is called which starts the game loop defined by the `_countdown` method which is called upon interval until it's stopped by the user or the allocated time runs out. On each interval of the game timer tick the `updateGame` method is called which calls private methods that update each part of the game, these include (at time of writing) the `_updateGameGiveClue` and `_updateGameChangeUnderscore` methods. Update methods in the `GameSaga` dispatch actions that are then caught by the reducers to manipulate state.
 
 ```
+/**
+ * @function countdown
+ * Returns event channel to countdown a game
+ * @param {Number} ms Milliseconds to countdown
+ */
+const _countdown = (ms) => {
+  return eventChannel(
+    emitter => {
+      BackgroundTimer.runBackgroundTimer(() => {
+        ms -= (COUNTDOWN_DELAY + countdownAdjustment);
+        adjustCountdown(0);
+        if (ms > 0) {
+          emitter(ms);
+          return undefined;
+        }
+        emitter(END);
+      }, COUNTDOWN_DELAY);
+      return () => stopCountdown();
+    }
+  );
+};
+
 /**
  * @generator _updateGameGiveClue
  * Saga generator function to give a clue on game update
@@ -95,7 +149,7 @@ export function* startGame() {
   yield put(GameActions.startGameSuccess(startTime));
   NavigationService.navigate(ScreenTypes.GAME_PLAY_SCREEN_KEY);
   AppSoundUtility.getInstance().play(SOUND_UNDERSCORE_LOW);
-  const channel = yield call(countdown, startTime);
+  const channel = yield call(_countdown, startTime);
   try {
     while (true) {
       const currentTime = yield take(channel);
@@ -265,6 +319,8 @@ _showGameStatusChange(previousStatus) {
 TODO... Since development commenced on the playable experience I've been continually subscribing to research the industry more in-depth, playing games, understadning more limitations, existing tech etc etc... Also...
 
 TODO... Mention finding the React Native game engine and how this might have saved time had I known about it
+
+TODO... Sounds required, haptic feedback required
 
 By looking at popular gamification apps like [Zombies Run](https://zombiesrungame.com) and reading about the psychology behind what makes a gamification app successful in various posts online such as this [Bitcatcha Post on The Psychology Of Gamification](https://www.bitcatcha.com/blog/gamify-website-increase-engagement), it's become more apparent that my app will find stickiness as a result of well executed gamification, satisfying the user's need for control, giving them an arena within which they can compete against themselves and others, establishing goals for them to aim for, giving them a sense of where they are in achieving these goals, rewarding their achievements with exclusivity and making the user feel special.
 
