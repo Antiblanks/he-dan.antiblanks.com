@@ -18,7 +18,7 @@ The [3D Asset Creation Video by Andy Smith](https://falmouthflexible.instructure
 
 TODO...
 
-Activity: design an icon or logo with the aim of modeling it in 3D using Autodesk Maya
+Activity: design an icon or logo with the aim of modelling it in 3D using Autodesk Maya
 
 TODO...
 
