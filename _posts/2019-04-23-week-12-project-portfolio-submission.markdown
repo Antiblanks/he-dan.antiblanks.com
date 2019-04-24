@@ -14,13 +14,13 @@ Being that Escape The App is an Intellectual Property of Antiblanks some of the 
 
 Use the links below to access the market and audience research I've conducted to support development of Escape The App:
 
-- TODO: Complete TODO's in market research and add link here...
-- TODO: Complete five questionnaires and add answers on a document with link here...
-- TODO: Run over monetisation calculations and ensure they marry with the deck and add link here...
+- [Market Research Overview](http://projects.antiblanks.com/escape/research/market-research-overview.pdf)
+- [Monetisation Overview](http://projects.antiblanks.com/escape/research/monetisation-overview.pdf)
 
-The majority of my market and audience research was directed primarily to validate the viability of Escape The App before commencing development of the product. As a final experiment to test the hypothesis that escape game enthusiasts want to compete against one another I created a landing page and directed traffic to this with a Google Ad campaign. This was covered in more detail in one of my earlier journal posts. To see the landing page click the link below:
+The majority of my market and audience research was directed primarily to validate the viability of Escape The App before commencing development of the product. As a final experiment to test the hypothesis that escape game enthusiasts want to compete against one another I created a landing page and directed traffic to this with a Google Ad campaign. This was covered in more detail in one of my earlier journal posts. To see the landing page and a summary of the results on Google Ads and Mailchimp click the links below:
 
 - [Data Capture Landing Page](https://www.escapetheapp.com)
+- [Data Capture Landing Page Results](http://projects.antiblanks.com/escape/marketing/data-capture-results-files.zip)
 
 My research was condensed and formalised into a pitch deck for Antiblanks, it's currently a work in progress and there is more work required to improve the story throughout the deck, update the screen shots in the 'How Escape The App Works' section, include in-app advertising to the monetisation strategy to drive up the ROI and I still need to find a marketing partner. Once I have an MVP of the product ready I aim to complete this deck and use it to pitch for investment. The deck in it's current state can be seen by clicking the link below:
 
@@ -28,9 +28,11 @@ My research was condensed and formalised into a pitch deck for Antiblanks, it's 
 
 ### UX / Design
 
-Use the links below to access the UX and design I've created to support development of Escape The App:
+Use the links below to access the UX and design I've created to support development of Escape The App. To open the raw layered design and animation files you will need the latest version of PhotoShop and Sketch:
 
-- TODO...
+- [UX Files](http://projects.antiblanks.com/escape/ux/ux-files.zip)
+- [Design Files](http://projects.antiblanks.com/escape/design/design-files.zip)
+- [Animation Files](http://projects.antiblanks.com/escape/animations/animation-files.zip)
 
 ### Codebase
 
