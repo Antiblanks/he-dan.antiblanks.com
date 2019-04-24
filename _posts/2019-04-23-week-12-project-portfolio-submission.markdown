@@ -43,3 +43,9 @@ The codebase for Escape The App is hosted on Github [here](https://github.com/An
 Escape The App will eventually be released as a cross platform application for both iOS and Android with support for all major devices. Though this is the eventual intention the app has currently only been configured and tested on iOS version 10+ and on the iPhone 6s and newer devices. The app has not yet been configured for older devices such as the iPhone 4/5 which eventually will be required to run the app on compatibility mode on the iPad.
 
 For purpose of this submission the prototype will be available for testing on TestFlight. To get an invite to test the app please email me using [this link](mailto:dan.ivanovic@antiblanks.com?subject=Request to test Escape The App on TestFlight) and provide the email that is tied to your Apple ID.
+
+### Video
+
+Click the link below to view my video that outlines my design and development process, demonstrates the main project functionality and some of the more relevant experiments.
+
+- TODO: Add video link here...
