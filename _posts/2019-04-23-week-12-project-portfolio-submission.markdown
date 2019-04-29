@@ -47,6 +47,7 @@ For purpose of this submission the prototype will be available for testing on Te
 When testing the prototype please bear the following in mind:
 
 - **Unsubscribed / subscribed games**: There are only a handful of test games in the system, currently all bar one of these are unsubscribed games (see the video below for more on unsubscribed vs subscribed games). Witchcraft and Wizardry is the only game that has been added as a subscribed game, please bear this in mind when testing the different games.
+- **Offline capabilities**: The app has been built to support an offline experience and offline capabilities *should* work out of the box being that I am using Google Firebase to provide the database. However this feature has not yet been tested properly so currently the app should only be tested while connected to the internet. 
 
 ### Video
 
