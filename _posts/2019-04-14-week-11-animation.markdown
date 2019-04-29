@@ -8,20 +8,16 @@ tags: [Diary, Project development]
 
 ## My experience in week eleven
 
-The source material this week is focused on rigging 3D assets and then making simple animations. Again this is an area that I am very interested in and one where I have little experience, but being that this is a continuation from the exploration into 3D asset creation in week ten, and that the MVP of Escape The App does not need any 3D animation until I develop the Augmented Reality (AR) based playable game feature for V1 of the app, I am going to skip over the content in this week and look to revisit this when I come to developing V1.
+The source material this week was focused on rigging 3D assets and then making simple animations. Again this is an area that I am very interested in and though I have a lot of experience in animation, none of this is specific to 3D. However, being that this weeks content is a continuation from the exploration into 3D asset creation in week ten, and that the MVP of Escape The App does not need any 3D animation until I develop the Augmented Reality (AR) based playable game feature for V1 of the app, I am again going to skip over the content in this week and look to revisit this when I come to developing V1.
 
 ### Tying this to my project
 
-I could see from lightly skimming over the weeks content
-
-Activity: take the 3D icon or logo from the output of last week's activity and animate it in a way that is appropriate for your app
-
-TODO...
+I could see from skimming over the weeks content that there was an activity to take the 3D icon or logo from the output of the 3D asset creation activity in week ten and animate it in a way that is appropriate for my app. Though a 3D animated logo wouldn't really suit the branding and design of Escape The App, which is very flat, I do anticipate that the 3D elements I will use to indicate clues made available within the surrounding environment of an escape game during play may well be animated to better highlight their whereabouts, so I have created a task on Trello [here]() to consume the content from this week when I pick this up.
 
 ## Summary
 
-In this post I've summarised TODO...
+In this post I've shown my interest in animating 3D assets but stated that the time was not right for me to delve deeper into learning about this given the immediate requirements of Escape The App will not benefit from this time investment. I have stated that animating 3D assets may be relevant in V1 of the application and I've created a ticket on Trello to explore the requirement that includes a subtask to read the content from this week.
 
 ## References
 
-1. ??
+There are no references required for this post.

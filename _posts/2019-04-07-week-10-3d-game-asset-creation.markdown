@@ -16,7 +16,7 @@ As I've touched on above, I will need learn how to model in 3D when it comes to 
 
 ## Summary
 
-In this post I've shown my interest in 3D game asset creation but stated that the time was not right for me to delve deeper into learning about this given the immediate requirements of Escape The App will not benefit from this time investment. I have stated that 3D game asset creation will be relevant in V1 of the application and I've created a ticket on Trello to summarise the feature that details a task to read the content from this week.
+In this post I've shown my interest in 3D game asset creation but stated that the time was not right for me to delve deeper into learning about this given the immediate requirements of Escape The App will not benefit from this time investment. I have stated that 3D game asset creation will be relevant in V1 of the application and I've created a ticket on Trello to summarise the feature that includes a subtask to read the content from this week.
 
 ## References
 
