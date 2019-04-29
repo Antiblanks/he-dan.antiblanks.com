@@ -8,28 +8,16 @@ tags: [Diary, Project development]
 
 ## My experience in week ten
 
-The source material this week was TODO...
-
-The [Introduction Video by Alcwyn Parker](https://falmouthflexible.instructure.com/courses/296/pages/week-10-introduction?module_item_id=19121)
-
-TODO...
-
-The [3D Asset Creation Video by Andy Smith](https://falmouthflexible.instructure.com/courses/296/pages/week-10-3d-asset-creation?module_item_id=19125)
-
-TODO...
-
-Activity: design an icon or logo with the aim of modelling it in 3D using Autodesk Maya
-
-TODO...
+The source material this week was focused on 3D game asset creation. Though this is an area that I am very interested in and one where I could definitely improve being my experience so far in working with 3D has always been on the programming side, and up until now I've always worked with a modeller who has created my 3D assets for me. In essence 3D modelling has always been a bit of a black art to me and this is something I would very much like to change. However, saying this the MVP of Escape The App does not need any 3D models and won't really require these until I develop the Augmented Reality (AR) based playable game feature for V1 of the app. For this reason, coupled with the fact that I've arrived at this weeks reading with a lot on my plate already when it comes to preparing my submission of Escape The App, I am going to skip over the content in this week and look to revisit this properly when I come to developing V1 when learning to model in 3D is required.
 
 ### Tying this to my project
 
-TODO...
+As I've touched on above, I will need learn how to model in 3D when it comes to creating the Augmented Reality (AR) based playable game feature for Escape The App. Though this hasn't been completely imagined yet, I can summarise that my idea is to improve the game engine to give clues that a user has taken within the surrounding environment of the game in an attempt to make the playable experience more immersive and exciting. I've created an epic task on Trello [here](https://trello.com/c/C92cGSzT/52-epc018-create-the-ar-based-playable-experience) to summarise the requirements of this feature which includes a subtask to read the content and do the activities from this week.
 
 ## Summary
 
-In this post I've summarised TODO...
+In this post I've showed my interest in 3D game asset creation but stated that the time is not right for me to delve deeper into learning about this right now given the immediate requirements of Escape The App will not benefit from this time investment. I have stated that 3D game asset creation will be relevant in V1 of the application and I've created a ticket on Trello to summarise the feature that details a task to read the content from this week.
 
 ## References
 
-1. ??
+There are no references required for this post.
