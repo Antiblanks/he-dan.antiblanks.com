@@ -44,6 +44,10 @@ Escape The App will eventually be released as a cross platform application for b
 
 For purpose of this submission the prototype will be available for testing on TestFlight. To get an invite to test the app please email me using [this link](mailto:dan.ivanovic@antiblanks.com?subject=Request to test Escape The App on TestFlight) and provide the email that is tied to your Apple ID.
 
+When testing the prototype please bear the following in mind:
+
+- **Unsubscribed / subscribed games**: There are only a handful of test games in the system, currently all bar one of these are unsubscribed games (see the video below for more on unsubscribed vs subscribed games). Witchcraft and Wizardry is the only game that has been added as a subscribed game, please bear this in mind when testing the different games.
+
 ### Video
 
 Click the link below to view my video that outlines my design and development process, demonstrates the main project functionality and some of the more relevant experiments.
