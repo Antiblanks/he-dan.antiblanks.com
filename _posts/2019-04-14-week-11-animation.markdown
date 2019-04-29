@@ -12,11 +12,11 @@ The source material this week was focused on rigging 3D assets and then making s
 
 ### Tying this to my project
 
-I could see from skimming over the weeks content that there was an activity to take the 3D icon or logo from the output of the 3D asset creation activity in week ten and animate it in a way that is appropriate for my app. Though a 3D animated logo wouldn't really suit the branding and design of Escape The App, which is very flat, I do anticipate that the 3D elements I will use to indicate clues made available within the surrounding environment of an escape game during play may well be animated to better highlight their whereabouts, so I have created a task on Trello [here]() to consume the content from this week when I pick this up.
+I could see from skimming over the weeks content that there was an activity to take the 3D icon or logo from the output of the 3D asset creation activity in week ten and animate it in a way that is appropriate for my app. Though a 3D animated logo wouldn't really suit the branding and design of Escape The App, which is very flat, I do anticipate that the 3D elements I will use to indicate clues made available within the surrounding environment of an escape game during game play may well be animated to better highlight their whereabouts, so I have updated the task on Trello [here](https://trello.com/c/C92cGSzT/52-epc018-create-the-ar-based-playable-experience) that relates to creating the AR based playable experience to introduce a subtask to consume the content from this week when I pick this up.
 
 ## Summary
 
-In this post I've shown my interest in animating 3D assets but stated that the time was not right for me to delve deeper into learning about this given the immediate requirements of Escape The App will not benefit from this time investment. I have stated that animating 3D assets may be relevant in V1 of the application and I've created a ticket on Trello to explore the requirement that includes a subtask to read the content from this week.
+In this post I've shown my interest in animating 3D assets but stated that the time was not right for me to delve deeper into learning about this given the immediate requirements of Escape The App will not benefit from this time investment. I have stated that animating 3D assets may be relevant in V1 of the application and I've updated the existing ticket on Trello to create the AR based playable experience with a subtask to read the content from this week.
 
 ## References
 
