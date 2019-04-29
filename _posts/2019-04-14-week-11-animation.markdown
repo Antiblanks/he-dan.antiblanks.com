@@ -8,29 +8,13 @@ tags: [Diary, Project development]
 
 ## My experience in week eleven
 
-The source material this week was TODO...
-
-The [Introduction Video by Alcwyn Parker](https://falmouthflexible.instructure.com/courses/296/pages/week-11-introduction?module_item_id=19133)
-
-TODO...
-
-The [Rigging in Maya Video by Richard Milligan](https://falmouthflexible.instructure.com/courses/296/pages/week-11-rigging-in-maya?module_item_id=19137)
-
-TODO...
-
-The [Animation in Maya Video by Richard Milligan](https://falmouthflexible.instructure.com/courses/296/pages/week-11-animation-in-maya?module_item_id=19138)
-
-TODO...
-
-The [Principles of Animation Video by Richard Milligan](https://falmouthflexible.instructure.com/courses/296/pages/week-11-12-principles-of-animation?module_item_id=19139)
-
-TODO...
-
-Activity: take the 3D icon or logo from the output of last week's activity and animate it in a way that is appropriate for your app
-
-TODO...
+The source material this week is focused on rigging 3D assets and then making simple animations. Again this is an area that I am very interested in and one where I have little experience, but being that this is a continuation from the exploration into 3D asset creation in week ten, and that the MVP of Escape The App does not need any 3D animation until I develop the Augmented Reality (AR) based playable game feature for V1 of the app, I am going to skip over the content in this week and look to revisit this when I come to developing V1.
 
 ### Tying this to my project
+
+I could see from lightly skimming over the weeks content
+
+Activity: take the 3D icon or logo from the output of last week's activity and animate it in a way that is appropriate for your app
 
 TODO...
 
