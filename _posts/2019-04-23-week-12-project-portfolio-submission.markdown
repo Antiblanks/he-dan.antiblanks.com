@@ -54,4 +54,4 @@ When testing the prototype please bear the following in mind:
 
 Click the link below to view my video that outlines my design and development process, demonstrates the main project functionality and some of the more relevant experiments.
 
-- TODO: Add video link here...
+- [Video on Youtube](https://www.youtube.com/watch?v=0sZNSmYMzxc)
