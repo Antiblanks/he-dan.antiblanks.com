@@ -18,7 +18,25 @@ I didn't need to play for long before I felt that I had enough to go back to the
 
 ### Creating sound for my logo
 
-For this sound I brainstormed the Escape The App brand and thought deeply about the story world I'm creating with my narrative.
+For this sound I brainstormed the Escape The App brand and thought deeply about the story world I'm creating with my narrative. I journeyed through the idea of creating ominous and atmospheric dystopian sounds but decided in the end that I wanted to emphasise the feeling of urgency in my sound creation and experiment with the idea of having the timer sound I used in my game play experience alongside some tones to create a quick build to a beeping climax that then fades away ominously to nothing. So in just a few seconds I wanted to replicate the failure to escape a room using sound. Here's how I went about achieving this:
+
+**Introducing the timer beeping**
+
+I brought across five of the beeping sounds I'd used for my timer and laid these onto five tracks, each 200 milliseconds long and each one beginning directly after the other which (in total) spanned one second. I then tweaked the gain on each track so it grew by +0.5 DB for each beep to create the quick build I was looking for.
+
+![](/assets/img/GAM720_Wk8_Audacity--002.png)
+
+**Introducing the climax**
+
+??
+
+![](/assets/img/GAM720_Wk8_Audacity--003.png)
+
+**Introducing the ominous fade out**
+
+??
+
+![](/assets/img/GAM720_Wk8_Audacity--004.png)
 
 ### Creating sound to notify users that a clue has been made available
 
