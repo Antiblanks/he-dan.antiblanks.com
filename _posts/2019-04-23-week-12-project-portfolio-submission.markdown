@@ -31,6 +31,7 @@ My research was condensed and formalised into a pitch deck for Antiblanks, it's 
 Use the links below to access the UX and design I've created to support development of Escape The App. To open the raw layered design and animation files you will need the latest version of PhotoShop and Sketch:
 
 - [User Stories](http://projects.antiblanks.com/escape/stories/stories-complete.pdf)
+- [User Testing](http://projects.antiblanks.com/escape/testing/user-testing-files.zip)
 - [UX Files](http://projects.antiblanks.com/escape/ux/ux-files.zip)
 - [Design Files](http://projects.antiblanks.com/escape/design/design-files.zip)
 - [Animation Files](http://projects.antiblanks.com/escape/animations/animation-files.zip)
