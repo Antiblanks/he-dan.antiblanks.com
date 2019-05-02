@@ -31,7 +31,7 @@ You'll see that I've mentioned the 'virtual games master' in all of the above pa
 
 ## Summary
 
-In this post I've given a brief overview of the content within the source material from Canvas this week and I've highlighted what learnings I've taken from this. I've then outlined how Phoebe Herring's use of photo bashing has inspired me to utilise this technique to create some artwork for screens in Escape The App to deliver parts of the narrative to players throughout the game play experience and I've set myself a task to revisit this once I've nutted out my character design.
+In this post I've given a brief overview of the content within the source material from Canvas this week and I've highlighted what learnings I've taken from this. I've then outlined how Phoebe Herring's use of photo bashing has inspired me to utilise this technique to create some artwork for screens in Escape The App to deliver parts of the narrative to players throughout the gameplay experience and I've set myself a task to revisit this once I've nutted out my character design.
 
 ## References
 
