@@ -35,6 +35,7 @@ Use the links below to access the UX and design I've created to support developm
 - [UX Files](http://projects.antiblanks.com/escape/ux/ux-files.zip)
 - [Design Files](http://projects.antiblanks.com/escape/design/design-files.zip)
 - [Animation Files](http://projects.antiblanks.com/escape/animations/animation-files.zip)
+- [Sound Files](http://projects.antiblanks.com/escape/sounds/sound-files.zip)
 
 ### Codebase
 
