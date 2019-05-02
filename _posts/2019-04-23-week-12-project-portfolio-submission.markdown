@@ -58,3 +58,7 @@ When testing the prototype please bear the following in mind:
 Click the link below to view my video that outlines my design and development process, demonstrates the main project functionality and some of the more relevant experiments.
 
 - [Video on Youtube](https://www.youtube.com/watch?v=0sZNSmYMzxc)
+
+### Experiments
+
+All of the experiments I've conducted over this study block that attribute to the development of Escape The App can be found in my journal [here](http://hedanandthemastersdegree.com/post-collections/gam720). 
