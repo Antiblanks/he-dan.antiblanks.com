@@ -26,15 +26,15 @@ I brought across five of the beeping sounds I'd used for my timer and laid these
 
 ![](/assets/img/GAM720_Wk8_Audacity--002.png)
 
-**Introducing the climax**
+**Introducing the ominous fade out**
 
-??
+To create the ominous fade out I generated a new tone, this was a sine waveform with a frequency of 200, an amplitude at 0.64 and a duration of 3 seconds. This gave a dull tone. I then created another tone, again a sine waveform but this time with a frequency of 800 and an amplitude of 0.12. This gave a more high pitch tone. I then applied a fade out to both waveforms and edited them using the envelope tool to create a gradual rise in the sounds to peak at the end of the last beep.
 
 ![](/assets/img/GAM720_Wk8_Audacity--003.png)
 
-**Introducing the ominous fade out**
+**Introducing the climax**
 
-??
+I was encouraged by this point that the sound was beginning to take shape but I still felt that it lacked a high pitch climax. To create this I generated a new tone, again a sine waveform but this time with a higher frequency of 2400 and an amplitude of 0.64. This gave a high pitch beep similar to the imported beeping sound which is just what I was looking for. I then edited this with the envelope tool to create a sharp rise in the sound, I then edited the ominous tones to alter the gradual rise so it was more a sudden burst and after playing the sound over and over I concurred that I was pretty pleased with the result.
 
 ![](/assets/img/GAM720_Wk8_Audacity--004.png)
 
@@ -42,9 +42,15 @@ I brought across five of the beeping sounds I'd used for my timer and laid these
 
 ??
 
+### Conclusion
+
+Overall I'm pleased with the results of my experimentation into sound synthesis. As I stated at the beginning of this post, I was apprehensive about this task and quite honestly I didn't expect to create anything worth using in my app, so I'm relatively surprised that I have created something of merit. Of course, I am sure a sound expert would look at what I've done and say it sounds incredibly amateur, and I'm sure I myself will revisit this task again to improve on the sounds I've created, but for now I think I have created sounds I will use and I will set about adding these into my app soon.
+
+Aside from creating sounds I will use in Escape The App, I am pleased that I've taken the time to try something new with this task. What I've learned in this post has definitely influenced me to approach sourcing sound differently than I would have before. I'm pleased with my timer sound that I created by combining stock sounds into a composition which is summarised in this [post]({% post_url 2019-03-16-week-7-experimenting-with-sounds %}), but in hindsight I realise I could easily have created that same sound using tones that I'd generated myself.
+
 ## Summary
 
-In this post I've detailed my experiments with ??
+In this post I've detailed my experiments with sound synthesis and creating sounds that I've concluded I will use in Escape The App. As a by-product of this experiment, I've also learned the beginnings of a new and valuable skill which will help to make me a better and more rounded creative application developer.
 
 ## References
 
