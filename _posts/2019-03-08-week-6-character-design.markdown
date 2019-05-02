@@ -28,7 +28,7 @@ When looking at how this segment of the market behaves, ironically as an age gro
 
 ## Summary
 
-In this post I've briefly summarised the source material from the week on Canvas and I've highlighted some of the more important learnings from this content. I've gone on to put some of these learnings into practice and started to build up a picture of what the games master characters in Escape The App might look like and I've crafted my first female games master character. Finally I've taken the finished character and revisiting a task from week five I've constructed the polished photo bashed artwork I will use as stills to drive narrative around the escape game play within the app.
+In this post I've briefly summarised the source material from the week on Canvas and I've highlighted some of the more important learnings from this content. I've gone on to put some of these learnings into practice and started to build up a picture of what the games master characters in Escape The App might look like and I've crafted my first female games master character. Finally I've taken the finished character and revisiting a task from week five I've constructed the polished photo bashed artwork I will use as stills to drive narrative around the escape gameplay within the app.
 
 ## References
 

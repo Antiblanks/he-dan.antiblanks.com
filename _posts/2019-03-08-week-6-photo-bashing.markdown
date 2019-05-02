@@ -9,7 +9,7 @@ tags: [Diary, Project development]
 In this post I'm going to experiment with some of the techniques given in the [Introduction to Digital Painting video by Phoebe Herring](https://falmouthflexible.instructure.com/courses/296/pages/week-5-phoebe-herring-introduction-to-digital-painting?module_item_id=19067) coupled with some techniques I've already learned working as a designer to create some artwork for the following screens to be used in Escape The App:
 
 - **Countdown to starting a game**: Shown when an escape game is selected for game play.
-- **New clue available**: Shown during game play when a new clue is available.
+- **New clue available**: Shown during gameplay when a new clue is available.
 - **Confirm take clue**: Shown to seek confirmation from the user when taking a clue.
 - **Confirm quit game**: Shown to seek confirmation from the user when quitting a game.
 - **Successfully completing a game**: Shown to the user when they complete a game within the time limit.
@@ -71,7 +71,7 @@ Finally I introduced my first female games master character into the image to ov
 
 ### Tying this to my project
 
-As a starting point I'm pretty pleased with the style of this image. There is definitely room for improvement as to an experienced Photoshop artist this image does look a little amateur and overly reliant on filters, however in favour of getting an end-to-end prototype of my game completed by the end of the study block I'll use this technique to create all the visuals to drive my narrative throughout game play and then revisit the treatment of the artwork later as the app evolves through play testing. Whatever technique I settle upon, I need to be mindful that though initially my narrative will be delivered by static images of the games master, later my intention is for the statics to be replaced by rotoscoped video or animation and if I decide to go down the path of rotoscoping then the technique I use would preferably need to be less time consuming as I'll be required to treat every frame in the same fashion.
+As a starting point I'm pretty pleased with the style of this image. There is definitely room for improvement as to an experienced Photoshop artist this image does look a little amateur and overly reliant on filters, however in favour of getting an end-to-end prototype of my game completed by the end of the study block I'll use this technique to create all the visuals to drive my narrative throughout gameplay and then revisit the treatment of the artwork later as the app evolves through play testing. Whatever technique I settle upon, I need to be mindful that though initially my narrative will be delivered by static images of the games master, later my intention is for the statics to be replaced by rotoscoped video or animation and if I decide to go down the path of rotoscoping then the technique I use would preferably need to be less time consuming as I'll be required to treat every frame in the same fashion.
 
 ## References
 

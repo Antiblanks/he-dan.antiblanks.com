@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Developing the gameplay journey's"
-date: 2019-04-09 06:16:00 +0100
+date: 2019-04-05 06:16:00 +0100
 categories: [GAM720]
 tags: [Diary, Project development]
 ---
